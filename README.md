@@ -30,7 +30,7 @@ npm install mandalina --save
 - storage
 - string
 
-## Usage
+## Import
 
 To use modules, you must include packages.
 
