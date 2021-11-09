@@ -1,0 +1,5 @@
+# See https://npm.github.io/publishing-pkgs-docs/publishing/the-npmignore-file.html for more information.
+
+/**/coverage
+/**/node_modules
+/**/src
