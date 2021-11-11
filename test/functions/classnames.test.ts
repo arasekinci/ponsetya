@@ -1,4 +1,4 @@
-import classnames from './classnames'
+import classnames from '../../src/functions/classnames'
 
 describe('Class Names', () => {
   test('should combine and return values', () => {

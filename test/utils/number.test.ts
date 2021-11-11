@@ -1,13 +1,13 @@
-import { zpad } from './number'
+import number from '../../src/utils/number'
 
 describe('Number', () => {
   describe('Zero Pad', () => {
     test('should return an string by adding zeros', () => {
-      expect(zpad(5)).toBe('05')
+      expect(number.zpad(5)).toBe('05')
     })
 
     test('should return an string without adding anything', () => {
-      expect(zpad(15)).toBe('15')
+      expect(number.zpad(15)).toBe('15')
     })
   })
 })

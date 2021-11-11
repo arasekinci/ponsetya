@@ -1,7 +1,7 @@
 import { execSync } from 'child_process'
 
 export async function test(): Promise<void> {
-  execSync('jest test', {
+  execSync('jest', {
     stdio: 'inherit',
   })
 }

@@ -1,25 +1,33 @@
 {
   "name": "mandalina",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Next-generation JavaScript helpers.",
+  "keywords": [
+    "typescript",
+    "utilities"
+  ],
   "homepage": "https://github.com/arasekinci/mandalina#readme",
+  "bugs": {
+    "url": "https://github.com/arasekinci/mandalina/issues",
+    "email": "dev@arasekinci.com"
+  },
+  "license": "MIT",
+  "maintainers": [
+    "Aras Ekinci <dev@arasekinci.com>",
+    "Onur Özkardeş <dev@onurozkardes.com>"
+  ],
+  "directories": {
+    "test": "./test"
+  },
+  "module": "dist/esm",
+  "main": "dist/cjs",
+  "types": "dist/types",
+  "repository": "https://github.com/arasekinci/mandalina",
   "scripts": {
     "build": "gulp build",
     "lint": "gulp lint",
     "test": "gulp test"
   },
-  "maintainers": [
-    "Aras Ekinci <dev@arasekinci.com>",
-    "Onur Özkardeş <dev@onurozkardes.com>"
-  ],
-  "repository": "https://github.com/arasekinci/mandalina",
-  "license": "MIT",
-  "keywords": [
-    "typescript",
-    "classes",
-    "functions",
-    "utils"
-  ],
   "devDependencies": {
     "@babel/preset-env": "^7.15.8",
     "@babel/preset-typescript": "^7.15.0",
@@ -40,5 +48,6 @@
     "prettier": "^2.4.1",
     "ts-node": "^10.4.0",
     "typescript": "^4.4.4"
-  }
+  },
+  "dependencies": {}
 }
