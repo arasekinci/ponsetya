@@ -13,7 +13,6 @@
     "resolveJsonModule": true,
     "outDir": "dist",
     "declaration": true,
-    "declarationDir": "dist/types",
     "esModuleInterop": true,
     "isolatedModules": true,
     "forceConsistentCasingInFileNames": true,
@@ -21,9 +20,6 @@
     "skipLibCheck": true
   },
   "include": [
-    "src/**/*.ts",
-  ],
-  "exclude": [
-    "src/**/*.test.ts",
+    "src/**/*.ts"
   ]
 }

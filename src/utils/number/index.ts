@@ -1,1 +1,3 @@
-export * as default from './number'
+import * as number from './number'
+
+export default number

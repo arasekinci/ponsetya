@@ -1,4 +1,4 @@
-# Mandalina
+# Begonya
 
 They are the most commonly used and needed lightweight utility tools in JavaScript-based projects.
 You can use the environment and library independently.
@@ -7,12 +7,12 @@ It works in harmony with server-based and browser-based applications.
 ## Installation
 For using the yarn package manager.
 ```
-yarn add mandalina
+yarn add begonya
 ```
 For using the npm.
 
 ```
-npm install mandalina --save
+npm install begonya --save
 ```
 
 ## Modules
@@ -36,10 +36,10 @@ To use modules, you must include packages.
 
 ```js
 // To include function use as below
-import { classnames } 'mandalina/functions'
+import { classnames } 'begonya/functions'
 
 // To include utility use as below
-import { crpyto } 'mandalina/utils'
+import { crpyto } 'begonya/utils'
 ```
 
 ## License 

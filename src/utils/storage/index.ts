@@ -1,3 +1,5 @@
+import * as storage from './storage'
+
 export type { StorageValue } from './types'
 
-export * as default from './storage'
+export default storage

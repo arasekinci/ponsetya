@@ -1,3 +1,5 @@
+import * as session from './session'
+
 export type { SessionValue } from './types'
 
-export * as default from './session'
+export default session
