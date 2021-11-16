@@ -25,10 +25,35 @@ npm install begonya --save
 ### Utilities
 
 - crypto
+  - encode(value: string): string
+  - decode(value: string): string
 - number
+  - zpad(num: number): string
 - session
+  - key(index: number): string | undefined
+  - length(): number
+  - get<T = string>(key: string): T | undefined
+  - set(key: string, value: SessionValue): void
+  - remove(key: string): void
+  - clear(): void
 - storage
+  - key(index: number): string | undefined
+  - length(): number
+  - get<T = string>(key: string): T | undefined
+  - set(key: string, value: SessionValue): void
+  - remove(key: string): void
+  - clear(): void
 - string
+  - camelcase(str: string): string
+  - capitalize(str: string): string
+  - escape(str: string): string
+  - kebabcase(str: string): string
+  - lowercase(str: string): string
+  - pascalcase(str: string): string
+  - slugify(str: string): string
+  - snakecase(str: string, uppercase?: boolean): string
+  - truncate(str: string, limit = 140): string
+  - uppercase(str: string): string
 
 ## Import
 
