@@ -17,6 +17,10 @@ npm install begonya --save
 
 ## Modules
 
+### APIs
+
+- mime-type
+
 ### Functions
 
 - classnames
@@ -60,6 +64,9 @@ npm install begonya --save
 To use modules, you must include packages.
 
 ```js
+// To include api use as below
+import MimeType 'begonya/mime-type'
+
 // To include function use as below
 import { classnames } 'begonya/functions'
 
