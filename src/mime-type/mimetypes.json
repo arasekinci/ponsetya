@@ -1,41 +1,51 @@
 [
   {
     "kind": "application",
-    "type": "application/vnd.lotus-1-2-3",
+    "types": [
+      "application/vnd.lotus-1-2-3"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".123"
     ]
   },
   {
     "kind": "text",
-    "type": "text/vnd.in3d.3dml",
+    "types": [
+      "text/vnd.in3d.3dml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".3dml"
     ]
   },
   {
     "kind": "video",
-    "type": "video/3gpp2",
+    "types": [
+      "video/3gpp2"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".3g2"
     ]
   },
   {
     "kind": "video",
-    "type": "video/3gpp",
+    "types": [
+      "video/3gpp"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".3gp"
     ]
   },
   {
     "kind": "application",
-    "type": "application/octet-stream",
+    "types": [
+      "application/octet-stream"
+    ],
     "description": "Any kind of binary data",
-    "suffixes": [
+    "extensions": [
       ".a",
       ".bin",
       ".bpk",
@@ -58,9 +68,11 @@
   },
   {
     "kind": "application",
-    "type": "application/x-authorware-bin",
+    "types": [
+      "application/x-authorware-bin"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".aab",
       ".u32",
       ".vox",
@@ -69,90 +81,112 @@
   },
   {
     "kind": "audio",
-    "type": "audio/x-aac",
+    "types": [
+      "audio/x-aac"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".aac"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-authorware-map",
+    "types": [
+      "application/x-authorware-map"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".aam"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-authorware-seg",
+    "types": [
+      "application/x-authorware-seg"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".aas"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-abiword",
+    "types": [
+      "application/x-abiword"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".abw"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.americandynamics.acc",
+    "types": [
+      "application/vnd.americandynamics.acc"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".acc"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-ace-compressed",
+    "types": [
+      "application/x-ace-compressed"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ace"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.acucobol",
+    "types": [
+      "application/vnd.acucobol"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".acu"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.acucorp",
+    "types": [
+      "application/vnd.acucorp"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".acutc",
       ".atc"
     ]
   },
   {
     "kind": "audio",
-    "type": "audio/adpcm",
+    "types": [
+      "audio/adpcm"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".adp"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.audiograph",
+    "types": [
+      "application/vnd.audiograph"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".aep"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-font-type1",
+    "types": [
+      "application/x-font-type1"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".afm",
       ".pfa",
       ".pfb",
@@ -161,9 +195,11 @@
   },
   {
     "kind": "application",
-    "type": "application/vnd.ibm.modcap",
+    "types": [
+      "application/vnd.ibm.modcap"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".afp",
       ".list3820",
       ".listafp"
@@ -171,9 +207,11 @@
   },
   {
     "kind": "application",
-    "type": "application/postscript",
+    "types": [
+      "application/postscript"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ai",
       ".eps",
       ".ps"
@@ -181,9 +219,11 @@
   },
   {
     "kind": "audio",
-    "type": "audio/x-aiff",
+    "types": [
+      "audio/x-aiff"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".aif",
       ".aifc",
       ".aiff"
@@ -191,165 +231,206 @@
   },
   {
     "kind": "application",
-    "type": "application/vnd.adobe.air-application-installer-package+zip",
+    "types": [
+      "application/vnd.adobe.air-application-installer-package+zip"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".air"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.amiga.ami",
+    "types": [
+      "application/vnd.amiga.ami"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ami"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.android.package-archive",
+    "types": [
+      "application/vnd.android.package-archive"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".apk"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-ms-application",
+    "types": [
+      "application/x-ms-application"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".application"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.lotus-approach",
+    "types": [
+      "application/vnd.lotus-approach"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".apr"
     ]
   },
   {
     "kind": "application",
-    "type": "application/pgp-signature",
+    "types": [
+      "application/pgp-signature"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".asc",
       ".sig"
     ]
   },
   {
     "kind": "video",
-    "type": "video/x-ms-asf",
+    "types": [
+      "video/x-ms-asf"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".asf",
       ".asx"
     ]
   },
   {
     "kind": "text",
-    "type": "text/x-asm",
+    "types": [
+      "text/x-asm"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".asm",
       ".s"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.accpac.simply.aso",
+    "types": [
+      "application/vnd.accpac.simply.aso"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".aso"
     ]
   },
   {
     "kind": "application",
-    "type": "application/atom+xml",
+    "types": [
+      "application/atom+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".atom"
     ]
   },
   {
     "kind": "application",
-    "type": "application/atomcat+xml",
+    "types": [
+      "application/atomcat+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".atomcat"
     ]
   },
   {
     "kind": "application",
-    "type": "application/atomsvc+xml",
+    "types": [
+      "application/atomsvc+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".atomsvc"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.antix.game-component",
+    "types": [
+      "application/vnd.antix.game-component"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".atx"
     ]
   },
   {
     "kind": "audio",
-    "type": "audio/basic",
+    "types": [
+      "audio/basic"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".au",
       ".snd"
     ]
   },
   {
     "kind": "video",
-    "type": "video/x-msvideo",
-    "description": "Audio Video",
-    "suffixes": [
+    "types": [
+      "video/avi",
+      "video/x-msvideo"
+    ],
+    "description": "Audio Video Interleave",
+    "extensions": [
       ".avi"
     ]
   },
   {
     "kind": "application",
-    "type": "application/applixware",
+    "types": [
+      "application/applixware"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".aw"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.airzip.filesecure.azf",
+    "types": [
+      "application/vnd.airzip.filesecure.azf"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".azf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.airzip.filesecure.azs",
+    "types": [
+      "application/vnd.airzip.filesecure.azs"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".azs"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.amazon.ebook",
+    "types": [
+      "application/vnd.amazon.ebook"
+    ],
     "description": "Amazon Kindle eBook",
-    "suffixes": [
+    "extensions": [
       ".azw"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-msdownload",
+    "types": [
+      "application/x-msdownload"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".bat",
       ".com",
       ".dll",
@@ -359,57 +440,71 @@
   },
   {
     "kind": "application",
-    "type": "application/x-bcpio",
+    "types": [
+      "application/x-bcpio"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".bcpio"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-font-bdf",
+    "types": [
+      "application/x-font-bdf"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".bdf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.syncml.dm+wbxml",
+    "types": [
+      "application/vnd.syncml.dm+wbxml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".bdm"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.fujitsu.oasysprs",
+    "types": [
+      "application/vnd.fujitsu.oasysprs"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".bh2"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.bmi",
+    "types": [
+      "application/vnd.bmi"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".bmi"
     ]
   },
   {
     "kind": "image",
-    "type": "image/bmp",
+    "types": [
+      "image/bmp"
+    ],
     "description": "Windows OS/2 Bitmap Graphics",
-    "suffixes": [
+    "extensions": [
       ".bmp"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.framemaker",
+    "types": [
+      "application/vnd.framemaker"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".book",
       ".fm",
       ".frame",
@@ -418,42 +513,52 @@
   },
   {
     "kind": "application",
-    "type": "application/vnd.previewsystems.box",
+    "types": [
+      "application/vnd.previewsystems.box"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".box"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-bzip2",
+    "types": [
+      "application/x-bzip2"
+    ],
     "description": "BZip2 archive",
-    "suffixes": [
+    "extensions": [
       ".boz",
       ".bz2"
     ]
   },
   {
     "kind": "image",
-    "type": "image/prs.btif",
+    "types": [
+      "image/prs.btif"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".btif"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-bzip",
+    "types": [
+      "application/x-bzip"
+    ],
     "description": "BZip archive",
-    "suffixes": [
+    "extensions": [
       ".bz"
     ]
   },
   {
     "kind": "text",
-    "type": "text/x-c",
+    "types": [
+      "text/x-c"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".c",
       ".cc",
       ".cpp",
@@ -465,9 +570,11 @@
   },
   {
     "kind": "application",
-    "type": "application/vnd.clonk.c4group",
+    "types": [
+      "application/vnd.clonk.c4group"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".c4d",
       ".c4f",
       ".c4g",
@@ -477,33 +584,41 @@
   },
   {
     "kind": "application",
-    "type": "application/vnd.ms-cab-compressed",
+    "types": [
+      "application/vnd.ms-cab-compressed"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".cab"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.curl.car",
+    "types": [
+      "application/vnd.curl.car"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".car"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.ms-pki.seccat",
+    "types": [
+      "application/vnd.ms-pki.seccat"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".cat"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-director",
+    "types": [
+      "application/x-director"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".cct",
       ".cst",
       ".cxt",
@@ -517,242 +632,302 @@
   },
   {
     "kind": "application",
-    "type": "application/ccxml+xml",
+    "types": [
+      "application/ccxml+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ccxml"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.contact.cmsg",
+    "types": [
+      "application/vnd.contact.cmsg"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".cdbcmsg"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-netcdf",
+    "types": [
+      "application/x-netcdf"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".cdf",
       ".nc"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.mediastation.cdkey",
+    "types": [
+      "application/vnd.mediastation.cdkey"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".cdkey"
     ]
   },
   {
     "kind": "chemical",
-    "type": "chemical/x-cdx",
+    "types": [
+      "chemical/x-cdx"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".cdx"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.chemdraw+xml",
+    "types": [
+      "application/vnd.chemdraw+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".cdxml"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.cinderella",
+    "types": [
+      "application/vnd.cinderella"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".cdy"
     ]
   },
   {
     "kind": "application",
-    "type": "application/pkix-cert",
+    "types": [
+      "application/pkix-cert"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".cer"
     ]
   },
   {
     "kind": "image",
-    "type": "image/cgm",
+    "types": [
+      "image/cgm"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".cgm"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-chat",
+    "types": [
+      "application/x-chat"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".chat"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.ms-htmlhelp",
+    "types": [
+      "application/vnd.ms-htmlhelp"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".chm"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.kde.kchart",
+    "types": [
+      "application/vnd.kde.kchart"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".chrt"
     ]
   },
   {
     "kind": "chemical",
-    "type": "chemical/x-cif",
+    "types": [
+      "chemical/x-cif"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".cif"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.anser-web-certificate-issue-initiation",
+    "types": [
+      "application/vnd.anser-web-certificate-issue-initiation"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".cii"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.ms-artgalry",
+    "types": [
+      "application/vnd.ms-artgalry"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".cil"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.claymore",
+    "types": [
+      "application/vnd.claymore"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".cla"
     ]
   },
   {
     "kind": "application",
-    "type": "application/java-vm",
+    "types": [
+      "application/java-vm"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".class"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.crick.clicker.keyboard",
+    "types": [
+      "application/vnd.crick.clicker.keyboard"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".clkk"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.crick.clicker.palette",
+    "types": [
+      "application/vnd.crick.clicker.palette"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".clkp"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.crick.clicker.template",
+    "types": [
+      "application/vnd.crick.clicker.template"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".clkt"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.crick.clicker.wordbank",
+    "types": [
+      "application/vnd.crick.clicker.wordbank"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".clkw"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.crick.clicker",
+    "types": [
+      "application/vnd.crick.clicker"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".clkx"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-msclip",
+    "types": [
+      "application/x-msclip"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".clp"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.cosmocaller",
+    "types": [
+      "application/vnd.cosmocaller"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".cmc"
     ]
   },
   {
     "kind": "chemical",
-    "type": "chemical/x-cmdf",
+    "types": [
+      "chemical/x-cmdf"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".cmdf"
     ]
   },
   {
     "kind": "chemical",
-    "type": "chemical/x-cml",
+    "types": [
+      "chemical/x-cml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".cml"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.yellowriver-custom-menu",
+    "types": [
+      "application/vnd.yellowriver-custom-menu"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".cmp"
     ]
   },
   {
     "kind": "image",
-    "type": "image/x-cmx",
+    "types": [
+      "image/x-cmx"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".cmx"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.rim.cod",
+    "types": [
+      "application/vnd.rim.cod"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".cod"
     ]
   },
   {
     "kind": "text",
-    "type": "text/plain",
+    "types": [
+      "text/plain"
+    ],
     "description": "Text",
-    "suffixes": [
+    "extensions": [
       ".conf",
       ".def",
       ".diff",
@@ -767,205 +942,255 @@
   },
   {
     "kind": "application",
-    "type": "application/x-cpio",
+    "types": [
+      "application/x-cpio"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".cpio"
     ]
   },
   {
     "kind": "application",
-    "type": "application/mac-compactpro",
+    "types": [
+      "application/mac-compactpro"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".cpt"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-mscardfile",
+    "types": [
+      "application/x-mscardfile"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".crd"
     ]
   },
   {
     "kind": "application",
-    "type": "application/pkix-crl",
+    "types": [
+      "application/pkix-crl"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".crl"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-x509-ca-cert",
+    "types": [
+      "application/x-x509-ca-cert"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".crt",
       ".der"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-csh",
+    "types": [
+      "application/x-csh"
+    ],
     "description": "C-Shell script",
-    "suffixes": [
+    "extensions": [
       ".csh"
     ]
   },
   {
     "kind": "chemical",
-    "type": "chemical/x-csml",
+    "types": [
+      "chemical/x-csml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".csml"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.commonspace",
+    "types": [
+      "application/vnd.commonspace"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".csp"
     ]
   },
   {
     "kind": "text",
-    "type": "text/css",
+    "types": [
+      "text/css"
+    ],
     "description": "Cascading Style Sheets",
-    "suffixes": [
+    "extensions": [
       ".css"
     ]
   },
   {
     "kind": "text",
-    "type": "text/csv",
+    "types": [
+      "text/csv"
+    ],
     "description": "Comma-separated Values",
-    "suffixes": [
+    "extensions": [
       ".csv"
     ]
   },
   {
     "kind": "application",
-    "type": "application/cu-seeme",
+    "types": [
+      "application/cu-seeme"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".cu"
     ]
   },
   {
     "kind": "text",
-    "type": "text/vnd.curl",
+    "types": [
+      "text/vnd.curl"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".curl"
     ]
   },
   {
     "kind": "application",
-    "type": "application/prs.cww",
+    "types": [
+      "application/prs.cww"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".cww"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.mobius.daf",
+    "types": [
+      "application/vnd.mobius.daf"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".daf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.fdsn.seed",
+    "types": [
+      "application/vnd.fdsn.seed"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".dataless",
       ".seed"
     ]
   },
   {
     "kind": "application",
-    "type": "application/davmount+xml",
+    "types": [
+      "application/davmount+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".davmount"
     ]
   },
   {
     "kind": "text",
-    "type": "text/vnd.curl.dcurl",
+    "types": [
+      "text/vnd.curl.dcurl"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".dcurl"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.oma.dd2+xml",
+    "types": [
+      "application/vnd.oma.dd2+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".dd2"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.fujixerox.ddd",
+    "types": [
+      "application/vnd.fujixerox.ddd"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ddd"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-debian-package",
+    "types": [
+      "application/x-debian-package"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".deb",
       ".udeb"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.dreamfactory",
+    "types": [
+      "application/vnd.dreamfactory"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".dfac"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.mobius.dis",
+    "types": [
+      "application/vnd.mobius.dis"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".dis"
     ]
   },
   {
     "kind": "image",
-    "type": "image/vnd.djvu",
+    "types": [
+      "image/vnd.djvu"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".djv",
       ".djvu"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.dna",
+    "types": [
+      "application/vnd.dna"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".dna"
     ]
   },
   {
     "kind": "application",
-    "type": "application/msword",
+    "types": [
+      "application/msword"
+    ],
     "description": "Microsoft Word",
-    "suffixes": [
+    "extensions": [
       ".doc",
       ".dot",
       ".wiz"
@@ -973,201 +1198,251 @@
   },
   {
     "kind": "application",
-    "type": "application/vnd.ms-word.document.macroenabled.12",
+    "types": [
+      "application/vnd.ms-word.document.macroenabled.12"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".docm"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "types": [
+      "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    ],
     "description": "Microsoft Word (OpenXML)",
-    "suffixes": [
+    "extensions": [
       ".docx"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.ms-word.template.macroenabled.12",
+    "types": [
+      "application/vnd.ms-word.template.macroenabled.12"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".dotm"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.template",
+    "types": [
+      "application/vnd.openxmlformats-officedocument.wordprocessingml.template"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".dotx"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.osgi.dp",
+    "types": [
+      "application/vnd.osgi.dp"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".dp"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.dpgraph",
+    "types": [
+      "application/vnd.dpgraph"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".dpg"
     ]
   },
   {
     "kind": "text",
-    "type": "text/prs.lines.tag",
+    "types": [
+      "text/prs.lines.tag"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".dsc"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-dtbook+xml",
+    "types": [
+      "application/x-dtbook+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".dtb"
     ]
   },
   {
     "kind": "application",
-    "type": "application/xml-dtd",
+    "types": [
+      "application/xml-dtd"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".dtd"
     ]
   },
   {
     "kind": "audio",
-    "type": "audio/vnd.dts",
+    "types": [
+      "audio/vnd.dts"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".dts"
     ]
   },
   {
     "kind": "audio",
-    "type": "audio/vnd.dts.hd",
+    "types": [
+      "audio/vnd.dts.hd"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".dtshd"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-dvi",
+    "types": [
+      "application/x-dvi"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".dvi"
     ]
   },
   {
     "kind": "model",
-    "type": "model/vnd.dwf",
+    "types": [
+      "model/vnd.dwf"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".dwf"
     ]
   },
   {
     "kind": "image",
-    "type": "image/vnd.dwg",
+    "types": [
+      "image/vnd.dwg"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".dwg"
     ]
   },
   {
     "kind": "image",
-    "type": "image/vnd.dxf",
+    "types": [
+      "image/vnd.dxf"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".dxf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.spotfire.dxp",
+    "types": [
+      "application/vnd.spotfire.dxp"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".dxp"
     ]
   },
   {
     "kind": "audio",
-    "type": "audio/vnd.nuera.ecelp4800",
+    "types": [
+      "audio/vnd.nuera.ecelp4800"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ecelp4800"
     ]
   },
   {
     "kind": "audio",
-    "type": "audio/vnd.nuera.ecelp7470",
+    "types": [
+      "audio/vnd.nuera.ecelp7470"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ecelp7470"
     ]
   },
   {
     "kind": "audio",
-    "type": "audio/vnd.nuera.ecelp9600",
+    "types": [
+      "audio/vnd.nuera.ecelp9600"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ecelp9600"
     ]
   },
   {
     "kind": "application",
-    "type": "application/ecmascript",
+    "types": [
+      "application/ecmascript"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ecma"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.novadigm.edm",
+    "types": [
+      "application/vnd.novadigm.edm"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".edm"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.novadigm.edx",
+    "types": [
+      "application/vnd.novadigm.edx"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".edx"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.picsel",
+    "types": [
+      "application/vnd.picsel"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".efif"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.pg.osasli",
+    "types": [
+      "application/vnd.pg.osasli"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ei6"
     ]
   },
   {
     "kind": "message",
-    "type": "message/rfc822",
+    "types": [
+      "message/rfc822"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".eml",
       ".mht",
       ".mhtml",
@@ -1177,98 +1452,122 @@
   },
   {
     "kind": "application",
-    "type": "application/emma+xml",
+    "types": [
+      "application/emma+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".emma"
     ]
   },
   {
     "kind": "audio",
-    "type": "audio/vnd.digital-winds",
+    "types": [
+      "audio/vnd.digital-winds"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".eol"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.ms-fontobject",
+    "types": [
+      "application/vnd.ms-fontobject"
+    ],
     "description": "MS Embedded OpenType fonts",
-    "suffixes": [
+    "extensions": [
       ".eot"
     ]
   },
   {
     "kind": "application",
-    "type": "application/epub+zip",
+    "types": [
+      "application/epub+zip"
+    ],
     "description": "Electronic publication",
-    "suffixes": [
+    "extensions": [
       ".epub"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.eszigno3+xml",
+    "types": [
+      "application/vnd.eszigno3+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".es3",
       ".et3"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.epson.esf",
+    "types": [
+      "application/vnd.epson.esf"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".esf"
     ]
   },
   {
     "kind": "text",
-    "type": "text/x-setext",
+    "types": [
+      "text/x-setext"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".etx"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.novadigm.ext",
+    "types": [
+      "application/vnd.novadigm.ext"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ext"
     ]
   },
   {
     "kind": "application",
-    "type": "application/andrew-inset",
+    "types": [
+      "application/andrew-inset"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ez"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.ezpix-album",
+    "types": [
+      "application/vnd.ezpix-album"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ez2"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.ezpix-package",
+    "types": [
+      "application/vnd.ezpix-package"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ez3"
     ]
   },
   {
     "kind": "text",
-    "type": "text/x-fortran",
+    "types": [
+      "text/x-fortran"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".f",
       ".f77",
       ".f90",
@@ -1277,49 +1576,61 @@
   },
   {
     "kind": "video",
-    "type": "video/x-f4v",
+    "types": [
+      "video/x-f4v"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".f4v"
     ]
   },
   {
     "kind": "image",
-    "type": "image/vnd.fastbidsheet",
+    "types": [
+      "image/vnd.fastbidsheet"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".fbs"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.fdf",
+    "types": [
+      "application/vnd.fdf"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".fdf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.denovo.fcselayout-link",
+    "types": [
+      "application/vnd.denovo.fcselayout-link"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".fe_launch"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.fujitsu.oasysgp",
+    "types": [
+      "application/vnd.fujitsu.oasysgp"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".fg5"
     ]
   },
   {
     "kind": "image",
-    "type": "image/x-freehand",
+    "types": [
+      "image/x-freehand"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".fh",
       ".fh4",
       ".fh5",
@@ -1329,691 +1640,862 @@
   },
   {
     "kind": "application",
-    "type": "application/x-xfig",
+    "types": [
+      "application/x-xfig"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".fig"
     ]
   },
   {
     "kind": "video",
-    "type": "video/x-fli",
+    "types": [
+      "video/x-fli"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".fli"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.micrografx.flo",
+    "types": [
+      "application/vnd.micrografx.flo"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".flo"
     ]
   },
   {
     "kind": "video",
-    "type": "video/x-flv",
+    "types": [
+      "video/x-flv"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".flv"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.kde.kivio",
+    "types": [
+      "application/vnd.kde.kivio"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".flw"
     ]
   },
   {
     "kind": "text",
-    "type": "text/vnd.fmi.flexstor",
+    "types": [
+      "text/vnd.fmi.flexstor"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".flx"
     ]
   },
   {
     "kind": "text",
-    "type": "text/vnd.fly",
+    "types": [
+      "text/vnd.fly"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".fly"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.frogans.fnc",
+    "types": [
+      "application/vnd.frogans.fnc"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".fnc"
     ]
   },
   {
     "kind": "image",
-    "type": "image/vnd.fpx",
+    "types": [
+      "image/vnd.fpx"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".fpx"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.fsc.weblaunch",
+    "types": [
+      "application/vnd.fsc.weblaunch"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".fsc"
     ]
   },
   {
     "kind": "image",
-    "type": "image/vnd.fst",
+    "types": [
+      "image/vnd.fst"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".fst"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.fluxtime.clip",
+    "types": [
+      "application/vnd.fluxtime.clip"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ftc"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.anser-web-funds-transfer-initiation",
+    "types": [
+      "application/vnd.anser-web-funds-transfer-initiation"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".fti"
     ]
   },
   {
     "kind": "video",
-    "type": "video/vnd.fvt",
+    "types": [
+      "video/vnd.fvt"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".fvt"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.fuzzysheet",
+    "types": [
+      "application/vnd.fuzzysheet"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".fzs"
     ]
   },
   {
     "kind": "image",
-    "type": "image/g3fax",
+    "types": [
+      "image/g3fax"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".g3"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.groove-account",
+    "types": [
+      "application/vnd.groove-account"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".gac"
     ]
   },
   {
     "kind": "model",
-    "type": "model/vnd.gdl",
+    "types": [
+      "model/vnd.gdl"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".gdl"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.dynageo",
+    "types": [
+      "application/vnd.dynageo"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".geo"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.geometry-explorer",
+    "types": [
+      "application/vnd.geometry-explorer"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".gex",
       ".gre"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.geogebra.file",
+    "types": [
+      "application/vnd.geogebra.file"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ggb"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.geogebra.tool",
+    "types": [
+      "application/vnd.geogebra.tool"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ggt"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.groove-help",
+    "types": [
+      "application/vnd.groove-help"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ghf"
     ]
   },
   {
     "kind": "image",
-    "type": "image/gif",
+    "types": [
+      "image/gif"
+    ],
     "description": "Graphics Interchange Format",
-    "suffixes": [
+    "extensions": [
       ".gif"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.groove-identity-message",
+    "types": [
+      "application/vnd.groove-identity-message"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".gim"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.gmx",
+    "types": [
+      "application/vnd.gmx"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".gmx"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-gnumeric",
+    "types": [
+      "application/x-gnumeric"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".gnumeric"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.flographit",
+    "types": [
+      "application/vnd.flographit"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".gph"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.grafeq",
+    "types": [
+      "application/vnd.grafeq"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".gqf",
       ".gqs"
     ]
   },
   {
     "kind": "application",
-    "type": "application/srgs",
+    "types": [
+      "application/srgs"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".gram"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.groove-injector",
+    "types": [
+      "application/vnd.groove-injector"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".grv"
     ]
   },
   {
     "kind": "application",
-    "type": "application/srgs+xml",
+    "types": [
+      "application/srgs+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".grxml"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-font-ghostscript",
+    "types": [
+      "application/x-font-ghostscript"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".gsf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-gtar",
+    "types": [
+      "application/x-gtar"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".gtar"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.groove-tool-message",
+    "types": [
+      "application/vnd.groove-tool-message"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".gtm"
     ]
   },
   {
     "kind": "model",
-    "type": "model/vnd.gtw",
+    "types": [
+      "model/vnd.gtw"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".gtw"
     ]
   },
   {
     "kind": "text",
-    "type": "text/vnd.graphviz",
+    "types": [
+      "text/vnd.graphviz"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".gv"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-gzip",
+    "types": [
+      "application/x-gzip"
+    ],
     "description": "GZip Compressed Archive",
-    "suffixes": [
+    "extensions": [
       ".gz",
       ".tgz"
     ]
   },
   {
     "kind": "video",
-    "type": "video/h261",
+    "types": [
+      "video/h261"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".h261"
     ]
   },
   {
     "kind": "video",
-    "type": "video/h263",
+    "types": [
+      "video/h263"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".h263"
     ]
   },
   {
     "kind": "video",
-    "type": "video/h264",
+    "types": [
+      "video/h264"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".h264"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.hbci",
+    "types": [
+      "application/vnd.hbci"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".hbci"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-hdf",
+    "types": [
+      "application/x-hdf"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".hdf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/winhlp",
+    "types": [
+      "application/winhlp"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".hlp"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.hp-hpgl",
+    "types": [
+      "application/vnd.hp-hpgl"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".hpgl"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.hp-hpid",
+    "types": [
+      "application/vnd.hp-hpid"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".hpid"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.hp-hps",
+    "types": [
+      "application/vnd.hp-hps"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".hps"
     ]
   },
   {
     "kind": "application",
-    "type": "application/mac-binhex40",
+    "types": [
+      "application/mac-binhex40"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".hqx"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.kenameaapp",
+    "types": [
+      "application/vnd.kenameaapp"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".htke"
     ]
   },
   {
     "kind": "text",
-    "type": "text/html",
+    "types": [
+      "text/html"
+    ],
     "description": "HyperText Markup Language",
-    "suffixes": [
+    "extensions": [
       ".htm",
       ".html"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.yamaha.hv-dic",
+    "types": [
+      "application/vnd.yamaha.hv-dic"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".hvd"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.yamaha.hv-voice",
+    "types": [
+      "application/vnd.yamaha.hv-voice"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".hvp"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.yamaha.hv-script",
+    "types": [
+      "application/vnd.yamaha.hv-script"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".hvs"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.iccprofile",
+    "types": [
+      "application/vnd.iccprofile"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".icc",
       ".icm"
     ]
   },
   {
     "kind": "x-conference",
-    "type": "x-conference/x-cooltalk",
+    "types": [
+      "x-conference/x-cooltalk"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ice"
     ]
   },
   {
     "kind": "image",
-    "type": "image/x-icon",
+    "types": [
+      "image/vnd.microsoft.icon",
+      "image/x-icon"
+    ],
     "description": "Icon format",
-    "suffixes": [
+    "extensions": [
       ".ico"
     ]
   },
   {
     "kind": "text",
-    "type": "text/calendar",
+    "types": [
+      "text/calendar"
+    ],
     "description": "iCalendar format",
-    "suffixes": [
+    "extensions": [
       ".ics",
       ".ifb"
     ]
   },
   {
     "kind": "image",
-    "type": "image/ief",
+    "types": [
+      "image/ief"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ief"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.shana.informed.formdata",
+    "types": [
+      "application/vnd.shana.informed.formdata"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ifm"
     ]
   },
   {
     "kind": "model",
-    "type": "model/iges",
+    "types": [
+      "model/iges"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".iges",
       ".igs"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.igloader",
+    "types": [
+      "application/vnd.igloader"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".igl"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.micrografx.igx",
+    "types": [
+      "application/vnd.micrografx.igx"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".igx"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.shana.informed.interchange",
+    "types": [
+      "application/vnd.shana.informed.interchange"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".iif"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.accpac.simply.imp",
+    "types": [
+      "application/vnd.accpac.simply.imp"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".imp"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.ms-ims",
+    "types": [
+      "application/vnd.ms-ims"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ims"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.shana.informed.package",
+    "types": [
+      "application/vnd.shana.informed.package"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ipk"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.ibm.rights-management",
+    "types": [
+      "application/vnd.ibm.rights-management"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".irm"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.irepository.package+xml",
+    "types": [
+      "application/vnd.irepository.package+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".irp"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.shana.informed.formtemplate",
+    "types": [
+      "application/vnd.shana.informed.formtemplate"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".itp"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.immervision-ivp",
+    "types": [
+      "application/vnd.immervision-ivp"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ivp"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.immervision-ivu",
+    "types": [
+      "application/vnd.immervision-ivu"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ivu"
     ]
   },
   {
     "kind": "text",
-    "type": "text/vnd.sun.j2me.app-descriptor",
+    "types": [
+      "text/vnd.sun.j2me.app-descriptor"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".jad"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.jam",
+    "types": [
+      "application/vnd.jam"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".jam"
     ]
   },
   {
     "kind": "application",
-    "type": "application/java-archive",
+    "types": [
+      "application/java-archive"
+    ],
     "description": "Java Archive",
-    "suffixes": [
+    "extensions": [
       ".jar"
     ]
   },
   {
     "kind": "text",
-    "type": "text/x-java-source",
+    "types": [
+      "text/x-java-source"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".java"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.jisp",
+    "types": [
+      "application/vnd.jisp"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".jisp"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.hp-jlyt",
+    "types": [
+      "application/vnd.hp-jlyt"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".jlt"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-java-jnlp-file",
+    "types": [
+      "application/x-java-jnlp-file"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".jnlp"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.joost.joda-archive",
+    "types": [
+      "application/vnd.joost.joda-archive"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".joda"
     ]
   },
   {
     "kind": "image",
-    "type": "image/jpeg",
+    "types": [
+      "image/jpeg"
+    ],
     "description": "Joint Photographic Experts Group images",
-    "suffixes": [
-      ".jpe",
+    "extensions": [
+      ".jpg",
       ".jpeg",
-      ".jpg"
+      ".jpe"
     ]
   },
   {
     "kind": "video",
-    "type": "video/jpm",
+    "types": [
+      "video/jpm"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".jpgm",
       ".jpm"
     ]
   },
   {
     "kind": "video",
-    "type": "video/jpeg",
+    "types": [
+      "video/jpeg"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".jpgv"
     ]
   },
   {
     "kind": "application",
-    "type": "application/javascript",
+    "types": [
+      "application/javascript"
+    ],
     "description": "JavaScript",
-    "suffixes": [
+    "extensions": [
       ".js"
     ]
   },
   {
     "kind": "application",
-    "type": "application/json",
+    "types": [
+      "application/json"
+    ],
     "description": "JSON format",
-    "suffixes": [
+    "extensions": [
       ".json"
     ]
   },
   {
     "kind": "audio",
-    "type": "audio/midi",
+    "types": [
+      "audio/midi"
+    ],
     "description": "Musical Instrument Digital Interface",
-    "suffixes": [
+    "extensions": [
       ".kar",
       ".mid",
       ".midi",
@@ -2022,189 +2504,235 @@
   },
   {
     "kind": "application",
-    "type": "application/vnd.kde.karbon",
+    "types": [
+      "application/vnd.kde.karbon"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".karbon"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.kde.kformula",
+    "types": [
+      "application/vnd.kde.kformula"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".kfo"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.kidspiration",
+    "types": [
+      "application/vnd.kidspiration"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".kia"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-killustrator",
+    "types": [
+      "application/x-killustrator"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".kil"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.google-earth.kml+xml",
+    "types": [
+      "application/vnd.google-earth.kml+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".kml"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.google-earth.kmz",
+    "types": [
+      "application/vnd.google-earth.kmz"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".kmz"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.kinar",
+    "types": [
+      "application/vnd.kinar"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".kne",
       ".knp"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.kde.kontour",
+    "types": [
+      "application/vnd.kde.kontour"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".kon"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.kde.kpresenter",
+    "types": [
+      "application/vnd.kde.kpresenter"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".kpr",
       ".kpt"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.kde.kspread",
+    "types": [
+      "application/vnd.kde.kspread"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ksp"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.kahootz",
+    "types": [
+      "application/vnd.kahootz"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ktr",
       ".ktz"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.kde.kword",
+    "types": [
+      "application/vnd.kde.kword"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".kwd",
       ".kwt"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-latex",
+    "types": [
+      "application/x-latex"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".latex"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.llamagraphics.life-balance.desktop",
+    "types": [
+      "application/vnd.llamagraphics.life-balance.desktop"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".lbd"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.llamagraphics.life-balance.exchange+xml",
+    "types": [
+      "application/vnd.llamagraphics.life-balance.exchange+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".lbe"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.hhe.lesson-player",
+    "types": [
+      "application/vnd.hhe.lesson-player"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".les"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.route66.link66+xml",
+    "types": [
+      "application/vnd.route66.link66+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".link66"
     ]
   },
   {
     "kind": "application",
-    "type": "application/lost+xml",
+    "types": [
+      "application/lost+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".lostxml"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.ms-lrm",
+    "types": [
+      "application/vnd.ms-lrm"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".lrm"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.frogans.ltf",
+    "types": [
+      "application/vnd.frogans.ltf"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ltf"
     ]
   },
   {
     "kind": "audio",
-    "type": "audio/vnd.lucent.voice",
+    "types": [
+      "audio/vnd.lucent.voice"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".lvp"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.lotus-wordpro",
+    "types": [
+      "application/vnd.lotus-wordpro"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".lwp"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-msmediaview",
+    "types": [
+      "application/x-msmediaview"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".m13",
       ".m14",
       ".mvb"
@@ -2212,9 +2740,11 @@
   },
   {
     "kind": "video",
-    "type": "video/mpeg",
+    "types": [
+      "video/mpeg"
+    ],
     "description": "Video",
-    "suffixes": [
+    "extensions": [
       ".m1v",
       ".m2v",
       ".mpa",
@@ -2225,9 +2755,11 @@
   },
   {
     "kind": "audio",
-    "type": "audio/mpeg",
+    "types": [
+      "audio/mpeg"
+    ],
     "description": "Audio",
-    "suffixes": [
+    "extensions": [
       ".m2a",
       ".m3a",
       ".mp2",
@@ -2238,34 +2770,42 @@
   },
   {
     "kind": "audio",
-    "type": "audio/x-mpegurl",
+    "types": [
+      "audio/x-mpegurl"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".m3u"
     ]
   },
   {
     "kind": "video",
-    "type": "video/vnd.mpegurl",
+    "types": [
+      "video/vnd.mpegurl"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".m4u",
       ".mxu"
     ]
   },
   {
     "kind": "video",
-    "type": "video/x-m4v",
+    "types": [
+      "video/x-m4v"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".m4v"
     ]
   },
   {
     "kind": "application",
-    "type": "application/mathematica",
+    "types": [
+      "application/mathematica"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ma",
       ".mb",
       ".nb"
@@ -2273,17 +2813,21 @@
   },
   {
     "kind": "application",
-    "type": "application/vnd.ecowin.chart",
+    "types": [
+      "application/vnd.ecowin.chart"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mag"
     ]
   },
   {
     "kind": "text",
-    "type": "text/troff",
+    "types": [
+      "text/troff"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".man",
       ".me",
       ".ms",
@@ -2294,73 +2838,91 @@
   },
   {
     "kind": "application",
-    "type": "application/mathml+xml",
+    "types": [
+      "application/mathml+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mathml"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.mobius.mbk",
+    "types": [
+      "application/vnd.mobius.mbk"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mbk"
     ]
   },
   {
     "kind": "application",
-    "type": "application/mbox",
+    "types": [
+      "application/mbox"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mbox"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.medcalcdata",
+    "types": [
+      "application/vnd.medcalcdata"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mc1"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.mcd",
+    "types": [
+      "application/vnd.mcd"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mcd"
     ]
   },
   {
     "kind": "text",
-    "type": "text/vnd.curl.mcurl",
+    "types": [
+      "text/vnd.curl.mcurl"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mcurl"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-msaccess",
+    "types": [
+      "application/x-msaccess"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mdb"
     ]
   },
   {
     "kind": "image",
-    "type": "image/vnd.ms-modi",
+    "types": [
+      "image/vnd.ms-modi"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mdi"
     ]
   },
   {
     "kind": "model",
-    "type": "model/mesh",
+    "types": [
+      "model/mesh"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mesh",
       ".msh",
       ".silo"
@@ -2368,108 +2930,134 @@
   },
   {
     "kind": "application",
-    "type": "application/vnd.mfmp",
+    "types": [
+      "application/vnd.mfmp"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mfm"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.proteus.magazine",
+    "types": [
+      "application/vnd.proteus.magazine"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mgz"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.mif",
+    "types": [
+      "application/vnd.mif"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mif"
     ]
   },
   {
     "kind": "video",
-    "type": "video/mj2",
+    "types": [
+      "video/mj2"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mj2",
       ".mjp2"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.dolby.mlp",
+    "types": [
+      "application/vnd.dolby.mlp"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mlp"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.chipnuts.karaoke-mmd",
+    "types": [
+      "application/vnd.chipnuts.karaoke-mmd"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mmd"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.smaf",
+    "types": [
+      "application/vnd.smaf"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mmf"
     ]
   },
   {
     "kind": "image",
-    "type": "image/vnd.fujixerox.edmics-mmr",
+    "types": [
+      "image/vnd.fujixerox.edmics-mmr"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mmr"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-msmoney",
+    "types": [
+      "application/x-msmoney"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mny"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-mobipocket-ebook",
+    "types": [
+      "application/x-mobipocket-ebook"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mobi",
       ".prc"
     ]
   },
   {
     "kind": "video",
-    "type": "video/quicktime",
+    "types": [
+      "video/quicktime"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mov",
       ".qt"
     ]
   },
   {
     "kind": "video",
-    "type": "video/x-sgi-movie",
+    "types": [
+      "video/x-sgi-movie"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".movie"
     ]
   },
   {
     "kind": "video",
-    "type": "video/mp4",
+    "types": [
+      "video/mp4"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mp4",
       ".mp4v",
       ".mpg4"
@@ -2477,186 +3065,232 @@
   },
   {
     "kind": "audio",
-    "type": "audio/mp4",
+    "types": [
+      "audio/mp4"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mp4a"
     ]
   },
   {
     "kind": "application",
-    "type": "application/mp4",
+    "types": [
+      "application/mp4"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mp4s"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.mophun.certificate",
+    "types": [
+      "application/vnd.mophun.certificate"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mpc"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.apple.installer+xml",
+    "types": [
+      "application/vnd.apple.installer+xml"
+    ],
     "description": "Apple Installer Package",
-    "suffixes": [
+    "extensions": [
       ".mpkg"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.blueice.multipass",
+    "types": [
+      "application/vnd.blueice.multipass"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mpm"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.mophun.application",
+    "types": [
+      "application/vnd.mophun.application"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mpn"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.ms-project",
+    "types": [
+      "application/vnd.ms-project"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mpp",
       ".mpt"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.ibm.minipay",
+    "types": [
+      "application/vnd.ibm.minipay"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mpy"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.mobius.mqy",
+    "types": [
+      "application/vnd.mobius.mqy"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mqy"
     ]
   },
   {
     "kind": "application",
-    "type": "application/marc",
+    "types": [
+      "application/marc"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mrc"
     ]
   },
   {
     "kind": "application",
-    "type": "application/mediaservercontrol+xml",
+    "types": [
+      "application/mediaservercontrol+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mscml"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.fdsn.mseed",
+    "types": [
+      "application/vnd.fdsn.mseed"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mseed"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.mseq",
+    "types": [
+      "application/vnd.mseq"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mseq"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.epson.msf",
+    "types": [
+      "application/vnd.epson.msf"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".msf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.mobius.msl",
+    "types": [
+      "application/vnd.mobius.msl"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".msl"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.muvee.style",
+    "types": [
+      "application/vnd.muvee.style"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".msty"
     ]
   },
   {
     "kind": "model",
-    "type": "model/vnd.mts",
+    "types": [
+      "model/vnd.mts"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mts"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.musician",
+    "types": [
+      "application/vnd.musician"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mus"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.recordare.musicxml+xml",
+    "types": [
+      "application/vnd.recordare.musicxml+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".musicxml"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.mfer",
+    "types": [
+      "application/vnd.mfer"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mwf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/mxf",
+    "types": [
+      "application/mxf"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mxf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.recordare.musicxml",
+    "types": [
+      "application/vnd.recordare.musicxml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mxl"
     ]
   },
   {
     "kind": "application",
-    "type": "application/xv+xml",
+    "types": [
+      "application/xv+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mxml",
       ".xhvml",
       ".xvm",
@@ -2665,209 +3299,261 @@
   },
   {
     "kind": "application",
-    "type": "application/vnd.triscape.mxs",
+    "types": [
+      "application/vnd.triscape.mxs"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".mxs"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.nokia.n-gage.symbian.install",
+    "types": [
+      "application/vnd.nokia.n-gage.symbian.install"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".n-gage"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-dtbncx+xml",
+    "types": [
+      "application/x-dtbncx+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ncx"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.nokia.n-gage.data",
+    "types": [
+      "application/vnd.nokia.n-gage.data"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ngdat"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.neurolanguage.nlu",
+    "types": [
+      "application/vnd.neurolanguage.nlu"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".nlu"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.enliven",
+    "types": [
+      "application/vnd.enliven"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".nml"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.noblenet-directory",
+    "types": [
+      "application/vnd.noblenet-directory"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".nnd"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.noblenet-sealer",
+    "types": [
+      "application/vnd.noblenet-sealer"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".nns"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.noblenet-web",
+    "types": [
+      "application/vnd.noblenet-web"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".nnw"
     ]
   },
   {
     "kind": "image",
-    "type": "image/vnd.net-fpx",
+    "types": [
+      "image/vnd.net-fpx"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".npx"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.lotus-notes",
+    "types": [
+      "application/vnd.lotus-notes"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".nsf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.fujitsu.oasys2",
+    "types": [
+      "application/vnd.fujitsu.oasys2"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".oa2"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.fujitsu.oasys3",
+    "types": [
+      "application/vnd.fujitsu.oasys3"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".oa3"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.fujitsu.oasys",
+    "types": [
+      "application/vnd.fujitsu.oasys"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".oas"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-msbinder",
+    "types": [
+      "application/x-msbinder"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".obd"
     ]
   },
   {
     "kind": "application",
-    "type": "application/oda",
+    "types": [
+      "application/oda"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".oda"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.oasis.opendocument.database",
+    "types": [
+      "application/vnd.oasis.opendocument.database"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".odb"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.oasis.opendocument.chart",
+    "types": [
+      "application/vnd.oasis.opendocument.chart"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".odc"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.oasis.opendocument.formula",
+    "types": [
+      "application/vnd.oasis.opendocument.formula"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".odf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.oasis.opendocument.formula-template",
+    "types": [
+      "application/vnd.oasis.opendocument.formula-template"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".odft"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.oasis.opendocument.graphics",
+    "types": [
+      "application/vnd.oasis.opendocument.graphics"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".odg"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.oasis.opendocument.image",
+    "types": [
+      "application/vnd.oasis.opendocument.image"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".odi"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.oasis.opendocument.presentation",
+    "types": [
+      "application/vnd.oasis.opendocument.presentation"
+    ],
     "description": "OpenDocument presentation document",
-    "suffixes": [
+    "extensions": [
       ".odp"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.oasis.opendocument.spreadsheet",
+    "types": [
+      "application/vnd.oasis.opendocument.spreadsheet"
+    ],
     "description": "OpenDocument spreadsheet document",
-    "suffixes": [
+    "extensions": [
       ".ods"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.oasis.opendocument.text",
+    "types": [
+      "application/vnd.oasis.opendocument.text"
+    ],
     "description": "OpenDocument text document",
-    "suffixes": [
+    "extensions": [
       ".odt"
     ]
   },
   {
     "kind": "audio",
-    "type": "audio/ogg",
+    "types": [
+      "audio/ogg"
+    ],
     "description": "Audio",
-    "suffixes": [
+    "extensions": [
       ".oga",
       ".ogg",
       ".spx"
@@ -2875,25 +3561,31 @@
   },
   {
     "kind": "video",
-    "type": "video/ogg",
+    "types": [
+      "video/ogg"
+    ],
     "description": "OGG video",
-    "suffixes": [
+    "extensions": [
       ".ogv"
     ]
   },
   {
     "kind": "application",
-    "type": "application/ogg",
+    "types": [
+      "application/ogg"
+    ],
     "description": "OGG",
-    "suffixes": [
+    "extensions": [
       ".ogx"
     ]
   },
   {
     "kind": "application",
-    "type": "application/onenote",
+    "types": [
+      "application/onenote"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".onepkg",
       ".onetmp",
       ".onetoc",
@@ -2902,17 +3594,21 @@
   },
   {
     "kind": "application",
-    "type": "application/oebps-package+xml",
+    "types": [
+      "application/oebps-package+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".opf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.palm",
+    "types": [
+      "application/vnd.palm"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".oprc",
       ".pdb",
       ".pqa"
@@ -2920,358 +3616,446 @@
   },
   {
     "kind": "application",
-    "type": "application/vnd.lotus-organizer",
+    "types": [
+      "application/vnd.lotus-organizer"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".org"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.yamaha.openscoreformat",
+    "types": [
+      "application/vnd.yamaha.openscoreformat"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".osf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.yamaha.openscoreformat.osfpvg+xml",
+    "types": [
+      "application/vnd.yamaha.openscoreformat.osfpvg+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".osfpvg"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.oasis.opendocument.chart-template",
+    "types": [
+      "application/vnd.oasis.opendocument.chart-template"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".otc"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-font-otf",
+    "types": [
+      "application/x-font-otf"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".otf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.oasis.opendocument.graphics-template",
+    "types": [
+      "application/vnd.oasis.opendocument.graphics-template"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".otg"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.oasis.opendocument.text-web",
+    "types": [
+      "application/vnd.oasis.opendocument.text-web"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".oth"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.oasis.opendocument.image-template",
+    "types": [
+      "application/vnd.oasis.opendocument.image-template"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".oti"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.oasis.opendocument.text-master",
+    "types": [
+      "application/vnd.oasis.opendocument.text-master"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".otm"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.oasis.opendocument.presentation-template",
+    "types": [
+      "application/vnd.oasis.opendocument.presentation-template"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".otp"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.oasis.opendocument.spreadsheet-template",
+    "types": [
+      "application/vnd.oasis.opendocument.spreadsheet-template"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ots"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.oasis.opendocument.text-template",
+    "types": [
+      "application/vnd.oasis.opendocument.text-template"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ott"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.openofficeorg.extension",
+    "types": [
+      "application/vnd.openofficeorg.extension"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".oxt"
     ]
   },
   {
     "kind": "text",
-    "type": "text/x-pascal",
+    "types": [
+      "text/x-pascal"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".p",
       ".pas"
     ]
   },
   {
     "kind": "application",
-    "type": "application/pkcs10",
+    "types": [
+      "application/pkcs10"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".p10"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-pkcs12",
+    "types": [
+      "application/x-pkcs12"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".p12",
       ".pfx"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-pkcs7-certificates",
+    "types": [
+      "application/x-pkcs7-certificates"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".p7b",
       ".spc"
     ]
   },
   {
     "kind": "application",
-    "type": "application/pkcs7-mime",
+    "types": [
+      "application/pkcs7-mime"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".p7c",
       ".p7m"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-pkcs7-certreqresp",
+    "types": [
+      "application/x-pkcs7-certreqresp"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".p7r"
     ]
   },
   {
     "kind": "application",
-    "type": "application/pkcs7-signature",
+    "types": [
+      "application/pkcs7-signature"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".p7s"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.powerbuilder6",
+    "types": [
+      "application/vnd.powerbuilder6"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".pbd"
     ]
   },
   {
     "kind": "image",
-    "type": "image/x-portable-bitmap",
+    "types": [
+      "image/x-portable-bitmap"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".pbm"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-font-pcf",
+    "types": [
+      "application/x-font-pcf"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".pcf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.hp-pcl",
+    "types": [
+      "application/vnd.hp-pcl"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".pcl"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.hp-pclxl",
+    "types": [
+      "application/vnd.hp-pclxl"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".pclxl"
     ]
   },
   {
     "kind": "image",
-    "type": "image/x-pict",
+    "types": [
+      "image/x-pict"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".pct",
       ".pic"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.curl.pcurl",
+    "types": [
+      "application/vnd.curl.pcurl"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".pcurl"
     ]
   },
   {
     "kind": "image",
-    "type": "image/x-pcx",
+    "types": [
+      "image/x-pcx"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".pcx"
     ]
   },
   {
     "kind": "application",
-    "type": "application/pdf",
+    "types": [
+      "application/pdf"
+    ],
     "description": "Adobe Portable Document Format",
-    "suffixes": [
+    "extensions": [
       ".pdf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/font-tdpfr",
+    "types": [
+      "application/font-tdpfr"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".pfr"
     ]
   },
   {
     "kind": "image",
-    "type": "image/x-portable-graymap",
+    "types": [
+      "image/x-portable-graymap"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".pgm"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-chess-pgn",
+    "types": [
+      "application/x-chess-pgn"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".pgn"
     ]
   },
   {
     "kind": "application",
-    "type": "application/pgp-encrypted",
+    "types": [
+      "application/pgp-encrypted"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".pgp"
     ]
   },
   {
     "kind": "application",
-    "type": "application/pkixcmp",
+    "types": [
+      "application/pkixcmp"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".pki"
     ]
   },
   {
     "kind": "application",
-    "type": "application/pkix-pkipath",
+    "types": [
+      "application/pkix-pkipath"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".pkipath"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.3gpp.pic-bw-large",
+    "types": [
+      "application/vnd.3gpp.pic-bw-large"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".plb"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.mobius.plc",
+    "types": [
+      "application/vnd.mobius.plc"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".plc"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.pocketlearn",
+    "types": [
+      "application/vnd.pocketlearn"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".plf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/pls+xml",
+    "types": [
+      "application/pls+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".pls"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.ctc-posml",
+    "types": [
+      "application/vnd.ctc-posml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".pml"
     ]
   },
   {
     "kind": "image",
-    "type": "image/png",
+    "types": [
+      "image/png"
+    ],
     "description": "Portable Network Graphics",
-    "suffixes": [
+    "extensions": [
       ".png"
     ]
   },
   {
     "kind": "image",
-    "type": "image/x-portable-anymap",
+    "types": [
+      "image/x-portable-anymap"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".pnm"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.macports.portpkg",
+    "types": [
+      "application/vnd.macports.portpkg"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".portpkg"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.ms-powerpoint",
+    "types": [
+      "application/vnd.ms-powerpoint"
+    ],
     "description": "Microsoft PowerPoint",
-    "suffixes": [
+    "extensions": [
       ".pot",
       ".ppa",
       ".pps",
@@ -3281,218 +4065,272 @@
   },
   {
     "kind": "application",
-    "type": "application/vnd.ms-powerpoint.template.macroenabled.12",
+    "types": [
+      "application/vnd.ms-powerpoint.template.macroenabled.12"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".potm"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.openxmlformats-officedocument.presentationml.template",
+    "types": [
+      "application/vnd.openxmlformats-officedocument.presentationml.template"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".potx"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.ms-powerpoint.addin.macroenabled.12",
+    "types": [
+      "application/vnd.ms-powerpoint.addin.macroenabled.12"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ppam"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.cups-ppd",
+    "types": [
+      "application/vnd.cups-ppd"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ppd"
     ]
   },
   {
     "kind": "image",
-    "type": "image/x-portable-pixmap",
+    "types": [
+      "image/x-portable-pixmap"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ppm"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.ms-powerpoint.slideshow.macroenabled.12",
+    "types": [
+      "application/vnd.ms-powerpoint.slideshow.macroenabled.12"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ppsm"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.openxmlformats-officedocument.presentationml.slideshow",
+    "types": [
+      "application/vnd.openxmlformats-officedocument.presentationml.slideshow"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ppsx"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.ms-powerpoint.presentation.macroenabled.12",
+    "types": [
+      "application/vnd.ms-powerpoint.presentation.macroenabled.12"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".pptm"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+    "types": [
+      "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    ],
     "description": "Microsoft PowerPoint (OpenXML)",
-    "suffixes": [
+    "extensions": [
       ".pptx"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.lotus-freelance",
+    "types": [
+      "application/vnd.lotus-freelance"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".pre"
     ]
   },
   {
     "kind": "application",
-    "type": "application/pics-rules",
+    "types": [
+      "application/pics-rules"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".prf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.3gpp.pic-bw-small",
+    "types": [
+      "application/vnd.3gpp.pic-bw-small"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".psb"
     ]
   },
   {
     "kind": "image",
-    "type": "image/vnd.adobe.photoshop",
+    "types": [
+      "image/vnd.adobe.photoshop"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".psd"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-font-linux-psf",
+    "types": [
+      "application/x-font-linux-psf"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".psf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.pvi.ptid1",
+    "types": [
+      "application/vnd.pvi.ptid1"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ptid"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-mspublisher",
+    "types": [
+      "application/x-mspublisher"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".pub"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.3gpp.pic-bw-var",
+    "types": [
+      "application/vnd.3gpp.pic-bw-var"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".pvb"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.3m.post-it-notes",
+    "types": [
+      "application/vnd.3m.post-it-notes"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".pwn"
     ]
   },
   {
     "kind": "text",
-    "type": "text/x-python",
+    "types": [
+      "text/x-python"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".py"
     ]
   },
   {
     "kind": "audio",
-    "type": "audio/vnd.ms-playready.media.pya",
+    "types": [
+      "audio/vnd.ms-playready.media.pya"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".pya"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-python-code",
+    "types": [
+      "application/x-python-code"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".pyc",
       ".pyo"
     ]
   },
   {
     "kind": "video",
-    "type": "video/vnd.ms-playready.media.pyv",
+    "types": [
+      "video/vnd.ms-playready.media.pyv"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".pyv"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.epson.quickanime",
+    "types": [
+      "application/vnd.epson.quickanime"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".qam"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.intu.qbo",
+    "types": [
+      "application/vnd.intu.qbo"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".qbo"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.intu.qfx",
+    "types": [
+      "application/vnd.intu.qfx"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".qfx"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.publishare-delta-tree",
+    "types": [
+      "application/vnd.publishare-delta-tree"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".qps"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.quark.quarkxpress",
+    "types": [
+      "application/vnd.quark.quarkxpress"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".qwd",
       ".qwt",
       ".qxb",
@@ -3503,486 +4341,606 @@
   },
   {
     "kind": "audio",
-    "type": "audio/x-pn-realaudio",
+    "types": [
+      "audio/x-pn-realaudio"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ra",
       ".ram"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-rar-compressed",
+    "types": [
+      "application/x-rar-compressed"
+    ],
     "description": "RAR archive",
-    "suffixes": [
+    "extensions": [
       ".rar"
     ]
   },
   {
     "kind": "image",
-    "type": "image/x-cmu-raster",
+    "types": [
+      "image/x-cmu-raster"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ras"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.ipunplugged.rcprofile",
+    "types": [
+      "application/vnd.ipunplugged.rcprofile"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".rcprofile"
     ]
   },
   {
     "kind": "application",
-    "type": "application/rdf+xml",
+    "types": [
+      "application/rdf+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".rdf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.data-vision.rdz",
+    "types": [
+      "application/vnd.data-vision.rdz"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".rdz"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.businessobjects",
+    "types": [
+      "application/vnd.businessobjects"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".rep"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-dtbresource+xml",
+    "types": [
+      "application/x-dtbresource+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".res"
     ]
   },
   {
     "kind": "image",
-    "type": "image/x-rgb",
+    "types": [
+      "image/x-rgb"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".rgb"
     ]
   },
   {
     "kind": "application",
-    "type": "application/reginfo+xml",
+    "types": [
+      "application/reginfo+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".rif"
     ]
   },
   {
     "kind": "application",
-    "type": "application/resource-lists+xml",
+    "types": [
+      "application/resource-lists+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".rl"
     ]
   },
   {
     "kind": "image",
-    "type": "image/vnd.fujixerox.edmics-rlc",
+    "types": [
+      "image/vnd.fujixerox.edmics-rlc"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".rlc"
     ]
   },
   {
     "kind": "application",
-    "type": "application/resource-lists-diff+xml",
+    "types": [
+      "application/resource-lists-diff+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".rld"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.rn-realmedia",
+    "types": [
+      "application/vnd.rn-realmedia"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".rm"
     ]
   },
   {
     "kind": "audio",
-    "type": "audio/x-pn-realaudio-plugin",
+    "types": [
+      "audio/x-pn-realaudio-plugin"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".rmp"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.jcp.javame.midlet-rms",
+    "types": [
+      "application/vnd.jcp.javame.midlet-rms"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".rms"
     ]
   },
   {
     "kind": "application",
-    "type": "application/relax-ng-compact-syntax",
+    "types": [
+      "application/relax-ng-compact-syntax"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".rnc"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-rpm",
+    "types": [
+      "application/x-rpm"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".rpm"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.nokia.radio-presets",
+    "types": [
+      "application/vnd.nokia.radio-presets"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".rpss"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.nokia.radio-preset",
+    "types": [
+      "application/vnd.nokia.radio-preset"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".rpst"
     ]
   },
   {
     "kind": "application",
-    "type": "application/sparql-query",
+    "types": [
+      "application/sparql-query"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".rq"
     ]
   },
   {
     "kind": "application",
-    "type": "application/rls-services+xml",
+    "types": [
+      "application/rls-services+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".rs"
     ]
   },
   {
     "kind": "application",
-    "type": "application/rsd+xml",
+    "types": [
+      "application/rsd+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".rsd"
     ]
   },
   {
     "kind": "application",
-    "type": "application/rss+xml",
+    "types": [
+      "application/rss+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".rss"
     ]
   },
   {
     "kind": "application",
-    "type": "application/rtf",
+    "types": [
+      "application/rtf"
+    ],
     "description": "Rich Text Format",
-    "suffixes": [
+    "extensions": [
       ".rtf"
     ]
   },
   {
     "kind": "text",
-    "type": "text/richtext",
+    "types": [
+      "text/richtext"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".rtx"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.yamaha.smaf-audio",
+    "types": [
+      "application/vnd.yamaha.smaf-audio"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".saf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/sbml+xml",
+    "types": [
+      "application/sbml+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".sbml"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.ibm.secure-container",
+    "types": [
+      "application/vnd.ibm.secure-container"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".sc"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-msschedule",
+    "types": [
+      "application/x-msschedule"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".scd"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.lotus-screencam",
+    "types": [
+      "application/vnd.lotus-screencam"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".scm"
     ]
   },
   {
     "kind": "application",
-    "type": "application/scvp-cv-request",
+    "types": [
+      "application/scvp-cv-request"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".scq"
     ]
   },
   {
     "kind": "application",
-    "type": "application/scvp-cv-response",
+    "types": [
+      "application/scvp-cv-response"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".scs"
     ]
   },
   {
     "kind": "text",
-    "type": "text/vnd.curl.scurl",
+    "types": [
+      "text/vnd.curl.scurl"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".scurl"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.stardivision.draw",
+    "types": [
+      "application/vnd.stardivision.draw"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".sda"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.stardivision.calc",
+    "types": [
+      "application/vnd.stardivision.calc"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".sdc"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.stardivision.impress",
+    "types": [
+      "application/vnd.stardivision.impress"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".sdd"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.solent.sdkm+xml",
+    "types": [
+      "application/vnd.solent.sdkm+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".sdkd",
       ".sdkm"
     ]
   },
   {
     "kind": "application",
-    "type": "application/sdp",
+    "types": [
+      "application/sdp"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".sdp"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.stardivision.writer",
+    "types": [
+      "application/vnd.stardivision.writer"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".sdw",
       ".vor"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.seemail",
+    "types": [
+      "application/vnd.seemail"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".see"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.sema",
+    "types": [
+      "application/vnd.sema"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".sema"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.semd",
+    "types": [
+      "application/vnd.semd"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".semd"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.semf",
+    "types": [
+      "application/vnd.semf"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".semf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/java-serialized-object",
+    "types": [
+      "application/java-serialized-object"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ser"
     ]
   },
   {
     "kind": "application",
-    "type": "application/set-payment-initiation",
+    "types": [
+      "application/set-payment-initiation"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".setpay"
     ]
   },
   {
     "kind": "application",
-    "type": "application/set-registration-initiation",
+    "types": [
+      "application/set-registration-initiation"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".setreg"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.hydrostatix.sof-data",
+    "types": [
+      "application/vnd.hydrostatix.sof-data"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".sfd-hdstx"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.spotfire.sfs",
+    "types": [
+      "application/vnd.spotfire.sfs"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".sfs"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.stardivision.writer-global",
+    "types": [
+      "application/vnd.stardivision.writer-global"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".sgl"
     ]
   },
   {
     "kind": "text",
-    "type": "text/sgml",
+    "types": [
+      "text/sgml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".sgm",
       ".sgml"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-sh",
+    "types": [
+      "application/x-sh"
+    ],
     "description": "Bourne shell script",
-    "suffixes": [
+    "extensions": [
       ".sh"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-shar",
+    "types": [
+      "application/x-shar"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".shar"
     ]
   },
   {
     "kind": "application",
-    "type": "application/shf+xml",
+    "types": [
+      "application/shf+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".shf"
     ]
   },
   {
     "kind": "text",
-    "type": "text/vnd.wap.si",
+    "types": [
+      "text/vnd.wap.si"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".si"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.wap.sic",
+    "types": [
+      "application/vnd.wap.sic"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".sic"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.symbian.install",
+    "types": [
+      "application/vnd.symbian.install"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".sis",
       ".sisx"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-stuffit",
+    "types": [
+      "application/x-stuffit"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".sit"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-stuffitx",
+    "types": [
+      "application/x-stuffitx"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".sitx"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.koan",
+    "types": [
+      "application/vnd.koan"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".skd",
       ".skm",
       ".skp",
@@ -3991,521 +4949,649 @@
   },
   {
     "kind": "text",
-    "type": "text/vnd.wap.sl",
+    "types": [
+      "text/vnd.wap.sl"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".sl"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.wap.slc",
+    "types": [
+      "application/vnd.wap.slc"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".slc"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.ms-powerpoint.slide.macroenabled.12",
+    "types": [
+      "application/vnd.ms-powerpoint.slide.macroenabled.12"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".sldm"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.openxmlformats-officedocument.presentationml.slide",
+    "types": [
+      "application/vnd.openxmlformats-officedocument.presentationml.slide"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".sldx"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.epson.salt",
+    "types": [
+      "application/vnd.epson.salt"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".slt"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.stardivision.math",
+    "types": [
+      "application/vnd.stardivision.math"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".smf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/smil+xml",
+    "types": [
+      "application/smil+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".smi",
       ".smil"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-font-snf",
+    "types": [
+      "application/x-font-snf"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".snf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.yamaha.smaf-phrase",
+    "types": [
+      "application/vnd.yamaha.smaf-phrase"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".spf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-futuresplash",
+    "types": [
+      "application/x-futuresplash"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".spl"
     ]
   },
   {
     "kind": "text",
-    "type": "text/vnd.in3d.spot",
+    "types": [
+      "text/vnd.in3d.spot"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".spot"
     ]
   },
   {
     "kind": "application",
-    "type": "application/scvp-vp-response",
+    "types": [
+      "application/scvp-vp-response"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".spp"
     ]
   },
   {
     "kind": "application",
-    "type": "application/scvp-vp-request",
+    "types": [
+      "application/scvp-vp-request"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".spq"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-wais-source",
+    "types": [
+      "application/x-wais-source"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".src"
     ]
   },
   {
     "kind": "application",
-    "type": "application/sparql-results+xml",
+    "types": [
+      "application/sparql-results+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".srx"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.kodak-descriptor",
+    "types": [
+      "application/vnd.kodak-descriptor"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".sse"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.epson.ssf",
+    "types": [
+      "application/vnd.epson.ssf"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ssf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/ssml+xml",
+    "types": [
+      "application/ssml+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ssml"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.sun.xml.calc.template",
+    "types": [
+      "application/vnd.sun.xml.calc.template"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".stc"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.sun.xml.draw.template",
+    "types": [
+      "application/vnd.sun.xml.draw.template"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".std"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.wt.stf",
+    "types": [
+      "application/vnd.wt.stf"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".stf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.sun.xml.impress.template",
+    "types": [
+      "application/vnd.sun.xml.impress.template"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".sti"
     ]
   },
   {
     "kind": "application",
-    "type": "application/hyperstudio",
+    "types": [
+      "application/hyperstudio"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".stk"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.ms-pki.stl",
+    "types": [
+      "application/vnd.ms-pki.stl"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".stl"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.pg.format",
+    "types": [
+      "application/vnd.pg.format"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".str"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.sun.xml.writer.template",
+    "types": [
+      "application/vnd.sun.xml.writer.template"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".stw"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.sus-calendar",
+    "types": [
+      "application/vnd.sus-calendar"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".sus",
       ".susp"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-sv4cpio",
+    "types": [
+      "application/x-sv4cpio"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".sv4cpio"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-sv4crc",
+    "types": [
+      "application/x-sv4crc"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".sv4crc"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.svd",
+    "types": [
+      "application/vnd.svd"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".svd"
     ]
   },
   {
     "kind": "image",
-    "type": "image/svg+xml",
+    "types": [
+      "image/svg+xml"
+    ],
     "description": "Scalable Vector Graphics",
-    "suffixes": [
+    "extensions": [
       ".svg",
       ".svgz"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-shockwave-flash",
+    "types": [
+      "application/x-shockwave-flash"
+    ],
     "description": "Small Web Format",
-    "suffixes": [
+    "extensions": [
       ".swf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.arastra.swi",
+    "types": [
+      "application/vnd.arastra.swi"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".swi"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.sun.xml.calc",
+    "types": [
+      "application/vnd.sun.xml.calc"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".sxc"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.sun.xml.draw",
+    "types": [
+      "application/vnd.sun.xml.draw"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".sxd"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.sun.xml.writer.global",
+    "types": [
+      "application/vnd.sun.xml.writer.global"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".sxg"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.sun.xml.impress",
+    "types": [
+      "application/vnd.sun.xml.impress"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".sxi"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.sun.xml.math",
+    "types": [
+      "application/vnd.sun.xml.math"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".sxm"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.sun.xml.writer",
+    "types": [
+      "application/vnd.sun.xml.writer"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".sxw"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.tao.intent-module-archive",
+    "types": [
+      "application/vnd.tao.intent-module-archive"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".tao"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-tar",
+    "types": [
+      "application/x-tar"
+    ],
     "description": "Tape Archive",
-    "suffixes": [
+    "extensions": [
       ".tar"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.3gpp2.tcap",
+    "types": [
+      "application/vnd.3gpp2.tcap"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".tcap"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-tcl",
+    "types": [
+      "application/x-tcl"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".tcl"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.smart.teacher",
+    "types": [
+      "application/vnd.smart.teacher"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".teacher"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-tex",
+    "types": [
+      "application/x-tex"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".tex"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-texinfo",
+    "types": [
+      "application/x-texinfo"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".texi",
       ".texinfo"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-tex-tfm",
+    "types": [
+      "application/x-tex-tfm"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".tfm"
     ]
   },
   {
     "kind": "image",
-    "type": "image/tiff",
+    "types": [
+      "image/tiff"
+    ],
     "description": "Tagged Image File Format",
-    "suffixes": [
+    "extensions": [
       ".tif",
       ".tiff"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.tmobile-livetv",
+    "types": [
+      "application/vnd.tmobile-livetv"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".tmo"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-bittorrent",
+    "types": [
+      "application/x-bittorrent"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".torrent"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.groove-tool-template",
+    "types": [
+      "application/vnd.groove-tool-template"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".tpl"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.trid.tpt",
+    "types": [
+      "application/vnd.trid.tpt"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".tpt"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.trueapp",
+    "types": [
+      "application/vnd.trueapp"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".tra"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-msterminal",
+    "types": [
+      "application/x-msterminal"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".trm"
     ]
   },
   {
     "kind": "text",
-    "type": "text/tab-separated-values",
+    "types": [
+      "text/tab-separated-values"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".tsv"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-font-ttf",
+    "types": [
+      "application/x-font-ttf"
+    ],
     "description": "TrueType Font",
-    "suffixes": [
+    "extensions": [
       ".ttc",
       ".ttf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.simtech-mindmapper",
+    "types": [
+      "application/vnd.simtech-mindmapper"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".twd",
       ".twds"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.genomatix.tuxedo",
+    "types": [
+      "application/vnd.genomatix.tuxedo"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".txd"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.mobius.txf",
+    "types": [
+      "application/vnd.mobius.txf"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".txf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.ufdl",
+    "types": [
+      "application/vnd.ufdl"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ufd",
       ".ufdl"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.umajin",
+    "types": [
+      "application/vnd.umajin"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".umj"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.unity",
+    "types": [
+      "application/vnd.unity"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".unityweb"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.uoml+xml",
+    "types": [
+      "application/vnd.uoml+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".uoml"
     ]
   },
   {
     "kind": "text",
-    "type": "text/uri-list",
+    "types": [
+      "text/uri-list"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".uri",
       ".uris",
       ".urls"
@@ -4513,98 +5599,122 @@
   },
   {
     "kind": "application",
-    "type": "application/x-ustar",
+    "types": [
+      "application/x-ustar"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".ustar"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.uiq.theme",
+    "types": [
+      "application/vnd.uiq.theme"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".utz"
     ]
   },
   {
     "kind": "text",
-    "type": "text/x-uuencode",
+    "types": [
+      "text/x-uuencode"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".uu"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-cdlink",
+    "types": [
+      "application/x-cdlink"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".vcd"
     ]
   },
   {
     "kind": "text",
-    "type": "text/x-vcard",
+    "types": [
+      "text/x-vcard"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".vcf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.groove-vcard",
+    "types": [
+      "application/vnd.groove-vcard"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".vcg"
     ]
   },
   {
     "kind": "text",
-    "type": "text/x-vcalendar",
+    "types": [
+      "text/x-vcalendar"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".vcs"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.vcx",
+    "types": [
+      "application/vnd.vcx"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".vcx"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.visionary",
+    "types": [
+      "application/vnd.visionary"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".vis"
     ]
   },
   {
     "kind": "video",
-    "type": "video/vnd.vivo",
+    "types": [
+      "video/vnd.vivo"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".viv"
     ]
   },
   {
     "kind": "model",
-    "type": "model/vrml",
+    "types": [
+      "model/vrml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".vrml",
       ".wrl"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.visio",
+    "types": [
+      "application/vnd.visio"
+    ],
     "description": "Microsoft Visio",
-    "suffixes": [
+    "extensions": [
       ".vsd",
       ".vss",
       ".vst",
@@ -4613,81 +5723,102 @@
   },
   {
     "kind": "application",
-    "type": "application/vnd.vsf",
+    "types": [
+      "application/vnd.vsf"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".vsf"
     ]
   },
   {
     "kind": "model",
-    "type": "model/vnd.vtu",
+    "types": [
+      "model/vnd.vtu"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".vtu"
     ]
   },
   {
     "kind": "application",
-    "type": "application/voicexml+xml",
+    "types": [
+      "application/voicexml+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".vxml"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-doom",
+    "types": [
+      "application/x-doom"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".wad"
     ]
   },
   {
     "kind": "audio",
-    "type": "audio/x-wav",
+    "types": [
+      "audio/wav",
+      "audio/x-wav"
+    ],
     "description": "Waveform Audio Format",
-    "suffixes": [
+    "extensions": [
       ".wav"
     ]
   },
   {
     "kind": "audio",
-    "type": "audio/x-ms-wax",
+    "types": [
+      "audio/x-ms-wax"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".wax"
     ]
   },
   {
     "kind": "image",
-    "type": "image/vnd.wap.wbmp",
+    "types": [
+      "image/vnd.wap.wbmp"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".wbmp"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.criticaltools.wbs+xml",
+    "types": [
+      "application/vnd.criticaltools.wbs+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".wbs"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.wap.wbxml",
+    "types": [
+      "application/vnd.wap.wbxml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".wbxml"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.ms-works",
+    "types": [
+      "application/vnd.ms-works"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".wcm",
       ".wdb",
       ".wks",
@@ -4696,282 +5827,352 @@
   },
   {
     "kind": "video",
-    "type": "video/x-ms-wm",
+    "types": [
+      "video/x-ms-wm"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".wm"
     ]
   },
   {
     "kind": "audio",
-    "type": "audio/x-ms-wma",
+    "types": [
+      "audio/x-ms-wma"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".wma"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-ms-wmd",
+    "types": [
+      "application/x-ms-wmd"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".wmd"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-msmetafile",
+    "types": [
+      "application/x-msmetafile"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".wmf"
     ]
   },
   {
     "kind": "text",
-    "type": "text/vnd.wap.wml",
+    "types": [
+      "text/vnd.wap.wml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".wml"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.wap.wmlc",
+    "types": [
+      "application/vnd.wap.wmlc"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".wmlc"
     ]
   },
   {
     "kind": "text",
-    "type": "text/vnd.wap.wmlscript",
+    "types": [
+      "text/vnd.wap.wmlscript"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".wmls"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.wap.wmlscriptc",
+    "types": [
+      "application/vnd.wap.wmlscriptc"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".wmlsc"
     ]
   },
   {
     "kind": "video",
-    "type": "video/x-ms-wmv",
+    "types": [
+      "video/x-ms-wmv"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".wmv"
     ]
   },
   {
     "kind": "video",
-    "type": "video/x-ms-wmx",
+    "types": [
+      "video/x-ms-wmx"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".wmx"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-ms-wmz",
+    "types": [
+      "application/x-ms-wmz"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".wmz"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.wordperfect",
+    "types": [
+      "application/vnd.wordperfect"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".wpd"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.ms-wpl",
+    "types": [
+      "application/vnd.ms-wpl"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".wpl"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.wqd",
+    "types": [
+      "application/vnd.wqd"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".wqd"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-mswrite",
+    "types": [
+      "application/x-mswrite"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".wri"
     ]
   },
   {
     "kind": "application",
-    "type": "application/wsdl+xml",
+    "types": [
+      "application/wsdl+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".wsdl"
     ]
   },
   {
     "kind": "application",
-    "type": "application/wspolicy+xml",
+    "types": [
+      "application/wspolicy+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".wspolicy"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.webturbo",
+    "types": [
+      "application/vnd.webturbo"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".wtb"
     ]
   },
   {
     "kind": "video",
-    "type": "video/x-ms-wvx",
+    "types": [
+      "video/x-ms-wvx"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".wvx"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.hzn-3d-crossword",
+    "types": [
+      "application/vnd.hzn-3d-crossword"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".x3d"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-silverlight-app",
+    "types": [
+      "application/x-silverlight-app"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".xap"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.xara",
+    "types": [
+      "application/vnd.xara"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".xar"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-ms-xbap",
+    "types": [
+      "application/x-ms-xbap"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".xbap"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.fujixerox.docuworks.binder",
+    "types": [
+      "application/vnd.fujixerox.docuworks.binder"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".xbd"
     ]
   },
   {
     "kind": "image",
-    "type": "image/x-xbitmap",
+    "types": [
+      "image/x-xbitmap"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".xbm"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.syncml.dm+xml",
+    "types": [
+      "application/vnd.syncml.dm+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".xdm"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.adobe.xdp+xml",
+    "types": [
+      "application/vnd.adobe.xdp+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".xdp"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.fujixerox.docuworks",
+    "types": [
+      "application/vnd.fujixerox.docuworks"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".xdw"
     ]
   },
   {
     "kind": "application",
-    "type": "application/xenc+xml",
+    "types": [
+      "application/xenc+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".xenc"
     ]
   },
   {
     "kind": "application",
-    "type": "application/patch-ops-error+xml",
+    "types": [
+      "application/patch-ops-error+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".xer"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.adobe.xfdf",
+    "types": [
+      "application/vnd.adobe.xfdf"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".xfdf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.xfdl",
+    "types": [
+      "application/vnd.xfdl"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".xfdl"
     ]
   },
   {
     "kind": "application",
-    "type": "application/xhtml+xml",
+    "types": [
+      "application/xhtml+xml"
+    ],
     "description": "XHTML",
-    "suffixes": [
+    "extensions": [
       ".xht",
       ".xhtml"
     ]
   },
   {
     "kind": "image",
-    "type": "image/vnd.xiff",
+    "types": [
+      "image/vnd.xiff"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".xif"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.ms-excel",
+    "types": [
+      "application/vnd.ms-excel"
+    ],
     "description": "Microsoft Excel",
-    "suffixes": [
+    "extensions": [
       ".xla",
       ".xlb",
       ".xlc",
@@ -4983,57 +6184,72 @@
   },
   {
     "kind": "application",
-    "type": "application/vnd.ms-excel.addin.macroenabled.12",
+    "types": [
+      "application/vnd.ms-excel.addin.macroenabled.12"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".xlam"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.ms-excel.sheet.binary.macroenabled.12",
+    "types": [
+      "application/vnd.ms-excel.sheet.binary.macroenabled.12"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".xlsb"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.ms-excel.sheet.macroenabled.12",
+    "types": [
+      "application/vnd.ms-excel.sheet.macroenabled.12"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".xlsm"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "types": [
+      "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    ],
     "description": "Microsoft Excel (OpenXML)",
-    "suffixes": [
+    "extensions": [
       ".xlsx"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.ms-excel.template.macroenabled.12",
+    "types": [
+      "application/vnd.ms-excel.template.macroenabled.12"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".xltm"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.template",
+    "types": [
+      "application/vnd.openxmlformats-officedocument.spreadsheetml.template"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".xltx"
     ]
   },
   {
     "kind": "application",
-    "type": "application/xml",
+    "types": [
+      "application/xml",
+      "text/xml"
+    ],
     "description": "XML",
-    "suffixes": [
+    "extensions": [
       ".xml",
       ".xpdl",
       ".xsl"
@@ -5041,179 +6257,223 @@
   },
   {
     "kind": "application",
-    "type": "application/vnd.olpc-sugar",
+    "types": [
+      "application/vnd.olpc-sugar"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".xo"
     ]
   },
   {
     "kind": "application",
-    "type": "application/xop+xml",
+    "types": [
+      "application/xop+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".xop"
     ]
   },
   {
     "kind": "application",
-    "type": "application/x-xpinstall",
+    "types": [
+      "application/x-xpinstall"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".xpi"
     ]
   },
   {
     "kind": "image",
-    "type": "image/x-xpixmap",
+    "types": [
+      "image/x-xpixmap"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".xpm"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.is-xpr",
+    "types": [
+      "application/vnd.is-xpr"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".xpr"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.ms-xpsdocument",
+    "types": [
+      "application/vnd.ms-xpsdocument"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".xps"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.intercon.formnet",
+    "types": [
+      "application/vnd.intercon.formnet"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".xpw",
       ".xpx"
     ]
   },
   {
     "kind": "application",
-    "type": "application/xslt+xml",
+    "types": [
+      "application/xslt+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".xslt"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.syncml+xml",
+    "types": [
+      "application/vnd.syncml+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".xsm"
     ]
   },
   {
     "kind": "application",
-    "type": "application/xspf+xml",
+    "types": [
+      "application/xspf+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".xspf"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.mozilla.xul+xml",
+    "types": [
+      "application/vnd.mozilla.xul+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".xul"
     ]
   },
   {
     "kind": "image",
-    "type": "image/x-xwindowdump",
+    "types": [
+      "image/x-xwindowdump"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".xwd"
     ]
   },
   {
     "kind": "chemical",
-    "type": "chemical/x-xyz",
+    "types": [
+      "chemical/x-xyz"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".xyz"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.zzazz.deck+xml",
+    "types": [
+      "application/vnd.zzazz.deck+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".zaz"
     ]
   },
   {
     "kind": "application",
-    "type": "application/zip",
+    "types": [
+      "application/zip"
+    ],
     "description": "ZIP archive",
-    "suffixes": [
+    "extensions": [
       ".zip"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.zul",
+    "types": [
+      "application/vnd.zul"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".zir",
       ".zirz"
     ]
   },
   {
     "kind": "application",
-    "type": "application/vnd.handheld-entertainment+xml",
+    "types": [
+      "application/vnd.handheld-entertainment+xml"
+    ],
     "description": "",
-    "suffixes": [
+    "extensions": [
       ".zmm"
     ]
   },
   {
     "kind": "audio",
-    "type": "audio/webm",
+    "types": [
+      "audio/webm"
+    ],
     "description": "WEBM audio",
-    "suffixes": [
+    "extensions": [
       ".weba"
     ]
   },
   {
     "kind": "video",
-    "type": "video/webm",
+    "types": [
+      "video/webm"
+    ],
     "description": "WEBM video",
-    "suffixes": [
+    "extensions": [
       ".webm"
     ]
   },
   {
-    "kind": "webp",
-    "type": "image/webp",
+    "kind": "image",
+    "types": [
+      "image/webp"
+    ],
     "description": "WEBP image",
-    "suffixes": [
+    "extensions": [
       ".webp"
     ]
   },
   {
     "kind": "font",
-    "type": "font/woff2",
+    "types": [
+      "font/woff2"
+    ],
     "description": "Web Open Font Format",
-    "suffixes": [
+    "extensions": [
       ".woff2"
     ]
   },
   {
     "kind": "font",
-    "type": "font/woff",
+    "types": [
+      "font/woff"
+    ],
     "description": "Web Open Font Format",
-    "suffixes": [
+    "extensions": [
       ".woff"
     ]
   }

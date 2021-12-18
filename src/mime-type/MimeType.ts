@@ -9,23 +9,29 @@ import mimetypes from './mimetypes.json'
 
 export default class MimeType {
   /**
-   * Returns the MIME type of the associated plugin.
-   */
-  readonly type: string | undefined
-  /**
    * Returns the kind of the associated plugin.
    */
   readonly kind: string | undefined
-
   /**
    * Returns a description of the associated plugin or an empty string if there is none.
    */
   readonly description: string | undefined
-
+  /**
+   * Returns the MIME type of the associated plugin.
+   */
+  readonly type: string | undefined
+  /**
+   * Returns the MIME types of the associated plugin.
+   */
+  readonly types: string[] | undefined
   /**
    * A string containing valid file extensions for the data displayed by the plugin, or an empty string if an extension is not valid for the particular module.
    */
-  readonly suffixes: string[] | undefined
+  readonly extension: string | undefined
+  /**
+   * A string containing valid file extensions for the data displayed by the plugin, or an empty string if an extension is not valid for the particular module.
+   */
+  readonly extensions: string[] | undefined
 
   /**
    * Create a mime type.
@@ -34,7 +40,7 @@ export default class MimeType {
    */
   constructor(init: string) {
     const mimetype = mimetypes.find((mimetype) => {
-      if (mimetype.type === init || mimetype.suffixes.includes(init)) {
+      if (mimetype.types.includes(init) || mimetype.extensions.includes(init)) {
         return true
       } else {
         return false
@@ -42,10 +48,12 @@ export default class MimeType {
     })
 
     if (mimetype) {
-      this.type = mimetype.type
       this.kind = mimetype.kind
       this.description = mimetype.description
-      this.suffixes = mimetype.suffixes
+      this.type = mimetype.types[0]
+      this.types = mimetype.types
+      this.extension = mimetype.extensions[0]
+      this.extensions = mimetype.extensions
     }
   }
 }
