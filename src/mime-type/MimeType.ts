@@ -25,7 +25,7 @@ export default class MimeType {
    */
   readonly types: string[] | undefined
   /**
-   * A string containing valid file extensions for the data displayed by the plugin, or an empty string if an extension is not valid for the particular module.
+   * A string specifying the recommended file extension for the data displayed by the plug-in.
    */
   readonly extension: string | undefined
   /**
