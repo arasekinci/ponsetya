@@ -12,6 +12,10 @@ export default class MimeType {
    * Returns the MIME type of the associated plugin.
    */
   readonly type: string | undefined
+  /**
+   * Returns the kind of the associated plugin.
+   */
+  readonly kind: string | undefined
 
   /**
    * Returns a description of the associated plugin or an empty string if there is none.
@@ -39,6 +43,7 @@ export default class MimeType {
 
     if (mimetype) {
       this.type = mimetype.type
+      this.kind = mimetype.kind
       this.description = mimetype.description
       this.suffixes = mimetype.suffixes
     }
