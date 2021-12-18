@@ -1,5 +1,6 @@
 [
   {
+    "kind": "application",
     "type": "application/vnd.lotus-1-2-3",
     "description": "",
     "suffixes": [
@@ -7,6 +8,7 @@
     ]
   },
   {
+    "kind": "text",
     "type": "text/vnd.in3d.3dml",
     "description": "",
     "suffixes": [
@@ -14,6 +16,7 @@
     ]
   },
   {
+    "kind": "video",
     "type": "video/3gpp2",
     "description": "",
     "suffixes": [
@@ -21,6 +24,7 @@
     ]
   },
   {
+    "kind": "video",
     "type": "video/3gpp",
     "description": "",
     "suffixes": [
@@ -28,8 +32,9 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/octet-stream",
-    "description": "",
+    "description": "Any kind of binary data",
     "suffixes": [
       ".a",
       ".bin",
@@ -52,6 +57,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-authorware-bin",
     "description": "",
     "suffixes": [
@@ -62,6 +68,7 @@
     ]
   },
   {
+    "kind": "audio",
     "type": "audio/x-aac",
     "description": "",
     "suffixes": [
@@ -69,6 +76,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-authorware-map",
     "description": "",
     "suffixes": [
@@ -76,6 +84,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-authorware-seg",
     "description": "",
     "suffixes": [
@@ -83,6 +92,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-abiword",
     "description": "",
     "suffixes": [
@@ -90,6 +100,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.americandynamics.acc",
     "description": "",
     "suffixes": [
@@ -97,6 +108,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-ace-compressed",
     "description": "",
     "suffixes": [
@@ -104,6 +116,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.acucobol",
     "description": "",
     "suffixes": [
@@ -111,6 +124,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.acucorp",
     "description": "",
     "suffixes": [
@@ -119,6 +133,7 @@
     ]
   },
   {
+    "kind": "audio",
     "type": "audio/adpcm",
     "description": "",
     "suffixes": [
@@ -126,6 +141,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.audiograph",
     "description": "",
     "suffixes": [
@@ -133,6 +149,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-font-type1",
     "description": "",
     "suffixes": [
@@ -143,6 +160,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ibm.modcap",
     "description": "",
     "suffixes": [
@@ -152,6 +170,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/postscript",
     "description": "",
     "suffixes": [
@@ -161,6 +180,7 @@
     ]
   },
   {
+    "kind": "audio",
     "type": "audio/x-aiff",
     "description": "",
     "suffixes": [
@@ -170,6 +190,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.adobe.air-application-installer-package+zip",
     "description": "",
     "suffixes": [
@@ -177,6 +198,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.amiga.ami",
     "description": "",
     "suffixes": [
@@ -184,6 +206,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.android.package-archive",
     "description": "",
     "suffixes": [
@@ -191,6 +214,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-ms-application",
     "description": "",
     "suffixes": [
@@ -198,6 +222,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.lotus-approach",
     "description": "",
     "suffixes": [
@@ -205,6 +230,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/pgp-signature",
     "description": "",
     "suffixes": [
@@ -213,6 +239,7 @@
     ]
   },
   {
+    "kind": "video",
     "type": "video/x-ms-asf",
     "description": "",
     "suffixes": [
@@ -221,6 +248,7 @@
     ]
   },
   {
+    "kind": "text",
     "type": "text/x-asm",
     "description": "",
     "suffixes": [
@@ -229,6 +257,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.accpac.simply.aso",
     "description": "",
     "suffixes": [
@@ -236,6 +265,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/atom+xml",
     "description": "",
     "suffixes": [
@@ -243,6 +273,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/atomcat+xml",
     "description": "",
     "suffixes": [
@@ -250,6 +281,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/atomsvc+xml",
     "description": "",
     "suffixes": [
@@ -257,6 +289,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.antix.game-component",
     "description": "",
     "suffixes": [
@@ -264,6 +297,7 @@
     ]
   },
   {
+    "kind": "audio",
     "type": "audio/basic",
     "description": "",
     "suffixes": [
@@ -272,13 +306,15 @@
     ]
   },
   {
+    "kind": "video",
     "type": "video/x-msvideo",
-    "description": "",
+    "description": "Audio Video",
     "suffixes": [
       ".avi"
     ]
   },
   {
+    "kind": "application",
     "type": "application/applixware",
     "description": "",
     "suffixes": [
@@ -286,6 +322,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.airzip.filesecure.azf",
     "description": "",
     "suffixes": [
@@ -293,6 +330,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.airzip.filesecure.azs",
     "description": "",
     "suffixes": [
@@ -300,13 +338,15 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.amazon.ebook",
-    "description": "",
+    "description": "Amazon Kindle eBook",
     "suffixes": [
       ".azw"
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-msdownload",
     "description": "",
     "suffixes": [
@@ -318,6 +358,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-bcpio",
     "description": "",
     "suffixes": [
@@ -325,6 +366,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-font-bdf",
     "description": "",
     "suffixes": [
@@ -332,6 +374,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.syncml.dm+wbxml",
     "description": "",
     "suffixes": [
@@ -339,6 +382,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.fujitsu.oasysprs",
     "description": "",
     "suffixes": [
@@ -346,6 +390,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.bmi",
     "description": "",
     "suffixes": [
@@ -353,13 +398,15 @@
     ]
   },
   {
+    "kind": "image",
     "type": "image/bmp",
-    "description": "",
+    "description": "Windows OS/2 Bitmap Graphics",
     "suffixes": [
       ".bmp"
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.framemaker",
     "description": "",
     "suffixes": [
@@ -370,6 +417,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.previewsystems.box",
     "description": "",
     "suffixes": [
@@ -377,14 +425,16 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-bzip2",
-    "description": "",
+    "description": "BZip2 archive",
     "suffixes": [
       ".boz",
       ".bz2"
     ]
   },
   {
+    "kind": "image",
     "type": "image/prs.btif",
     "description": "",
     "suffixes": [
@@ -392,13 +442,15 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-bzip",
-    "description": "",
+    "description": "BZip archive",
     "suffixes": [
       ".bz"
     ]
   },
   {
+    "kind": "text",
     "type": "text/x-c",
     "description": "",
     "suffixes": [
@@ -412,6 +464,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.clonk.c4group",
     "description": "",
     "suffixes": [
@@ -423,6 +476,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ms-cab-compressed",
     "description": "",
     "suffixes": [
@@ -430,6 +484,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.curl.car",
     "description": "",
     "suffixes": [
@@ -437,6 +492,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ms-pki.seccat",
     "description": "",
     "suffixes": [
@@ -444,6 +500,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-director",
     "description": "",
     "suffixes": [
@@ -459,6 +516,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/ccxml+xml",
     "description": "",
     "suffixes": [
@@ -466,6 +524,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.contact.cmsg",
     "description": "",
     "suffixes": [
@@ -473,6 +532,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-netcdf",
     "description": "",
     "suffixes": [
@@ -481,6 +541,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.mediastation.cdkey",
     "description": "",
     "suffixes": [
@@ -488,6 +549,7 @@
     ]
   },
   {
+    "kind": "chemical",
     "type": "chemical/x-cdx",
     "description": "",
     "suffixes": [
@@ -495,6 +557,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.chemdraw+xml",
     "description": "",
     "suffixes": [
@@ -502,6 +565,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.cinderella",
     "description": "",
     "suffixes": [
@@ -509,6 +573,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/pkix-cert",
     "description": "",
     "suffixes": [
@@ -516,6 +581,7 @@
     ]
   },
   {
+    "kind": "image",
     "type": "image/cgm",
     "description": "",
     "suffixes": [
@@ -523,6 +589,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-chat",
     "description": "",
     "suffixes": [
@@ -530,6 +597,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ms-htmlhelp",
     "description": "",
     "suffixes": [
@@ -537,6 +605,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.kde.kchart",
     "description": "",
     "suffixes": [
@@ -544,6 +613,7 @@
     ]
   },
   {
+    "kind": "chemical",
     "type": "chemical/x-cif",
     "description": "",
     "suffixes": [
@@ -551,6 +621,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.anser-web-certificate-issue-initiation",
     "description": "",
     "suffixes": [
@@ -558,6 +629,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ms-artgalry",
     "description": "",
     "suffixes": [
@@ -565,6 +637,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.claymore",
     "description": "",
     "suffixes": [
@@ -572,6 +645,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/java-vm",
     "description": "",
     "suffixes": [
@@ -579,6 +653,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.crick.clicker.keyboard",
     "description": "",
     "suffixes": [
@@ -586,6 +661,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.crick.clicker.palette",
     "description": "",
     "suffixes": [
@@ -593,6 +669,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.crick.clicker.template",
     "description": "",
     "suffixes": [
@@ -600,6 +677,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.crick.clicker.wordbank",
     "description": "",
     "suffixes": [
@@ -607,6 +685,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.crick.clicker",
     "description": "",
     "suffixes": [
@@ -614,6 +693,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-msclip",
     "description": "",
     "suffixes": [
@@ -621,6 +701,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.cosmocaller",
     "description": "",
     "suffixes": [
@@ -628,6 +709,7 @@
     ]
   },
   {
+    "kind": "chemical",
     "type": "chemical/x-cmdf",
     "description": "",
     "suffixes": [
@@ -635,6 +717,7 @@
     ]
   },
   {
+    "kind": "chemical",
     "type": "chemical/x-cml",
     "description": "",
     "suffixes": [
@@ -642,6 +725,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.yellowriver-custom-menu",
     "description": "",
     "suffixes": [
@@ -649,6 +733,7 @@
     ]
   },
   {
+    "kind": "image",
     "type": "image/x-cmx",
     "description": "",
     "suffixes": [
@@ -656,6 +741,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.rim.cod",
     "description": "",
     "suffixes": [
@@ -663,8 +749,9 @@
     ]
   },
   {
+    "kind": "text",
     "type": "text/plain",
-    "description": "",
+    "description": "Text",
     "suffixes": [
       ".conf",
       ".def",
@@ -679,6 +766,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-cpio",
     "description": "",
     "suffixes": [
@@ -686,6 +774,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/mac-compactpro",
     "description": "",
     "suffixes": [
@@ -693,6 +782,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-mscardfile",
     "description": "",
     "suffixes": [
@@ -700,6 +790,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/pkix-crl",
     "description": "",
     "suffixes": [
@@ -707,6 +798,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-x509-ca-cert",
     "description": "",
     "suffixes": [
@@ -715,13 +807,15 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-csh",
-    "description": "",
+    "description": "C-Shell script",
     "suffixes": [
       ".csh"
     ]
   },
   {
+    "kind": "chemical",
     "type": "chemical/x-csml",
     "description": "",
     "suffixes": [
@@ -729,6 +823,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.commonspace",
     "description": "",
     "suffixes": [
@@ -736,20 +831,23 @@
     ]
   },
   {
+    "kind": "text",
     "type": "text/css",
-    "description": "",
+    "description": "Cascading Style Sheets",
     "suffixes": [
       ".css"
     ]
   },
   {
+    "kind": "text",
     "type": "text/csv",
-    "description": "",
+    "description": "Comma-separated Values",
     "suffixes": [
       ".csv"
     ]
   },
   {
+    "kind": "application",
     "type": "application/cu-seeme",
     "description": "",
     "suffixes": [
@@ -757,6 +855,7 @@
     ]
   },
   {
+    "kind": "text",
     "type": "text/vnd.curl",
     "description": "",
     "suffixes": [
@@ -764,6 +863,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/prs.cww",
     "description": "",
     "suffixes": [
@@ -771,6 +871,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.mobius.daf",
     "description": "",
     "suffixes": [
@@ -778,6 +879,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.fdsn.seed",
     "description": "",
     "suffixes": [
@@ -786,6 +888,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/davmount+xml",
     "description": "",
     "suffixes": [
@@ -793,6 +896,7 @@
     ]
   },
   {
+    "kind": "text",
     "type": "text/vnd.curl.dcurl",
     "description": "",
     "suffixes": [
@@ -800,6 +904,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.oma.dd2+xml",
     "description": "",
     "suffixes": [
@@ -807,6 +912,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.fujixerox.ddd",
     "description": "",
     "suffixes": [
@@ -814,6 +920,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-debian-package",
     "description": "",
     "suffixes": [
@@ -822,6 +929,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.dreamfactory",
     "description": "",
     "suffixes": [
@@ -829,6 +937,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.mobius.dis",
     "description": "",
     "suffixes": [
@@ -836,6 +945,7 @@
     ]
   },
   {
+    "kind": "image",
     "type": "image/vnd.djvu",
     "description": "",
     "suffixes": [
@@ -844,6 +954,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.dna",
     "description": "",
     "suffixes": [
@@ -851,8 +962,9 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/msword",
-    "description": "",
+    "description": "Microsoft Word",
     "suffixes": [
       ".doc",
       ".dot",
@@ -860,6 +972,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ms-word.document.macroenabled.12",
     "description": "",
     "suffixes": [
@@ -867,13 +980,15 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-    "description": "",
+    "description": "Microsoft Word (OpenXML)",
     "suffixes": [
       ".docx"
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ms-word.template.macroenabled.12",
     "description": "",
     "suffixes": [
@@ -881,6 +996,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.template",
     "description": "",
     "suffixes": [
@@ -888,6 +1004,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.osgi.dp",
     "description": "",
     "suffixes": [
@@ -895,6 +1012,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.dpgraph",
     "description": "",
     "suffixes": [
@@ -902,6 +1020,7 @@
     ]
   },
   {
+    "kind": "text",
     "type": "text/prs.lines.tag",
     "description": "",
     "suffixes": [
@@ -909,6 +1028,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-dtbook+xml",
     "description": "",
     "suffixes": [
@@ -916,6 +1036,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/xml-dtd",
     "description": "",
     "suffixes": [
@@ -923,6 +1044,7 @@
     ]
   },
   {
+    "kind": "audio",
     "type": "audio/vnd.dts",
     "description": "",
     "suffixes": [
@@ -930,6 +1052,7 @@
     ]
   },
   {
+    "kind": "audio",
     "type": "audio/vnd.dts.hd",
     "description": "",
     "suffixes": [
@@ -937,6 +1060,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-dvi",
     "description": "",
     "suffixes": [
@@ -944,6 +1068,7 @@
     ]
   },
   {
+    "kind": "model",
     "type": "model/vnd.dwf",
     "description": "",
     "suffixes": [
@@ -951,6 +1076,7 @@
     ]
   },
   {
+    "kind": "image",
     "type": "image/vnd.dwg",
     "description": "",
     "suffixes": [
@@ -958,6 +1084,7 @@
     ]
   },
   {
+    "kind": "image",
     "type": "image/vnd.dxf",
     "description": "",
     "suffixes": [
@@ -965,6 +1092,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.spotfire.dxp",
     "description": "",
     "suffixes": [
@@ -972,6 +1100,7 @@
     ]
   },
   {
+    "kind": "audio",
     "type": "audio/vnd.nuera.ecelp4800",
     "description": "",
     "suffixes": [
@@ -979,6 +1108,7 @@
     ]
   },
   {
+    "kind": "audio",
     "type": "audio/vnd.nuera.ecelp7470",
     "description": "",
     "suffixes": [
@@ -986,6 +1116,7 @@
     ]
   },
   {
+    "kind": "audio",
     "type": "audio/vnd.nuera.ecelp9600",
     "description": "",
     "suffixes": [
@@ -993,6 +1124,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/ecmascript",
     "description": "",
     "suffixes": [
@@ -1000,6 +1132,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.novadigm.edm",
     "description": "",
     "suffixes": [
@@ -1007,6 +1140,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.novadigm.edx",
     "description": "",
     "suffixes": [
@@ -1014,6 +1148,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.picsel",
     "description": "",
     "suffixes": [
@@ -1021,6 +1156,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.pg.osasli",
     "description": "",
     "suffixes": [
@@ -1028,6 +1164,7 @@
     ]
   },
   {
+    "kind": "message",
     "type": "message/rfc822",
     "description": "",
     "suffixes": [
@@ -1039,6 +1176,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/emma+xml",
     "description": "",
     "suffixes": [
@@ -1046,6 +1184,7 @@
     ]
   },
   {
+    "kind": "audio",
     "type": "audio/vnd.digital-winds",
     "description": "",
     "suffixes": [
@@ -1053,20 +1192,23 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ms-fontobject",
-    "description": "",
+    "description": "MS Embedded OpenType fonts",
     "suffixes": [
       ".eot"
     ]
   },
   {
+    "kind": "application",
     "type": "application/epub+zip",
-    "description": "",
+    "description": "Electronic publication",
     "suffixes": [
       ".epub"
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.eszigno3+xml",
     "description": "",
     "suffixes": [
@@ -1075,6 +1217,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.epson.esf",
     "description": "",
     "suffixes": [
@@ -1082,6 +1225,7 @@
     ]
   },
   {
+    "kind": "text",
     "type": "text/x-setext",
     "description": "",
     "suffixes": [
@@ -1089,6 +1233,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.novadigm.ext",
     "description": "",
     "suffixes": [
@@ -1096,6 +1241,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/andrew-inset",
     "description": "",
     "suffixes": [
@@ -1103,6 +1249,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ezpix-album",
     "description": "",
     "suffixes": [
@@ -1110,6 +1257,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ezpix-package",
     "description": "",
     "suffixes": [
@@ -1117,6 +1265,7 @@
     ]
   },
   {
+    "kind": "text",
     "type": "text/x-fortran",
     "description": "",
     "suffixes": [
@@ -1127,6 +1276,7 @@
     ]
   },
   {
+    "kind": "video",
     "type": "video/x-f4v",
     "description": "",
     "suffixes": [
@@ -1134,6 +1284,7 @@
     ]
   },
   {
+    "kind": "image",
     "type": "image/vnd.fastbidsheet",
     "description": "",
     "suffixes": [
@@ -1141,6 +1292,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.fdf",
     "description": "",
     "suffixes": [
@@ -1148,6 +1300,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.denovo.fcselayout-link",
     "description": "",
     "suffixes": [
@@ -1155,6 +1308,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.fujitsu.oasysgp",
     "description": "",
     "suffixes": [
@@ -1162,6 +1316,7 @@
     ]
   },
   {
+    "kind": "image",
     "type": "image/x-freehand",
     "description": "",
     "suffixes": [
@@ -1173,6 +1328,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-xfig",
     "description": "",
     "suffixes": [
@@ -1180,6 +1336,7 @@
     ]
   },
   {
+    "kind": "video",
     "type": "video/x-fli",
     "description": "",
     "suffixes": [
@@ -1187,6 +1344,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.micrografx.flo",
     "description": "",
     "suffixes": [
@@ -1194,6 +1352,7 @@
     ]
   },
   {
+    "kind": "video",
     "type": "video/x-flv",
     "description": "",
     "suffixes": [
@@ -1201,6 +1360,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.kde.kivio",
     "description": "",
     "suffixes": [
@@ -1208,6 +1368,7 @@
     ]
   },
   {
+    "kind": "text",
     "type": "text/vnd.fmi.flexstor",
     "description": "",
     "suffixes": [
@@ -1215,6 +1376,7 @@
     ]
   },
   {
+    "kind": "text",
     "type": "text/vnd.fly",
     "description": "",
     "suffixes": [
@@ -1222,6 +1384,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.frogans.fnc",
     "description": "",
     "suffixes": [
@@ -1229,6 +1392,7 @@
     ]
   },
   {
+    "kind": "image",
     "type": "image/vnd.fpx",
     "description": "",
     "suffixes": [
@@ -1236,6 +1400,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.fsc.weblaunch",
     "description": "",
     "suffixes": [
@@ -1243,6 +1408,7 @@
     ]
   },
   {
+    "kind": "image",
     "type": "image/vnd.fst",
     "description": "",
     "suffixes": [
@@ -1250,6 +1416,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.fluxtime.clip",
     "description": "",
     "suffixes": [
@@ -1257,6 +1424,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.anser-web-funds-transfer-initiation",
     "description": "",
     "suffixes": [
@@ -1264,6 +1432,7 @@
     ]
   },
   {
+    "kind": "video",
     "type": "video/vnd.fvt",
     "description": "",
     "suffixes": [
@@ -1271,6 +1440,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.fuzzysheet",
     "description": "",
     "suffixes": [
@@ -1278,6 +1448,7 @@
     ]
   },
   {
+    "kind": "image",
     "type": "image/g3fax",
     "description": "",
     "suffixes": [
@@ -1285,6 +1456,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.groove-account",
     "description": "",
     "suffixes": [
@@ -1292,6 +1464,7 @@
     ]
   },
   {
+    "kind": "model",
     "type": "model/vnd.gdl",
     "description": "",
     "suffixes": [
@@ -1299,6 +1472,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.dynageo",
     "description": "",
     "suffixes": [
@@ -1306,6 +1480,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.geometry-explorer",
     "description": "",
     "suffixes": [
@@ -1314,6 +1489,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.geogebra.file",
     "description": "",
     "suffixes": [
@@ -1321,6 +1497,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.geogebra.tool",
     "description": "",
     "suffixes": [
@@ -1328,6 +1505,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.groove-help",
     "description": "",
     "suffixes": [
@@ -1335,13 +1513,15 @@
     ]
   },
   {
+    "kind": "image",
     "type": "image/gif",
-    "description": "",
+    "description": "Graphics Interchange Format",
     "suffixes": [
       ".gif"
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.groove-identity-message",
     "description": "",
     "suffixes": [
@@ -1349,6 +1529,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.gmx",
     "description": "",
     "suffixes": [
@@ -1356,6 +1537,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-gnumeric",
     "description": "",
     "suffixes": [
@@ -1363,6 +1545,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.flographit",
     "description": "",
     "suffixes": [
@@ -1370,6 +1553,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.grafeq",
     "description": "",
     "suffixes": [
@@ -1378,6 +1562,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/srgs",
     "description": "",
     "suffixes": [
@@ -1385,6 +1570,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.groove-injector",
     "description": "",
     "suffixes": [
@@ -1392,6 +1578,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/srgs+xml",
     "description": "",
     "suffixes": [
@@ -1399,6 +1586,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-font-ghostscript",
     "description": "",
     "suffixes": [
@@ -1406,6 +1594,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-gtar",
     "description": "",
     "suffixes": [
@@ -1413,6 +1602,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.groove-tool-message",
     "description": "",
     "suffixes": [
@@ -1420,6 +1610,7 @@
     ]
   },
   {
+    "kind": "model",
     "type": "model/vnd.gtw",
     "description": "",
     "suffixes": [
@@ -1427,6 +1618,7 @@
     ]
   },
   {
+    "kind": "text",
     "type": "text/vnd.graphviz",
     "description": "",
     "suffixes": [
@@ -1434,14 +1626,16 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-gzip",
-    "description": "",
+    "description": "GZip Compressed Archive",
     "suffixes": [
       ".gz",
       ".tgz"
     ]
   },
   {
+    "kind": "video",
     "type": "video/h261",
     "description": "",
     "suffixes": [
@@ -1449,6 +1643,7 @@
     ]
   },
   {
+    "kind": "video",
     "type": "video/h263",
     "description": "",
     "suffixes": [
@@ -1456,6 +1651,7 @@
     ]
   },
   {
+    "kind": "video",
     "type": "video/h264",
     "description": "",
     "suffixes": [
@@ -1463,6 +1659,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.hbci",
     "description": "",
     "suffixes": [
@@ -1470,6 +1667,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-hdf",
     "description": "",
     "suffixes": [
@@ -1477,6 +1675,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/winhlp",
     "description": "",
     "suffixes": [
@@ -1484,6 +1683,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.hp-hpgl",
     "description": "",
     "suffixes": [
@@ -1491,6 +1691,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.hp-hpid",
     "description": "",
     "suffixes": [
@@ -1498,6 +1699,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.hp-hps",
     "description": "",
     "suffixes": [
@@ -1505,6 +1707,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/mac-binhex40",
     "description": "",
     "suffixes": [
@@ -1512,6 +1715,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.kenameaapp",
     "description": "",
     "suffixes": [
@@ -1519,14 +1723,16 @@
     ]
   },
   {
+    "kind": "text",
     "type": "text/html",
-    "description": "",
+    "description": "HyperText Markup Language",
     "suffixes": [
       ".htm",
       ".html"
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.yamaha.hv-dic",
     "description": "",
     "suffixes": [
@@ -1534,6 +1740,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.yamaha.hv-voice",
     "description": "",
     "suffixes": [
@@ -1541,6 +1748,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.yamaha.hv-script",
     "description": "",
     "suffixes": [
@@ -1548,6 +1756,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.iccprofile",
     "description": "",
     "suffixes": [
@@ -1556,6 +1765,7 @@
     ]
   },
   {
+    "kind": "x-conference",
     "type": "x-conference/x-cooltalk",
     "description": "",
     "suffixes": [
@@ -1563,21 +1773,24 @@
     ]
   },
   {
+    "kind": "image",
     "type": "image/x-icon",
-    "description": "",
+    "description": "Icon format",
     "suffixes": [
       ".ico"
     ]
   },
   {
+    "kind": "text",
     "type": "text/calendar",
-    "description": "",
+    "description": "iCalendar format",
     "suffixes": [
       ".ics",
       ".ifb"
     ]
   },
   {
+    "kind": "image",
     "type": "image/ief",
     "description": "",
     "suffixes": [
@@ -1585,6 +1798,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.shana.informed.formdata",
     "description": "",
     "suffixes": [
@@ -1592,6 +1806,7 @@
     ]
   },
   {
+    "kind": "model",
     "type": "model/iges",
     "description": "",
     "suffixes": [
@@ -1600,6 +1815,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.igloader",
     "description": "",
     "suffixes": [
@@ -1607,6 +1823,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.micrografx.igx",
     "description": "",
     "suffixes": [
@@ -1614,6 +1831,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.shana.informed.interchange",
     "description": "",
     "suffixes": [
@@ -1621,6 +1839,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.accpac.simply.imp",
     "description": "",
     "suffixes": [
@@ -1628,6 +1847,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ms-ims",
     "description": "",
     "suffixes": [
@@ -1635,6 +1855,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.shana.informed.package",
     "description": "",
     "suffixes": [
@@ -1642,6 +1863,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ibm.rights-management",
     "description": "",
     "suffixes": [
@@ -1649,6 +1871,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.irepository.package+xml",
     "description": "",
     "suffixes": [
@@ -1656,6 +1879,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.shana.informed.formtemplate",
     "description": "",
     "suffixes": [
@@ -1663,6 +1887,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.immervision-ivp",
     "description": "",
     "suffixes": [
@@ -1670,6 +1895,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.immervision-ivu",
     "description": "",
     "suffixes": [
@@ -1677,6 +1903,7 @@
     ]
   },
   {
+    "kind": "text",
     "type": "text/vnd.sun.j2me.app-descriptor",
     "description": "",
     "suffixes": [
@@ -1684,6 +1911,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.jam",
     "description": "",
     "suffixes": [
@@ -1691,13 +1919,15 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/java-archive",
-    "description": "",
+    "description": "Java Archive",
     "suffixes": [
       ".jar"
     ]
   },
   {
+    "kind": "text",
     "type": "text/x-java-source",
     "description": "",
     "suffixes": [
@@ -1705,6 +1935,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.jisp",
     "description": "",
     "suffixes": [
@@ -1712,6 +1943,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.hp-jlyt",
     "description": "",
     "suffixes": [
@@ -1719,6 +1951,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-java-jnlp-file",
     "description": "",
     "suffixes": [
@@ -1726,6 +1959,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.joost.joda-archive",
     "description": "",
     "suffixes": [
@@ -1733,8 +1967,9 @@
     ]
   },
   {
+    "kind": "image",
     "type": "image/jpeg",
-    "description": "",
+    "description": "Joint Photographic Experts Group images",
     "suffixes": [
       ".jpe",
       ".jpeg",
@@ -1742,6 +1977,7 @@
     ]
   },
   {
+    "kind": "video",
     "type": "video/jpm",
     "description": "",
     "suffixes": [
@@ -1750,6 +1986,7 @@
     ]
   },
   {
+    "kind": "video",
     "type": "video/jpeg",
     "description": "",
     "suffixes": [
@@ -1757,22 +1994,25 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/javascript",
-    "description": "",
+    "description": "JavaScript",
     "suffixes": [
       ".js"
     ]
   },
   {
+    "kind": "application",
     "type": "application/json",
-    "description": "",
+    "description": "JSON format",
     "suffixes": [
       ".json"
     ]
   },
   {
+    "kind": "audio",
     "type": "audio/midi",
-    "description": "",
+    "description": "Musical Instrument Digital Interface",
     "suffixes": [
       ".kar",
       ".mid",
@@ -1781,6 +2021,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.kde.karbon",
     "description": "",
     "suffixes": [
@@ -1788,6 +2029,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.kde.kformula",
     "description": "",
     "suffixes": [
@@ -1795,6 +2037,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.kidspiration",
     "description": "",
     "suffixes": [
@@ -1802,6 +2045,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-killustrator",
     "description": "",
     "suffixes": [
@@ -1809,6 +2053,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.google-earth.kml+xml",
     "description": "",
     "suffixes": [
@@ -1816,6 +2061,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.google-earth.kmz",
     "description": "",
     "suffixes": [
@@ -1823,6 +2069,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.kinar",
     "description": "",
     "suffixes": [
@@ -1831,6 +2078,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.kde.kontour",
     "description": "",
     "suffixes": [
@@ -1838,6 +2086,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.kde.kpresenter",
     "description": "",
     "suffixes": [
@@ -1846,6 +2095,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.kde.kspread",
     "description": "",
     "suffixes": [
@@ -1853,6 +2103,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.kahootz",
     "description": "",
     "suffixes": [
@@ -1861,6 +2112,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.kde.kword",
     "description": "",
     "suffixes": [
@@ -1869,6 +2121,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-latex",
     "description": "",
     "suffixes": [
@@ -1876,6 +2129,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.llamagraphics.life-balance.desktop",
     "description": "",
     "suffixes": [
@@ -1883,6 +2137,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.llamagraphics.life-balance.exchange+xml",
     "description": "",
     "suffixes": [
@@ -1890,6 +2145,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.hhe.lesson-player",
     "description": "",
     "suffixes": [
@@ -1897,6 +2153,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.route66.link66+xml",
     "description": "",
     "suffixes": [
@@ -1904,6 +2161,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/lost+xml",
     "description": "",
     "suffixes": [
@@ -1911,6 +2169,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ms-lrm",
     "description": "",
     "suffixes": [
@@ -1918,6 +2177,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.frogans.ltf",
     "description": "",
     "suffixes": [
@@ -1925,6 +2185,7 @@
     ]
   },
   {
+    "kind": "audio",
     "type": "audio/vnd.lucent.voice",
     "description": "",
     "suffixes": [
@@ -1932,6 +2193,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.lotus-wordpro",
     "description": "",
     "suffixes": [
@@ -1939,6 +2201,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-msmediaview",
     "description": "",
     "suffixes": [
@@ -1948,8 +2211,9 @@
     ]
   },
   {
+    "kind": "video",
     "type": "video/mpeg",
-    "description": "",
+    "description": "Video",
     "suffixes": [
       ".m1v",
       ".m2v",
@@ -1960,8 +2224,9 @@
     ]
   },
   {
+    "kind": "audio",
     "type": "audio/mpeg",
-    "description": "",
+    "description": "Audio",
     "suffixes": [
       ".m2a",
       ".m3a",
@@ -1972,6 +2237,7 @@
     ]
   },
   {
+    "kind": "audio",
     "type": "audio/x-mpegurl",
     "description": "",
     "suffixes": [
@@ -1979,6 +2245,7 @@
     ]
   },
   {
+    "kind": "video",
     "type": "video/vnd.mpegurl",
     "description": "",
     "suffixes": [
@@ -1987,6 +2254,7 @@
     ]
   },
   {
+    "kind": "video",
     "type": "video/x-m4v",
     "description": "",
     "suffixes": [
@@ -1994,6 +2262,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/mathematica",
     "description": "",
     "suffixes": [
@@ -2003,6 +2272,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ecowin.chart",
     "description": "",
     "suffixes": [
@@ -2010,6 +2280,7 @@
     ]
   },
   {
+    "kind": "text",
     "type": "text/troff",
     "description": "",
     "suffixes": [
@@ -2022,6 +2293,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/mathml+xml",
     "description": "",
     "suffixes": [
@@ -2029,6 +2301,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.mobius.mbk",
     "description": "",
     "suffixes": [
@@ -2036,6 +2309,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/mbox",
     "description": "",
     "suffixes": [
@@ -2043,6 +2317,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.medcalcdata",
     "description": "",
     "suffixes": [
@@ -2050,6 +2325,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.mcd",
     "description": "",
     "suffixes": [
@@ -2057,6 +2333,7 @@
     ]
   },
   {
+    "kind": "text",
     "type": "text/vnd.curl.mcurl",
     "description": "",
     "suffixes": [
@@ -2064,6 +2341,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-msaccess",
     "description": "",
     "suffixes": [
@@ -2071,6 +2349,7 @@
     ]
   },
   {
+    "kind": "image",
     "type": "image/vnd.ms-modi",
     "description": "",
     "suffixes": [
@@ -2078,6 +2357,7 @@
     ]
   },
   {
+    "kind": "model",
     "type": "model/mesh",
     "description": "",
     "suffixes": [
@@ -2087,6 +2367,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.mfmp",
     "description": "",
     "suffixes": [
@@ -2094,6 +2375,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.proteus.magazine",
     "description": "",
     "suffixes": [
@@ -2101,6 +2383,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.mif",
     "description": "",
     "suffixes": [
@@ -2108,6 +2391,7 @@
     ]
   },
   {
+    "kind": "video",
     "type": "video/mj2",
     "description": "",
     "suffixes": [
@@ -2116,6 +2400,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.dolby.mlp",
     "description": "",
     "suffixes": [
@@ -2123,6 +2408,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.chipnuts.karaoke-mmd",
     "description": "",
     "suffixes": [
@@ -2130,6 +2416,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.smaf",
     "description": "",
     "suffixes": [
@@ -2137,6 +2424,7 @@
     ]
   },
   {
+    "kind": "image",
     "type": "image/vnd.fujixerox.edmics-mmr",
     "description": "",
     "suffixes": [
@@ -2144,6 +2432,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-msmoney",
     "description": "",
     "suffixes": [
@@ -2151,6 +2440,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-mobipocket-ebook",
     "description": "",
     "suffixes": [
@@ -2159,6 +2449,7 @@
     ]
   },
   {
+    "kind": "video",
     "type": "video/quicktime",
     "description": "",
     "suffixes": [
@@ -2167,6 +2458,7 @@
     ]
   },
   {
+    "kind": "video",
     "type": "video/x-sgi-movie",
     "description": "",
     "suffixes": [
@@ -2174,6 +2466,7 @@
     ]
   },
   {
+    "kind": "video",
     "type": "video/mp4",
     "description": "",
     "suffixes": [
@@ -2183,6 +2476,7 @@
     ]
   },
   {
+    "kind": "audio",
     "type": "audio/mp4",
     "description": "",
     "suffixes": [
@@ -2190,6 +2484,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/mp4",
     "description": "",
     "suffixes": [
@@ -2197,6 +2492,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.mophun.certificate",
     "description": "",
     "suffixes": [
@@ -2204,13 +2500,15 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.apple.installer+xml",
-    "description": "",
+    "description": "Apple Installer Package",
     "suffixes": [
       ".mpkg"
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.blueice.multipass",
     "description": "",
     "suffixes": [
@@ -2218,6 +2516,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.mophun.application",
     "description": "",
     "suffixes": [
@@ -2225,6 +2524,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ms-project",
     "description": "",
     "suffixes": [
@@ -2233,6 +2533,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ibm.minipay",
     "description": "",
     "suffixes": [
@@ -2240,6 +2541,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.mobius.mqy",
     "description": "",
     "suffixes": [
@@ -2247,6 +2549,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/marc",
     "description": "",
     "suffixes": [
@@ -2254,6 +2557,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/mediaservercontrol+xml",
     "description": "",
     "suffixes": [
@@ -2261,6 +2565,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.fdsn.mseed",
     "description": "",
     "suffixes": [
@@ -2268,6 +2573,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.mseq",
     "description": "",
     "suffixes": [
@@ -2275,6 +2581,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.epson.msf",
     "description": "",
     "suffixes": [
@@ -2282,6 +2589,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.mobius.msl",
     "description": "",
     "suffixes": [
@@ -2289,6 +2597,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.muvee.style",
     "description": "",
     "suffixes": [
@@ -2296,6 +2605,7 @@
     ]
   },
   {
+    "kind": "model",
     "type": "model/vnd.mts",
     "description": "",
     "suffixes": [
@@ -2303,6 +2613,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.musician",
     "description": "",
     "suffixes": [
@@ -2310,6 +2621,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.recordare.musicxml+xml",
     "description": "",
     "suffixes": [
@@ -2317,6 +2629,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.mfer",
     "description": "",
     "suffixes": [
@@ -2324,6 +2637,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/mxf",
     "description": "",
     "suffixes": [
@@ -2331,6 +2645,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.recordare.musicxml",
     "description": "",
     "suffixes": [
@@ -2338,6 +2653,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/xv+xml",
     "description": "",
     "suffixes": [
@@ -2348,6 +2664,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.triscape.mxs",
     "description": "",
     "suffixes": [
@@ -2355,6 +2672,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.nokia.n-gage.symbian.install",
     "description": "",
     "suffixes": [
@@ -2362,6 +2680,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-dtbncx+xml",
     "description": "",
     "suffixes": [
@@ -2369,6 +2688,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.nokia.n-gage.data",
     "description": "",
     "suffixes": [
@@ -2376,6 +2696,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.neurolanguage.nlu",
     "description": "",
     "suffixes": [
@@ -2383,6 +2704,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.enliven",
     "description": "",
     "suffixes": [
@@ -2390,6 +2712,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.noblenet-directory",
     "description": "",
     "suffixes": [
@@ -2397,6 +2720,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.noblenet-sealer",
     "description": "",
     "suffixes": [
@@ -2404,6 +2728,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.noblenet-web",
     "description": "",
     "suffixes": [
@@ -2411,6 +2736,7 @@
     ]
   },
   {
+    "kind": "image",
     "type": "image/vnd.net-fpx",
     "description": "",
     "suffixes": [
@@ -2418,6 +2744,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.lotus-notes",
     "description": "",
     "suffixes": [
@@ -2425,6 +2752,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.fujitsu.oasys2",
     "description": "",
     "suffixes": [
@@ -2432,6 +2760,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.fujitsu.oasys3",
     "description": "",
     "suffixes": [
@@ -2439,6 +2768,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.fujitsu.oasys",
     "description": "",
     "suffixes": [
@@ -2446,6 +2776,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-msbinder",
     "description": "",
     "suffixes": [
@@ -2453,6 +2784,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/oda",
     "description": "",
     "suffixes": [
@@ -2460,6 +2792,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.oasis.opendocument.database",
     "description": "",
     "suffixes": [
@@ -2467,6 +2800,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.oasis.opendocument.chart",
     "description": "",
     "suffixes": [
@@ -2474,6 +2808,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.oasis.opendocument.formula",
     "description": "",
     "suffixes": [
@@ -2481,6 +2816,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.oasis.opendocument.formula-template",
     "description": "",
     "suffixes": [
@@ -2488,6 +2824,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.oasis.opendocument.graphics",
     "description": "",
     "suffixes": [
@@ -2495,6 +2832,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.oasis.opendocument.image",
     "description": "",
     "suffixes": [
@@ -2502,29 +2840,33 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.oasis.opendocument.presentation",
-    "description": "",
+    "description": "OpenDocument presentation document",
     "suffixes": [
       ".odp"
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.oasis.opendocument.spreadsheet",
-    "description": "",
+    "description": "OpenDocument spreadsheet document",
     "suffixes": [
       ".ods"
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.oasis.opendocument.text",
-    "description": "",
+    "description": "OpenDocument text document",
     "suffixes": [
       ".odt"
     ]
   },
   {
+    "kind": "audio",
     "type": "audio/ogg",
-    "description": "",
+    "description": "Audio",
     "suffixes": [
       ".oga",
       ".ogg",
@@ -2532,20 +2874,23 @@
     ]
   },
   {
+    "kind": "video",
     "type": "video/ogg",
-    "description": "",
+    "description": "OGG video",
     "suffixes": [
       ".ogv"
     ]
   },
   {
+    "kind": "application",
     "type": "application/ogg",
-    "description": "",
+    "description": "OGG",
     "suffixes": [
       ".ogx"
     ]
   },
   {
+    "kind": "application",
     "type": "application/onenote",
     "description": "",
     "suffixes": [
@@ -2556,6 +2901,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/oebps-package+xml",
     "description": "",
     "suffixes": [
@@ -2563,6 +2909,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.palm",
     "description": "",
     "suffixes": [
@@ -2572,6 +2919,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.lotus-organizer",
     "description": "",
     "suffixes": [
@@ -2579,6 +2927,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.yamaha.openscoreformat",
     "description": "",
     "suffixes": [
@@ -2586,6 +2935,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.yamaha.openscoreformat.osfpvg+xml",
     "description": "",
     "suffixes": [
@@ -2593,6 +2943,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.oasis.opendocument.chart-template",
     "description": "",
     "suffixes": [
@@ -2600,6 +2951,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-font-otf",
     "description": "",
     "suffixes": [
@@ -2607,6 +2959,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.oasis.opendocument.graphics-template",
     "description": "",
     "suffixes": [
@@ -2614,6 +2967,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.oasis.opendocument.text-web",
     "description": "",
     "suffixes": [
@@ -2621,6 +2975,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.oasis.opendocument.image-template",
     "description": "",
     "suffixes": [
@@ -2628,6 +2983,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.oasis.opendocument.text-master",
     "description": "",
     "suffixes": [
@@ -2635,6 +2991,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.oasis.opendocument.presentation-template",
     "description": "",
     "suffixes": [
@@ -2642,6 +2999,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.oasis.opendocument.spreadsheet-template",
     "description": "",
     "suffixes": [
@@ -2649,6 +3007,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.oasis.opendocument.text-template",
     "description": "",
     "suffixes": [
@@ -2656,6 +3015,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.openofficeorg.extension",
     "description": "",
     "suffixes": [
@@ -2663,6 +3023,7 @@
     ]
   },
   {
+    "kind": "text",
     "type": "text/x-pascal",
     "description": "",
     "suffixes": [
@@ -2671,6 +3032,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/pkcs10",
     "description": "",
     "suffixes": [
@@ -2678,6 +3040,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-pkcs12",
     "description": "",
     "suffixes": [
@@ -2686,6 +3049,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-pkcs7-certificates",
     "description": "",
     "suffixes": [
@@ -2694,6 +3058,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/pkcs7-mime",
     "description": "",
     "suffixes": [
@@ -2702,6 +3067,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-pkcs7-certreqresp",
     "description": "",
     "suffixes": [
@@ -2709,6 +3075,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/pkcs7-signature",
     "description": "",
     "suffixes": [
@@ -2716,6 +3083,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.powerbuilder6",
     "description": "",
     "suffixes": [
@@ -2723,6 +3091,7 @@
     ]
   },
   {
+    "kind": "image",
     "type": "image/x-portable-bitmap",
     "description": "",
     "suffixes": [
@@ -2730,6 +3099,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-font-pcf",
     "description": "",
     "suffixes": [
@@ -2737,6 +3107,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.hp-pcl",
     "description": "",
     "suffixes": [
@@ -2744,6 +3115,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.hp-pclxl",
     "description": "",
     "suffixes": [
@@ -2751,6 +3123,7 @@
     ]
   },
   {
+    "kind": "image",
     "type": "image/x-pict",
     "description": "",
     "suffixes": [
@@ -2759,6 +3132,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.curl.pcurl",
     "description": "",
     "suffixes": [
@@ -2766,6 +3140,7 @@
     ]
   },
   {
+    "kind": "image",
     "type": "image/x-pcx",
     "description": "",
     "suffixes": [
@@ -2773,13 +3148,15 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/pdf",
-    "description": "Portable Document Format",
+    "description": "Adobe Portable Document Format",
     "suffixes": [
       ".pdf"
     ]
   },
   {
+    "kind": "application",
     "type": "application/font-tdpfr",
     "description": "",
     "suffixes": [
@@ -2787,6 +3164,7 @@
     ]
   },
   {
+    "kind": "image",
     "type": "image/x-portable-graymap",
     "description": "",
     "suffixes": [
@@ -2794,6 +3172,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-chess-pgn",
     "description": "",
     "suffixes": [
@@ -2801,6 +3180,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/pgp-encrypted",
     "description": "",
     "suffixes": [
@@ -2808,6 +3188,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/pkixcmp",
     "description": "",
     "suffixes": [
@@ -2815,6 +3196,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/pkix-pkipath",
     "description": "",
     "suffixes": [
@@ -2822,6 +3204,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.3gpp.pic-bw-large",
     "description": "",
     "suffixes": [
@@ -2829,6 +3212,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.mobius.plc",
     "description": "",
     "suffixes": [
@@ -2836,6 +3220,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.pocketlearn",
     "description": "",
     "suffixes": [
@@ -2843,6 +3228,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/pls+xml",
     "description": "",
     "suffixes": [
@@ -2850,6 +3236,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ctc-posml",
     "description": "",
     "suffixes": [
@@ -2857,13 +3244,15 @@
     ]
   },
   {
+    "kind": "image",
     "type": "image/png",
-    "description": "",
+    "description": "Portable Network Graphics",
     "suffixes": [
       ".png"
     ]
   },
   {
+    "kind": "image",
     "type": "image/x-portable-anymap",
     "description": "",
     "suffixes": [
@@ -2871,6 +3260,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.macports.portpkg",
     "description": "",
     "suffixes": [
@@ -2878,8 +3268,9 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ms-powerpoint",
-    "description": "",
+    "description": "Microsoft PowerPoint",
     "suffixes": [
       ".pot",
       ".ppa",
@@ -2889,6 +3280,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ms-powerpoint.template.macroenabled.12",
     "description": "",
     "suffixes": [
@@ -2896,6 +3288,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.openxmlformats-officedocument.presentationml.template",
     "description": "",
     "suffixes": [
@@ -2903,6 +3296,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ms-powerpoint.addin.macroenabled.12",
     "description": "",
     "suffixes": [
@@ -2910,6 +3304,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.cups-ppd",
     "description": "",
     "suffixes": [
@@ -2917,6 +3312,7 @@
     ]
   },
   {
+    "kind": "image",
     "type": "image/x-portable-pixmap",
     "description": "",
     "suffixes": [
@@ -2924,6 +3320,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ms-powerpoint.slideshow.macroenabled.12",
     "description": "",
     "suffixes": [
@@ -2931,6 +3328,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.openxmlformats-officedocument.presentationml.slideshow",
     "description": "",
     "suffixes": [
@@ -2938,6 +3336,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ms-powerpoint.presentation.macroenabled.12",
     "description": "",
     "suffixes": [
@@ -2945,13 +3344,15 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
-    "description": "",
+    "description": "Microsoft PowerPoint (OpenXML)",
     "suffixes": [
       ".pptx"
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.lotus-freelance",
     "description": "",
     "suffixes": [
@@ -2959,6 +3360,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/pics-rules",
     "description": "",
     "suffixes": [
@@ -2966,6 +3368,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.3gpp.pic-bw-small",
     "description": "",
     "suffixes": [
@@ -2973,6 +3376,7 @@
     ]
   },
   {
+    "kind": "image",
     "type": "image/vnd.adobe.photoshop",
     "description": "",
     "suffixes": [
@@ -2980,6 +3384,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-font-linux-psf",
     "description": "",
     "suffixes": [
@@ -2987,6 +3392,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.pvi.ptid1",
     "description": "",
     "suffixes": [
@@ -2994,6 +3400,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-mspublisher",
     "description": "",
     "suffixes": [
@@ -3001,6 +3408,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.3gpp.pic-bw-var",
     "description": "",
     "suffixes": [
@@ -3008,6 +3416,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.3m.post-it-notes",
     "description": "",
     "suffixes": [
@@ -3015,6 +3424,7 @@
     ]
   },
   {
+    "kind": "text",
     "type": "text/x-python",
     "description": "",
     "suffixes": [
@@ -3022,6 +3432,7 @@
     ]
   },
   {
+    "kind": "audio",
     "type": "audio/vnd.ms-playready.media.pya",
     "description": "",
     "suffixes": [
@@ -3029,6 +3440,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-python-code",
     "description": "",
     "suffixes": [
@@ -3037,6 +3449,7 @@
     ]
   },
   {
+    "kind": "video",
     "type": "video/vnd.ms-playready.media.pyv",
     "description": "",
     "suffixes": [
@@ -3044,6 +3457,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.epson.quickanime",
     "description": "",
     "suffixes": [
@@ -3051,6 +3465,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.intu.qbo",
     "description": "",
     "suffixes": [
@@ -3058,6 +3473,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.intu.qfx",
     "description": "",
     "suffixes": [
@@ -3065,6 +3481,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.publishare-delta-tree",
     "description": "",
     "suffixes": [
@@ -3072,6 +3489,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.quark.quarkxpress",
     "description": "",
     "suffixes": [
@@ -3084,6 +3502,7 @@
     ]
   },
   {
+    "kind": "audio",
     "type": "audio/x-pn-realaudio",
     "description": "",
     "suffixes": [
@@ -3092,13 +3511,15 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-rar-compressed",
-    "description": "",
+    "description": "RAR archive",
     "suffixes": [
       ".rar"
     ]
   },
   {
+    "kind": "image",
     "type": "image/x-cmu-raster",
     "description": "",
     "suffixes": [
@@ -3106,6 +3527,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ipunplugged.rcprofile",
     "description": "",
     "suffixes": [
@@ -3113,6 +3535,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/rdf+xml",
     "description": "",
     "suffixes": [
@@ -3120,6 +3543,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.data-vision.rdz",
     "description": "",
     "suffixes": [
@@ -3127,6 +3551,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.businessobjects",
     "description": "",
     "suffixes": [
@@ -3134,6 +3559,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-dtbresource+xml",
     "description": "",
     "suffixes": [
@@ -3141,6 +3567,7 @@
     ]
   },
   {
+    "kind": "image",
     "type": "image/x-rgb",
     "description": "",
     "suffixes": [
@@ -3148,6 +3575,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/reginfo+xml",
     "description": "",
     "suffixes": [
@@ -3155,6 +3583,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/resource-lists+xml",
     "description": "",
     "suffixes": [
@@ -3162,6 +3591,7 @@
     ]
   },
   {
+    "kind": "image",
     "type": "image/vnd.fujixerox.edmics-rlc",
     "description": "",
     "suffixes": [
@@ -3169,6 +3599,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/resource-lists-diff+xml",
     "description": "",
     "suffixes": [
@@ -3176,6 +3607,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.rn-realmedia",
     "description": "",
     "suffixes": [
@@ -3183,6 +3615,7 @@
     ]
   },
   {
+    "kind": "audio",
     "type": "audio/x-pn-realaudio-plugin",
     "description": "",
     "suffixes": [
@@ -3190,6 +3623,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.jcp.javame.midlet-rms",
     "description": "",
     "suffixes": [
@@ -3197,6 +3631,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/relax-ng-compact-syntax",
     "description": "",
     "suffixes": [
@@ -3204,6 +3639,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-rpm",
     "description": "",
     "suffixes": [
@@ -3211,6 +3647,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.nokia.radio-presets",
     "description": "",
     "suffixes": [
@@ -3218,6 +3655,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.nokia.radio-preset",
     "description": "",
     "suffixes": [
@@ -3225,6 +3663,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/sparql-query",
     "description": "",
     "suffixes": [
@@ -3232,6 +3671,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/rls-services+xml",
     "description": "",
     "suffixes": [
@@ -3239,6 +3679,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/rsd+xml",
     "description": "",
     "suffixes": [
@@ -3246,6 +3687,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/rss+xml",
     "description": "",
     "suffixes": [
@@ -3253,13 +3695,15 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/rtf",
-    "description": "",
+    "description": "Rich Text Format",
     "suffixes": [
       ".rtf"
     ]
   },
   {
+    "kind": "text",
     "type": "text/richtext",
     "description": "",
     "suffixes": [
@@ -3267,6 +3711,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.yamaha.smaf-audio",
     "description": "",
     "suffixes": [
@@ -3274,6 +3719,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/sbml+xml",
     "description": "",
     "suffixes": [
@@ -3281,6 +3727,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ibm.secure-container",
     "description": "",
     "suffixes": [
@@ -3288,6 +3735,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-msschedule",
     "description": "",
     "suffixes": [
@@ -3295,6 +3743,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.lotus-screencam",
     "description": "",
     "suffixes": [
@@ -3302,6 +3751,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/scvp-cv-request",
     "description": "",
     "suffixes": [
@@ -3309,6 +3759,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/scvp-cv-response",
     "description": "",
     "suffixes": [
@@ -3316,6 +3767,7 @@
     ]
   },
   {
+    "kind": "text",
     "type": "text/vnd.curl.scurl",
     "description": "",
     "suffixes": [
@@ -3323,6 +3775,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.stardivision.draw",
     "description": "",
     "suffixes": [
@@ -3330,6 +3783,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.stardivision.calc",
     "description": "",
     "suffixes": [
@@ -3337,6 +3791,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.stardivision.impress",
     "description": "",
     "suffixes": [
@@ -3344,6 +3799,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.solent.sdkm+xml",
     "description": "",
     "suffixes": [
@@ -3352,6 +3808,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/sdp",
     "description": "",
     "suffixes": [
@@ -3359,6 +3816,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.stardivision.writer",
     "description": "",
     "suffixes": [
@@ -3367,6 +3825,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.seemail",
     "description": "",
     "suffixes": [
@@ -3374,6 +3833,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.sema",
     "description": "",
     "suffixes": [
@@ -3381,6 +3841,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.semd",
     "description": "",
     "suffixes": [
@@ -3388,6 +3849,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.semf",
     "description": "",
     "suffixes": [
@@ -3395,6 +3857,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/java-serialized-object",
     "description": "",
     "suffixes": [
@@ -3402,6 +3865,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/set-payment-initiation",
     "description": "",
     "suffixes": [
@@ -3409,6 +3873,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/set-registration-initiation",
     "description": "",
     "suffixes": [
@@ -3416,6 +3881,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.hydrostatix.sof-data",
     "description": "",
     "suffixes": [
@@ -3423,6 +3889,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.spotfire.sfs",
     "description": "",
     "suffixes": [
@@ -3430,6 +3897,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.stardivision.writer-global",
     "description": "",
     "suffixes": [
@@ -3437,6 +3905,7 @@
     ]
   },
   {
+    "kind": "text",
     "type": "text/sgml",
     "description": "",
     "suffixes": [
@@ -3445,13 +3914,15 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-sh",
-    "description": "",
+    "description": "Bourne shell script",
     "suffixes": [
       ".sh"
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-shar",
     "description": "",
     "suffixes": [
@@ -3459,6 +3930,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/shf+xml",
     "description": "",
     "suffixes": [
@@ -3466,6 +3938,7 @@
     ]
   },
   {
+    "kind": "text",
     "type": "text/vnd.wap.si",
     "description": "",
     "suffixes": [
@@ -3473,6 +3946,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.wap.sic",
     "description": "",
     "suffixes": [
@@ -3480,6 +3954,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.symbian.install",
     "description": "",
     "suffixes": [
@@ -3488,6 +3963,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-stuffit",
     "description": "",
     "suffixes": [
@@ -3495,6 +3971,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-stuffitx",
     "description": "",
     "suffixes": [
@@ -3502,6 +3979,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.koan",
     "description": "",
     "suffixes": [
@@ -3512,6 +3990,7 @@
     ]
   },
   {
+    "kind": "text",
     "type": "text/vnd.wap.sl",
     "description": "",
     "suffixes": [
@@ -3519,6 +3998,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.wap.slc",
     "description": "",
     "suffixes": [
@@ -3526,6 +4006,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ms-powerpoint.slide.macroenabled.12",
     "description": "",
     "suffixes": [
@@ -3533,6 +4014,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.openxmlformats-officedocument.presentationml.slide",
     "description": "",
     "suffixes": [
@@ -3540,6 +4022,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.epson.salt",
     "description": "",
     "suffixes": [
@@ -3547,6 +4030,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.stardivision.math",
     "description": "",
     "suffixes": [
@@ -3554,6 +4038,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/smil+xml",
     "description": "",
     "suffixes": [
@@ -3562,6 +4047,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-font-snf",
     "description": "",
     "suffixes": [
@@ -3569,6 +4055,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.yamaha.smaf-phrase",
     "description": "",
     "suffixes": [
@@ -3576,6 +4063,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-futuresplash",
     "description": "",
     "suffixes": [
@@ -3583,6 +4071,7 @@
     ]
   },
   {
+    "kind": "text",
     "type": "text/vnd.in3d.spot",
     "description": "",
     "suffixes": [
@@ -3590,6 +4079,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/scvp-vp-response",
     "description": "",
     "suffixes": [
@@ -3597,6 +4087,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/scvp-vp-request",
     "description": "",
     "suffixes": [
@@ -3604,6 +4095,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-wais-source",
     "description": "",
     "suffixes": [
@@ -3611,6 +4103,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/sparql-results+xml",
     "description": "",
     "suffixes": [
@@ -3618,6 +4111,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.kodak-descriptor",
     "description": "",
     "suffixes": [
@@ -3625,6 +4119,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.epson.ssf",
     "description": "",
     "suffixes": [
@@ -3632,6 +4127,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/ssml+xml",
     "description": "",
     "suffixes": [
@@ -3639,6 +4135,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.sun.xml.calc.template",
     "description": "",
     "suffixes": [
@@ -3646,6 +4143,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.sun.xml.draw.template",
     "description": "",
     "suffixes": [
@@ -3653,6 +4151,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.wt.stf",
     "description": "",
     "suffixes": [
@@ -3660,6 +4159,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.sun.xml.impress.template",
     "description": "",
     "suffixes": [
@@ -3667,6 +4167,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/hyperstudio",
     "description": "",
     "suffixes": [
@@ -3674,6 +4175,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ms-pki.stl",
     "description": "",
     "suffixes": [
@@ -3681,6 +4183,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.pg.format",
     "description": "",
     "suffixes": [
@@ -3688,6 +4191,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.sun.xml.writer.template",
     "description": "",
     "suffixes": [
@@ -3695,6 +4199,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.sus-calendar",
     "description": "",
     "suffixes": [
@@ -3703,6 +4208,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-sv4cpio",
     "description": "",
     "suffixes": [
@@ -3710,6 +4216,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-sv4crc",
     "description": "",
     "suffixes": [
@@ -3717,6 +4224,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.svd",
     "description": "",
     "suffixes": [
@@ -3724,21 +4232,24 @@
     ]
   },
   {
+    "kind": "image",
     "type": "image/svg+xml",
-    "description": "",
+    "description": "Scalable Vector Graphics",
     "suffixes": [
       ".svg",
       ".svgz"
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-shockwave-flash",
-    "description": "",
+    "description": "Small Web Format",
     "suffixes": [
       ".swf"
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.arastra.swi",
     "description": "",
     "suffixes": [
@@ -3746,6 +4257,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.sun.xml.calc",
     "description": "",
     "suffixes": [
@@ -3753,6 +4265,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.sun.xml.draw",
     "description": "",
     "suffixes": [
@@ -3760,6 +4273,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.sun.xml.writer.global",
     "description": "",
     "suffixes": [
@@ -3767,6 +4281,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.sun.xml.impress",
     "description": "",
     "suffixes": [
@@ -3774,6 +4289,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.sun.xml.math",
     "description": "",
     "suffixes": [
@@ -3781,6 +4297,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.sun.xml.writer",
     "description": "",
     "suffixes": [
@@ -3788,6 +4305,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.tao.intent-module-archive",
     "description": "",
     "suffixes": [
@@ -3795,13 +4313,15 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-tar",
-    "description": "",
+    "description": "Tape Archive",
     "suffixes": [
       ".tar"
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.3gpp2.tcap",
     "description": "",
     "suffixes": [
@@ -3809,6 +4329,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-tcl",
     "description": "",
     "suffixes": [
@@ -3816,6 +4337,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.smart.teacher",
     "description": "",
     "suffixes": [
@@ -3823,6 +4345,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-tex",
     "description": "",
     "suffixes": [
@@ -3830,6 +4353,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-texinfo",
     "description": "",
     "suffixes": [
@@ -3838,6 +4362,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-tex-tfm",
     "description": "",
     "suffixes": [
@@ -3845,14 +4370,16 @@
     ]
   },
   {
+    "kind": "image",
     "type": "image/tiff",
-    "description": "",
+    "description": "Tagged Image File Format",
     "suffixes": [
       ".tif",
       ".tiff"
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.tmobile-livetv",
     "description": "",
     "suffixes": [
@@ -3860,6 +4387,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-bittorrent",
     "description": "",
     "suffixes": [
@@ -3867,6 +4395,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.groove-tool-template",
     "description": "",
     "suffixes": [
@@ -3874,6 +4403,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.trid.tpt",
     "description": "",
     "suffixes": [
@@ -3881,6 +4411,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.trueapp",
     "description": "",
     "suffixes": [
@@ -3888,6 +4419,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-msterminal",
     "description": "",
     "suffixes": [
@@ -3895,6 +4427,7 @@
     ]
   },
   {
+    "kind": "text",
     "type": "text/tab-separated-values",
     "description": "",
     "suffixes": [
@@ -3902,14 +4435,16 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-font-ttf",
-    "description": "",
+    "description": "TrueType Font",
     "suffixes": [
       ".ttc",
       ".ttf"
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.simtech-mindmapper",
     "description": "",
     "suffixes": [
@@ -3918,6 +4453,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.genomatix.tuxedo",
     "description": "",
     "suffixes": [
@@ -3925,6 +4461,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.mobius.txf",
     "description": "",
     "suffixes": [
@@ -3932,6 +4469,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ufdl",
     "description": "",
     "suffixes": [
@@ -3940,6 +4478,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.umajin",
     "description": "",
     "suffixes": [
@@ -3947,6 +4486,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.unity",
     "description": "",
     "suffixes": [
@@ -3954,6 +4494,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.uoml+xml",
     "description": "",
     "suffixes": [
@@ -3961,6 +4502,7 @@
     ]
   },
   {
+    "kind": "text",
     "type": "text/uri-list",
     "description": "",
     "suffixes": [
@@ -3970,6 +4512,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-ustar",
     "description": "",
     "suffixes": [
@@ -3977,6 +4520,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.uiq.theme",
     "description": "",
     "suffixes": [
@@ -3984,6 +4528,7 @@
     ]
   },
   {
+    "kind": "text",
     "type": "text/x-uuencode",
     "description": "",
     "suffixes": [
@@ -3991,6 +4536,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-cdlink",
     "description": "",
     "suffixes": [
@@ -3998,6 +4544,7 @@
     ]
   },
   {
+    "kind": "text",
     "type": "text/x-vcard",
     "description": "",
     "suffixes": [
@@ -4005,6 +4552,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.groove-vcard",
     "description": "",
     "suffixes": [
@@ -4012,6 +4560,7 @@
     ]
   },
   {
+    "kind": "text",
     "type": "text/x-vcalendar",
     "description": "",
     "suffixes": [
@@ -4019,6 +4568,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.vcx",
     "description": "",
     "suffixes": [
@@ -4026,6 +4576,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.visionary",
     "description": "",
     "suffixes": [
@@ -4033,6 +4584,7 @@
     ]
   },
   {
+    "kind": "video",
     "type": "video/vnd.vivo",
     "description": "",
     "suffixes": [
@@ -4040,6 +4592,7 @@
     ]
   },
   {
+    "kind": "model",
     "type": "model/vrml",
     "description": "",
     "suffixes": [
@@ -4048,8 +4601,9 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.visio",
-    "description": "",
+    "description": "Microsoft Visio",
     "suffixes": [
       ".vsd",
       ".vss",
@@ -4058,6 +4612,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.vsf",
     "description": "",
     "suffixes": [
@@ -4065,6 +4620,7 @@
     ]
   },
   {
+    "kind": "model",
     "type": "model/vnd.vtu",
     "description": "",
     "suffixes": [
@@ -4072,6 +4628,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/voicexml+xml",
     "description": "",
     "suffixes": [
@@ -4079,6 +4636,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-doom",
     "description": "",
     "suffixes": [
@@ -4086,13 +4644,15 @@
     ]
   },
   {
+    "kind": "audio",
     "type": "audio/x-wav",
-    "description": "",
+    "description": "Waveform Audio Format",
     "suffixes": [
       ".wav"
     ]
   },
   {
+    "kind": "audio",
     "type": "audio/x-ms-wax",
     "description": "",
     "suffixes": [
@@ -4100,6 +4660,7 @@
     ]
   },
   {
+    "kind": "image",
     "type": "image/vnd.wap.wbmp",
     "description": "",
     "suffixes": [
@@ -4107,6 +4668,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.criticaltools.wbs+xml",
     "description": "",
     "suffixes": [
@@ -4114,6 +4676,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.wap.wbxml",
     "description": "",
     "suffixes": [
@@ -4121,6 +4684,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ms-works",
     "description": "",
     "suffixes": [
@@ -4131,6 +4695,7 @@
     ]
   },
   {
+    "kind": "video",
     "type": "video/x-ms-wm",
     "description": "",
     "suffixes": [
@@ -4138,6 +4703,7 @@
     ]
   },
   {
+    "kind": "audio",
     "type": "audio/x-ms-wma",
     "description": "",
     "suffixes": [
@@ -4145,6 +4711,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-ms-wmd",
     "description": "",
     "suffixes": [
@@ -4152,6 +4719,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-msmetafile",
     "description": "",
     "suffixes": [
@@ -4159,6 +4727,7 @@
     ]
   },
   {
+    "kind": "text",
     "type": "text/vnd.wap.wml",
     "description": "",
     "suffixes": [
@@ -4166,6 +4735,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.wap.wmlc",
     "description": "",
     "suffixes": [
@@ -4173,6 +4743,7 @@
     ]
   },
   {
+    "kind": "text",
     "type": "text/vnd.wap.wmlscript",
     "description": "",
     "suffixes": [
@@ -4180,6 +4751,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.wap.wmlscriptc",
     "description": "",
     "suffixes": [
@@ -4187,6 +4759,7 @@
     ]
   },
   {
+    "kind": "video",
     "type": "video/x-ms-wmv",
     "description": "",
     "suffixes": [
@@ -4194,6 +4767,7 @@
     ]
   },
   {
+    "kind": "video",
     "type": "video/x-ms-wmx",
     "description": "",
     "suffixes": [
@@ -4201,6 +4775,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-ms-wmz",
     "description": "",
     "suffixes": [
@@ -4208,6 +4783,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.wordperfect",
     "description": "",
     "suffixes": [
@@ -4215,6 +4791,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ms-wpl",
     "description": "",
     "suffixes": [
@@ -4222,6 +4799,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.wqd",
     "description": "",
     "suffixes": [
@@ -4229,6 +4807,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-mswrite",
     "description": "",
     "suffixes": [
@@ -4236,6 +4815,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/wsdl+xml",
     "description": "",
     "suffixes": [
@@ -4243,6 +4823,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/wspolicy+xml",
     "description": "",
     "suffixes": [
@@ -4250,6 +4831,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.webturbo",
     "description": "",
     "suffixes": [
@@ -4257,6 +4839,7 @@
     ]
   },
   {
+    "kind": "video",
     "type": "video/x-ms-wvx",
     "description": "",
     "suffixes": [
@@ -4264,6 +4847,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.hzn-3d-crossword",
     "description": "",
     "suffixes": [
@@ -4271,6 +4855,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-silverlight-app",
     "description": "",
     "suffixes": [
@@ -4278,6 +4863,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.xara",
     "description": "",
     "suffixes": [
@@ -4285,6 +4871,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-ms-xbap",
     "description": "",
     "suffixes": [
@@ -4292,6 +4879,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.fujixerox.docuworks.binder",
     "description": "",
     "suffixes": [
@@ -4299,6 +4887,7 @@
     ]
   },
   {
+    "kind": "image",
     "type": "image/x-xbitmap",
     "description": "",
     "suffixes": [
@@ -4306,6 +4895,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.syncml.dm+xml",
     "description": "",
     "suffixes": [
@@ -4313,6 +4903,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.adobe.xdp+xml",
     "description": "",
     "suffixes": [
@@ -4320,6 +4911,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.fujixerox.docuworks",
     "description": "",
     "suffixes": [
@@ -4327,6 +4919,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/xenc+xml",
     "description": "",
     "suffixes": [
@@ -4334,6 +4927,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/patch-ops-error+xml",
     "description": "",
     "suffixes": [
@@ -4341,6 +4935,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.adobe.xfdf",
     "description": "",
     "suffixes": [
@@ -4348,6 +4943,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.xfdl",
     "description": "",
     "suffixes": [
@@ -4355,14 +4951,16 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/xhtml+xml",
-    "description": "",
+    "description": "XHTML",
     "suffixes": [
       ".xht",
       ".xhtml"
     ]
   },
   {
+    "kind": "image",
     "type": "image/vnd.xiff",
     "description": "",
     "suffixes": [
@@ -4370,8 +4968,9 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ms-excel",
-    "description": "",
+    "description": "Microsoft Excel",
     "suffixes": [
       ".xla",
       ".xlb",
@@ -4383,6 +4982,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ms-excel.addin.macroenabled.12",
     "description": "",
     "suffixes": [
@@ -4390,6 +4990,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ms-excel.sheet.binary.macroenabled.12",
     "description": "",
     "suffixes": [
@@ -4397,6 +4998,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ms-excel.sheet.macroenabled.12",
     "description": "",
     "suffixes": [
@@ -4404,13 +5006,15 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-    "description": "",
+    "description": "Microsoft Excel (OpenXML)",
     "suffixes": [
       ".xlsx"
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ms-excel.template.macroenabled.12",
     "description": "",
     "suffixes": [
@@ -4418,6 +5022,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.openxmlformats-officedocument.spreadsheetml.template",
     "description": "",
     "suffixes": [
@@ -4425,8 +5030,9 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/xml",
-    "description": "",
+    "description": "XML",
     "suffixes": [
       ".xml",
       ".xpdl",
@@ -4434,6 +5040,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.olpc-sugar",
     "description": "",
     "suffixes": [
@@ -4441,6 +5048,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/xop+xml",
     "description": "",
     "suffixes": [
@@ -4448,6 +5056,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/x-xpinstall",
     "description": "",
     "suffixes": [
@@ -4455,6 +5064,7 @@
     ]
   },
   {
+    "kind": "image",
     "type": "image/x-xpixmap",
     "description": "",
     "suffixes": [
@@ -4462,6 +5072,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.is-xpr",
     "description": "",
     "suffixes": [
@@ -4469,6 +5080,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.ms-xpsdocument",
     "description": "",
     "suffixes": [
@@ -4476,6 +5088,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.intercon.formnet",
     "description": "",
     "suffixes": [
@@ -4484,6 +5097,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/xslt+xml",
     "description": "",
     "suffixes": [
@@ -4491,6 +5105,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.syncml+xml",
     "description": "",
     "suffixes": [
@@ -4498,6 +5113,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/xspf+xml",
     "description": "",
     "suffixes": [
@@ -4505,6 +5121,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.mozilla.xul+xml",
     "description": "",
     "suffixes": [
@@ -4512,6 +5129,7 @@
     ]
   },
   {
+    "kind": "image",
     "type": "image/x-xwindowdump",
     "description": "",
     "suffixes": [
@@ -4519,6 +5137,7 @@
     ]
   },
   {
+    "kind": "chemical",
     "type": "chemical/x-xyz",
     "description": "",
     "suffixes": [
@@ -4526,6 +5145,7 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.zzazz.deck+xml",
     "description": "",
     "suffixes": [
@@ -4533,13 +5153,15 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/zip",
-    "description": "",
+    "description": "ZIP archive",
     "suffixes": [
       ".zip"
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.zul",
     "description": "",
     "suffixes": [
@@ -4548,10 +5170,51 @@
     ]
   },
   {
+    "kind": "application",
     "type": "application/vnd.handheld-entertainment+xml",
     "description": "",
     "suffixes": [
       ".zmm"
+    ]
+  },
+  {
+    "kind": "audio",
+    "type": "audio/webm",
+    "description": "WEBM audio",
+    "suffixes": [
+      ".weba"
+    ]
+  },
+  {
+    "kind": "video",
+    "type": "video/webm",
+    "description": "WEBM video",
+    "suffixes": [
+      ".webm"
+    ]
+  },
+  {
+    "kind": "webp",
+    "type": "image/webp",
+    "description": "WEBP image",
+    "suffixes": [
+      ".webp"
+    ]
+  },
+  {
+    "kind": "font",
+    "type": "font/woff2",
+    "description": "Web Open Font Format",
+    "suffixes": [
+      ".woff2"
+    ]
+  },
+  {
+    "kind": "font",
+    "type": "font/woff",
+    "description": "Web Open Font Format",
+    "suffixes": [
+      ".woff"
     ]
   }
 ]
