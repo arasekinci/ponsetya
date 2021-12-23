@@ -6,8 +6,9 @@ describe('Class Names', () => {
   })
 
   test('should return conditional object keys joining', () => {
-    expect(classnames({ lorem: true }, { ipsum: true })).toBe('lorem ipsum')
-    expect(classnames({ lorem: true }, { ipsum: false })).toBe('lorem')
+    expect(classnames({ lorem: 'ipsum' })).toBe('lorem-ipsum')
+    expect(classnames({ lorem: true, ipsum: true })).toBe('lorem ipsum')
+    expect(classnames({ lorem: true, ipsum: false })).toBe('lorem')
   })
 
   test('should ignore other false values', () => {

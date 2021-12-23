@@ -21,8 +21,14 @@ export default function classnames(...args: ClassNameArguments): string {
       } else if (typeof arg === 'object') {
         if (arg.toString === Object.prototype.toString) {
           for (const key in arg) {
-            if (Object.prototype.hasOwnProperty.call(arg, key) && arg[key]) {
-              classNames.push(key)
+            const value = arg[key]
+
+            if (Object.prototype.hasOwnProperty.call(arg, key) && value) {
+              if (typeof value === 'string') {
+                classNames.push(`${key}-${value}`)
+              } else {
+                classNames.push(key)
+              }
             }
           }
         } else {
