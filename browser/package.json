@@ -1,0 +1,7 @@
+{
+  "name": "begonya/browser",
+  "types": "dist/@types/browser/index.d.ts",
+  "main": "dist/cjs/browser/index.js",
+  "module": "dist/esm/browser/index.js",
+  "module:esnext": "dist/esnext/browser/index.js"
+}

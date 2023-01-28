@@ -1,13 +1,16 @@
+import type { Config } from 'jest'
+
 /*
- * For a detailed explanation regarding each configuration property and type check, visit:
+ * For a detailed explanation regarding each configuration property, visit:
  * https://jestjs.io/docs/configuration
  */
 
-export default {
+const config: Config = {
   collectCoverage: true,
   coverageDirectory: 'coverage',
+  coverageProvider: 'v8',
   testEnvironment: 'jsdom',
-  transform: {
-    '^.+\\.[t|j]sx?$': 'babel-jest',
-  },
+  testMatch: ['**/*.test.ts'],
 }
+
+export default config

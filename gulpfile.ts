@@ -1,34 +1,40 @@
 import { execSync } from 'child_process'
-import fs from 'fs-extra'
-import gulp from 'gulp'
 
-import { compilerOptions } from './tsconfig.json'
-import pkg from './package.json'
+import typedoc from './typedoc.json'
+import jest from './jest.config'
 
-export async function test(): Promise<void> {
-  execSync('jest', {
+async function cmd(command: string): Promise<void> {
+  execSync(command, {
     stdio: 'inherit',
   })
 }
 
 export async function lint(): Promise<void> {
-  execSync('eslint .', {
-    stdio: 'inherit',
-  })
+  cmd('yarn eslint .')
+}
+
+export async function test(): Promise<void> {
+  cmd('yarn jest test --watch')
+}
+
+export async function start(): Promise<void> {
+  await build()
+
+  const path = process.cwd()
+  const open =
+    process.platform === 'darwin'
+      ? 'open'
+      : process.platform === 'win32'
+      ? 'start'
+      : 'xdg-open'
+
+  cmd(`${open} ${path}/${typedoc.out}/index.html`)
+  cmd(`${open} ${path}/${jest.coverageDirectory}/lcov-report/index.html`)
 }
 
 export async function build(): Promise<void> {
-  test()
-
-  execSync(`rm -rf ${compilerOptions.outDir}`)
-  execSync('tsc --build')
-
-  gulp
-    .src(['README.md', 'CHANGELOG.md', 'LICENSE'])
-    .pipe(gulp.dest(compilerOptions.outDir))
-
-  fs.writeFileSync(
-    `${compilerOptions.outDir}/package.json`,
-    JSON.stringify({ ...pkg, private: false }, null, 2)
-  )
+  cmd('yarn tsc')
+  cmd('yarn tsc --module commonjs --outDir dist/cjs')
+  cmd('yarn tsc --module es6 --outDir dist/esm')
+  cmd('yarn typedoc')
 }

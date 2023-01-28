@@ -1,0 +1,8 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "name": "Begonya",
+  "entryPoints": [
+    "src/*"
+  ],
+  "out": "docs"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "begonya/class",
+  "types": "dist/@types/class/index.d.ts",
+  "main": "dist/cjs/class/index.js",
+  "module": "dist/esm/class/index.js",
+  "module:esnext": "dist/esnext/class/index.js"
+}

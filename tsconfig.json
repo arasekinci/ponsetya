@@ -1,25 +1,30 @@
 {
+  // Visit https://aka.ms/tsconfig to read more about this file
   "compilerOptions": {
-    "target": "es5",
+    "target": "ESNext",
     "lib": [
       "dom",
-      "dom.iterable",
       "esnext"
     ],
-    "allowSyntheticDefaultImports": true,
     "module": "commonjs",
     "moduleResolution": "node",
-    "baseUrl": "./",
     "resolveJsonModule": true,
-    "outDir": "dist",
-    "declaration": true,
     "esModuleInterop": true,
-    "isolatedModules": true,
     "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "outDir": "dist/esnext",
+    "declarationDir": "dist/@types",
     "strict": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
   },
   "include": [
-    "src/**/*.ts"
+    "src/**/*"
+  ],
+  "exclude": [
+    "/**/coverage",
+    "/**/dist",
+    "/**/docs",
+    "/**/examples",
+    "/**/node_modules"
   ]
 }

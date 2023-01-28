@@ -1,5 +1,3 @@
-# Begonya
-
 They are the most commonly used and needed lightweight utility tools in JavaScript-based projects.
 You can use the environment and library independently.
 It works in harmony with server-based and browser-based applications.
