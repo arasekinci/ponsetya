@@ -1,38 +1,30 @@
+/**
+ * An object that can be used to specify options when setting a cookie.
+ */
+
 export type CookieOption = {
-  /**
-   * param description to be entered
-   */
+  /** The number of days for which the cookie should be valid. */
   exdays?: number
-  /**
-   * param description to be entered
-   */
+  /** The number of hours for which the cookie should be valid. */
   exhours?: number
-  /**
-   * param description to be entered
-   */
+  /** The number of minutes for which the cookie should be valid. */
   exminutes?: number
-  /**
-   * param description to be entered
-   */
+  /** A boolean value that indicates whether the cookie should be accessible only over HTTP. */
   httpOnly?: boolean
-  /**
-   * param description to be entered
-   */
+  /** A string that specifies the path for which the cookie should be valid. */
   path?: string
-  /**
-   * param description to be entered
-   */
+  /** A boolean value that indicates whether the cookie should be sent over a secure (HTTPS) connection. */
   secure?: boolean
 }
 
 /**
  * The get() method returns value of the specified Cookie item.
  *
- * @param name - param description to be entered
- * @return return description to be entered
+ * @param name - The name of the cookie to retrieve.
+ * @returns The value of the cookie. If the cookie does not exist, an empty string is returned.
  */
 
-export const get = (name: string): string => {
+export function get(name: string): string {
   const cookies = document.cookie.replace(/\s/gi, '').split(';')
 
   for (let i = 0; i < cookies.length; i++) {
@@ -51,28 +43,26 @@ export const get = (name: string): string => {
 /**
  * The remove() method removes the specified Cookie item.
  *
- * @param name - param description to be entered
- * @return return description to be entered
+ * @param name - The name of the cookie to remove.
  */
 
-export const remove = (name: string): void => {
+export function remove(name: string): void {
   document.cookie = name + '=; path=/; expires=Thu, 01 Jan 1970 00:00:01 GMT;'
 }
 
 /**
  * The set() method sets the value of the specified Cookie item.
  *
- * @param name - param description to be entered
- * @param value - param description to be entered
- * @param options - param description to be entered
- * @return return description to be entered
+ * @param name - The name of the cookie to set.
+ * @param value - The value to store in the cookie.
+ * @param options - Additional options to configure the cookie.
  */
 
-export const set = (
+export function set(
   name: string,
   value: string,
   options: CookieOption = {}
-): void => {
+): void {
   const { exminutes, exhours, exdays } = options
   let expires = ''
 
@@ -84,9 +74,13 @@ export const set = (
 
     if (exminutes) {
       today.setTime(today.getTime() + exminutes * minute)
-    } else if (exhours) {
+    }
+
+    if (exhours) {
       today.setTime(today.getTime() + exhours * hour)
-    } else if (exdays) {
+    }
+
+    if (exdays) {
       today.setTime(today.getTime() + exdays * day)
     }
 
