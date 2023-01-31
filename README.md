@@ -3,73 +3,72 @@ You can use the environment and library independently.
 It works in harmony with server-based and browser-based applications.
 
 ## Installation
+
 For using the yarn package manager.
-```
+
+```shell
 yarn add begonya
 ```
+
 For using the npm.
 
-```
+```shell
 npm install begonya --save
 ```
-
-## Modules
-
-### APIs
-
-- mime-type
-
-### Functions
-
-- classnames
-- uid
-
-### Utilities
-
-- crypto
-  - encode(value: string): string
-  - decode(value: string): string
-- number
-  - zpad(num: number): string
-- session
-  - key(index: number): string | undefined
-  - length(): number
-  - get<T = string>(key: string): T | undefined
-  - set(key: string, value: SessionValue): void
-  - remove(key: string): void
-  - clear(): void
-- storage
-  - key(index: number): string | undefined
-  - length(): number
-  - get<T = string>(key: string): T | undefined
-  - set(key: string, value: SessionValue): void
-  - remove(key: string): void
-  - clear(): void
-- string
-  - camelcase(str: string): string
-  - capitalize(str: string): string
-  - escape(str: string): string
-  - kebabcase(str: string): string
-  - lowercase(str: string): string
-  - pascalcase(str: string): string
-  - slugify(str: string): string
-  - snakecase(str: string, uppercase?: boolean): string
-  - truncate(str: string, limit = 140): string
-  - uppercase(str: string): string
 
 ## Import
 
 To use modules, you must include packages.
 
-```js
-// To include api use as below
-import MimeType 'begonya/mime-type'
+### Use default modules
 
-// To include function use as below
-import { classnames } 'begonya/functions'
+- array
+- boolean
+- function
+- number
+- object
+- string
 
-// To include utility use as below
-import { crpyto } 'begonya/utils'
+```ts
+import { array } 'begonya'
+
+const arr = [0, 1, 2]
+
+array.remove(arr, 1)
+
+// [0, 2]
+```
+
+### Use utils modules
+
+- classnames
+- getname
+- gettype
+- uid
+
+```ts
+import { classnames } 'begonya/utils'
+
+classnames('foo', 'bar', {
+  'foo-bar': true,
+})
+
+// 'foo bar foo-bar'
+```
+
+### Use browser modules
+
+- cookie
+- session
+- storage
+
+```ts
+import { cookie } 'begonya/browser'
+
+cookie.set('name', 'John Doe')
+cookie.get('name')
+
+// John Doe
 ```
 
 ## License 

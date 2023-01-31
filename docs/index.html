@@ -20,82 +20,52 @@ It works in harmony with server-based and browser-based applications.</p>
   <h2>Installation</h2>
 </a>
 <p>For using the yarn package manager.</p>
-<pre><code><span class="hl-0">yarn</span><span class="hl-1"> </span><span class="hl-0">add</span><span class="hl-1"> </span><span class="hl-0">begonya</span>
+<pre><code class="language-shell"><span class="hl-0">yarn </span><span class="hl-1">add</span><span class="hl-0"> </span><span class="hl-1">begonya</span>
 </code></pre>
 <p>For using the npm.</p>
-<pre><code><span class="hl-0">npm</span><span class="hl-1"> </span><span class="hl-0">install</span><span class="hl-1"> </span><span class="hl-0">begonya</span><span class="hl-1"> --</span><span class="hl-0">save</span>
+<pre><code class="language-shell"><span class="hl-0">npm </span><span class="hl-1">install</span><span class="hl-0"> </span><span class="hl-1">begonya</span><span class="hl-0"> </span><span class="hl-1">--save</span>
 </code></pre>
-
-<a href="#modules" id="modules" style="color: inherit; text-decoration: none;">
-  <h2>Modules</h2>
-</a>
-
-<a href="#apis" id="apis" style="color: inherit; text-decoration: none;">
-  <h3>APIs</h3>
-</a>
-<ul>
-<li>mime-type</li>
-</ul>
-
-<a href="#functions" id="functions" style="color: inherit; text-decoration: none;">
-  <h3>Functions</h3>
-</a>
-<ul>
-<li>classnames</li>
-<li>uid</li>
-</ul>
-
-<a href="#utilities" id="utilities" style="color: inherit; text-decoration: none;">
-  <h3>Utilities</h3>
-</a>
-<ul>
-<li>crypto<ul>
-<li>encode(value: string): string</li>
-<li>decode(value: string): string</li>
-</ul>
-</li>
-<li>number<ul>
-<li>zpad(num: number): string</li>
-</ul>
-</li>
-<li>session<ul>
-<li>key(index: number): string | undefined</li>
-<li>length(): number</li>
-<li>get&lt;T = string&gt;(key: string): T | undefined</li>
-<li>set(key: string, value: SessionValue): void</li>
-<li>remove(key: string): void</li>
-<li>clear(): void</li>
-</ul>
-</li>
-<li>storage<ul>
-<li>key(index: number): string | undefined</li>
-<li>length(): number</li>
-<li>get&lt;T = string&gt;(key: string): T | undefined</li>
-<li>set(key: string, value: SessionValue): void</li>
-<li>remove(key: string): void</li>
-<li>clear(): void</li>
-</ul>
-</li>
-<li>string<ul>
-<li>camelcase(str: string): string</li>
-<li>capitalize(str: string): string</li>
-<li>escape(str: string): string</li>
-<li>kebabcase(str: string): string</li>
-<li>lowercase(str: string): string</li>
-<li>pascalcase(str: string): string</li>
-<li>slugify(str: string): string</li>
-<li>snakecase(str: string, uppercase?: boolean): string</li>
-<li>truncate(str: string, limit = 140): string</li>
-<li>uppercase(str: string): string</li>
-</ul>
-</li>
-</ul>
 
 <a href="#import" id="import" style="color: inherit; text-decoration: none;">
   <h2>Import</h2>
 </a>
 <p>To use modules, you must include packages.</p>
-<pre><code class="language-js"><span class="hl-2">// To include api use as below</span><br/><span class="hl-3">import</span><span class="hl-1"> </span><span class="hl-0">MimeType</span><span class="hl-1"> </span><span class="hl-4">&#39;begonya/mime-type&#39;</span><br/><br/><span class="hl-2">// To include function use as below</span><br/><span class="hl-0">import</span><span class="hl-1"> { </span><span class="hl-0">classnames</span><span class="hl-1"> } </span><span class="hl-4">&#39;begonya/functions&#39;</span><br/><br/><span class="hl-2">// To include utility use as below</span><br/><span class="hl-0">import</span><span class="hl-1"> { </span><span class="hl-0">crpyto</span><span class="hl-1"> } </span><span class="hl-4">&#39;begonya/utils&#39;</span>
+
+<a href="#use-default-modules" id="use-default-modules" style="color: inherit; text-decoration: none;">
+  <h3>Use default modules</h3>
+</a>
+<ul>
+<li>array</li>
+<li>boolean</li>
+<li>function</li>
+<li>number</li>
+<li>object</li>
+<li>string</li>
+</ul>
+<pre><code class="language-ts"><span class="hl-2">import</span><span class="hl-0"> { </span><span class="hl-3">array</span><span class="hl-0"> } </span><span class="hl-1">&#39;begonya&#39;</span><br/><br/><span class="hl-3">const</span><span class="hl-0"> </span><span class="hl-3">arr</span><span class="hl-0"> = [0, 1, 2]</span><br/><br/><span class="hl-3">array</span><span class="hl-0">.</span><span class="hl-3">remove</span><span class="hl-0">(</span><span class="hl-3">arr</span><span class="hl-0">, 1)</span><br/><br/><span class="hl-4">// [0, 2]</span>
+</code></pre>
+
+<a href="#use-utils-modules" id="use-utils-modules" style="color: inherit; text-decoration: none;">
+  <h3>Use utils modules</h3>
+</a>
+<ul>
+<li>classnames</li>
+<li>getname</li>
+<li>gettype</li>
+<li>uid</li>
+</ul>
+<pre><code class="language-ts"><span class="hl-2">import</span><span class="hl-0"> { </span><span class="hl-3">classnames</span><span class="hl-0"> } </span><span class="hl-1">&#39;begonya/utils&#39;</span><br/><br/><span class="hl-3">classnames</span><span class="hl-0">(</span><span class="hl-1">&#39;foo&#39;</span><span class="hl-0">, </span><span class="hl-1">&#39;bar&#39;</span><span class="hl-0">, {</span><br/><span class="hl-0">  &#39;</span><span class="hl-3">foo</span><span class="hl-0">-</span><span class="hl-3">bar</span><span class="hl-0">&#39;: </span><span class="hl-3">true</span><span class="hl-0">,</span><br/><span class="hl-0">})</span><br/><br/><span class="hl-4">// &#39;foo bar foo-bar&#39;</span>
+</code></pre>
+
+<a href="#use-browser-modules" id="use-browser-modules" style="color: inherit; text-decoration: none;">
+  <h3>Use browser modules</h3>
+</a>
+<ul>
+<li>cookie</li>
+<li>session</li>
+<li>storage</li>
+</ul>
+<pre><code class="language-ts"><span class="hl-2">import</span><span class="hl-0"> { </span><span class="hl-3">cookie</span><span class="hl-0"> } </span><span class="hl-1">&#39;begonya/browser&#39;</span><br/><br/><span class="hl-3">cookie</span><span class="hl-0">.</span><span class="hl-3">set</span><span class="hl-0">(</span><span class="hl-1">&#39;name&#39;</span><span class="hl-0">, </span><span class="hl-1">&#39;John Doe&#39;</span><span class="hl-0">)</span><br/><span class="hl-3">cookie</span><span class="hl-0">.</span><span class="hl-3">get</span><span class="hl-0">(</span><span class="hl-1">&#39;name&#39;</span><span class="hl-0">)</span><br/><br/><span class="hl-4">// John Doe</span>
 </code></pre>
 
 <a href="#license" id="license" style="color: inherit; text-decoration: none;">
