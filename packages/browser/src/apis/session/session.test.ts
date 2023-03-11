@@ -1,6 +1,6 @@
-import { Session } from './session'
+import { Session } from '.'
 
-describe('session', () => {
+describe('Session', () => {
   const session = new Session()
 
   beforeEach(() => {

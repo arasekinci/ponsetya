@@ -1,4 +1,4 @@
-import { Storage } from '../storage'
+import { Storage } from '.'
 
 describe('Storage', () => {
   const storage = new Storage()

@@ -1,6 +1,6 @@
-import { Cookie } from '../cookie'
+import { Cookie } from '.'
 
-describe('cookie', () => {
+describe('Cookie', () => {
   const cookie = new Cookie()
 
   describe('get', () => {
