@@ -1,0 +1,9 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "name": "Ponsetya",
+  "entryPoints": [
+    "packages/browser/src/*",
+    "packages/vanilla/src/*"
+  ],
+  "out": "docs"
+}

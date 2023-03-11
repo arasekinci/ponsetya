@@ -1,0 +1,6 @@
+# See https://eslint.org/docs/user-guide/configuring/ignoring-code for more information.
+
+/**/coverage
+/**/dist
+/**/docs
+/**/node_modules
