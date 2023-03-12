@@ -6,7 +6,7 @@
     "packages:test": "lerna run test --scope=@ponsetya/*",
     "docs:build": "typedoc",
     "docs:watch": "typedoc --watch",
-    "build": "yarn packages:build",
+    "build": "yarn packages:build && yarn docs:build",
     "lint": "yarn packages:lint",
     "test": "yarn packages:test",
     "postinstall": "yarn husky install"

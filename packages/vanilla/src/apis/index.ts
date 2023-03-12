@@ -1,6 +1,7 @@
 export * from './array'
 export * from './boolean'
 export * from './function'
+export * from './math'
 export * from './mime-type'
 export * from './number'
 export * from './object'
