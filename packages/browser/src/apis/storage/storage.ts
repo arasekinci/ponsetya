@@ -4,10 +4,7 @@ import type { StorageValue } from './storage.type'
  * The Storage class provides an interface to the browser's local storage object.
  * You can use it to set, get, and remove key/value pairs stored in the local storage object.
  *
- * @example
- * const storage = new Storage()
- * storage.set('username', 'john')
- * const username = storage.get('username')
+ * @see {@link https://arasekinci.github.io/ponsetya/classes/vanilla_src.String.html | String} for more information.
  */
 
 export class Storage {

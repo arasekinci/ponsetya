@@ -1,6 +1,8 @@
 /**
  * Utility class for detecting the current environment where the code is running.
  * Can detect if the code is running in a browser, node.js, JSDOM or a web worker.
+ *
+ * @see {@link https://arasekinci.github.io/ponsetya/classes/node_src.Environment.html | Environment} for more information.
  */
 
 export class Environment {
