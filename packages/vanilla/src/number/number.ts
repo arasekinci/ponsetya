@@ -1,5 +1,5 @@
-import { NumberConstructor } from '../../constructors'
-import { gettype } from '../../functions'
+import { gettype } from '../gettype'
+import { NumberConstructor } from './number.constructor'
 
 /**
  * Number utility class that provides various methods for numbers.

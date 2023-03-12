@@ -1,8 +1,6 @@
-export * from './apis'
+export * from './cookie'
+export * from './session'
+export * from './storage'
+
 export * from './instances'
-
-import * as instances from './instances'
-
-export default {
-  ...instances,
-}
+export * as default from './context'

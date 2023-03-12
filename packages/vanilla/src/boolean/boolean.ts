@@ -1,5 +1,5 @@
-import { BooleanConstructor } from '../../constructors'
-import { gettype } from '../../functions'
+import { gettype } from '../gettype'
+import { BooleanConstructor } from './boolean.constructor'
 
 /**
  * Boolean utility class that provides various methods for booles.

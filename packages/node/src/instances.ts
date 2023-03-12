@@ -1,3 +1,3 @@
-import { Environment } from './apis'
+import { Environment } from './environment'
 
 export const env = new Environment()

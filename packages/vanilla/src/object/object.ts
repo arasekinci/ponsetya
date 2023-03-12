@@ -1,5 +1,5 @@
-import { ObjectConstructor } from '../../constructors'
-import { gettype } from '../../functions'
+import { gettype } from '../gettype'
+import { ObjectConstructor } from './object.constructor'
 
 /**
  * Object utility class that provides various methods for objects.

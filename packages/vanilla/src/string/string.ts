@@ -1,5 +1,5 @@
-import { StringConstructor } from '../../constructors'
-import { gettype } from '../../functions'
+import { gettype } from '../gettype'
+import { StringConstructor } from './string.constructor'
 
 /**
  * String utility class that provides various methods for strings.

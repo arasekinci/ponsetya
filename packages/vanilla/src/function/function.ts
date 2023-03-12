@@ -1,5 +1,5 @@
-import { FunctionConstructor } from '../../constructors'
-import { gettype } from '../../functions'
+import { gettype } from '../gettype'
+import { FunctionConstructor } from './function.constructor'
 
 /**
  * Function utility class that provides various methods for functions.

@@ -1,5 +1,5 @@
-import { ArrayConstructor } from '../../constructors'
-import { gettype } from '../../functions'
+import { gettype } from '../gettype'
+import { ArrayConstructor } from './array.constructor'
 
 /**
  * Array utility class that provides various methods for arrays.

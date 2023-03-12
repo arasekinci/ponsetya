@@ -1,4 +1,4 @@
-import { MathPrototype } from '../../prototypes'
+import { MathPrototype } from './math.prototype'
 
 /**
  * Math utility object that provides various methods for numbers.

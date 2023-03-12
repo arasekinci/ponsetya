@@ -1,8 +1,4 @@
-export * from './apis'
+export * from './environment'
+
 export * from './instances'
-
-import * as instances from './instances'
-
-export default {
-  ...instances,
-}
+export * as default from './context'
