@@ -4,8 +4,9 @@ describe('Array', () => {
   test('append should add an item to the end of an array', () => {
     const arr: number[] = [1, 2, 3]
     const item = 4
+    Array.append(arr, item)
 
-    expect(Array.append(arr, item)).toEqual([1, 2, 3, 4])
+    expect(arr).toEqual([1, 2, 3, 4])
   })
 
   test('average should return the average of an array of numbers', () => {
@@ -39,10 +40,20 @@ describe('Array', () => {
   })
 
   test('insert should insert an item at a given index', () => {
-    expect(Array.insert([1, 2, 3], 1, 4, 5)).toEqual([1, 4, 5, 2, 3])
-    expect(Array.insert([1, 2, 3], 0, 4, 5)).toEqual([4, 5, 1, 2, 3])
-    expect(Array.insert([1, 2, 3], 3, 4, 5)).toEqual([1, 2, 3, 4, 5])
-    expect(Array.insert([], 0, 1, 2, 3)).toEqual([1, 2, 3])
+    const arr1 = [1, 2, 3]
+    const arr2 = [1, 2, 3]
+    const arr3 = [1, 2, 3]
+    const arr4 = []
+
+    Array.insert(arr1, 1, 4, 5)
+    Array.insert(arr2, 0, 4, 5)
+    Array.insert(arr3, 3, 4, 5)
+    Array.insert(arr4, 0, 1, 2, 3)
+
+    expect(arr1).toEqual([1, 4, 5, 2, 3])
+    expect(arr2).toEqual([4, 5, 1, 2, 3])
+    expect(arr3).toEqual([1, 2, 3, 4, 5])
+    expect(arr4).toEqual([1, 2, 3])
   })
 
   describe('is', () => {
@@ -77,8 +88,9 @@ describe('Array', () => {
 
   test('move should move an item from one index to another', () => {
     const arr: number[] = [1, 2, 3, 4, 5]
+    Array.move(arr, 0, 2)
 
-    expect(Array.move(arr, 0, 2)).toEqual([2, 3, 1, 4, 5])
+    expect(arr).toEqual([2, 3, 1, 4, 5])
   })
 
   test('odd should return an array of odd numbers', () => {
@@ -90,14 +102,16 @@ describe('Array', () => {
   test('prepend should add an item to the beginning of an array', () => {
     const arr: number[] = [1, 2, 3]
     const item = 0
+    Array.prepend(arr, item)
 
-    expect(Array.prepend(arr, item)).toEqual([0, 1, 2, 3])
+    expect(arr).toEqual([0, 1, 2, 3])
   })
 
   test('remove should remove an item at a given index', () => {
     const arr: number[] = [1, 2, 3]
+    Array.remove(arr, 1)
 
-    expect(Array.remove(arr, 1)).toEqual([1, 3])
+    expect(arr).toEqual([1, 3])
   })
 
   test('sum should return the sum of an array of numbers', () => {
@@ -115,7 +129,8 @@ describe('Array', () => {
   test('update should update an item at a given index', () => {
     const arr: number[] = [1, 2, 3]
     const item = 4
+    Array.update(arr, 1, item)
 
-    expect(Array.update(arr, 1, item)).toEqual([1, 4, 3])
+    expect(arr).toEqual([1, 4, 3])
   })
 })

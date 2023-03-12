@@ -17,13 +17,13 @@ export abstract class Array extends ArrayConstructor {
    *
    * @example
    * ```ts
-   * let arr = [1, 2, 3]
-   * arr = Array.append(arr, 4)
+   * const arr = [1, 2, 3]
+   * Array.append(arr, 4)
    * console.log(arr) // [1, 2, 3, 4]
    * ```
    */
-  static append<T>(arr: T[], item: T): T[] {
-    return [...arr, item]
+  static append<T>(arr: T[], item: T) {
+    arr.push(item)
   }
 
   /**
@@ -115,17 +115,13 @@ export abstract class Array extends ArrayConstructor {
    *
    * @example
    * ```ts
-   * let arr = [1, 4]
-   * arr = Array.insert(arr, 1, 2, 3)
+   * const arr = [1, 4]
+   * Array.insert(arr, 1, 2, 3)
    * console.log(arr) // [1, 2, 3, 4]
    * ```
    */
-  static insert<T>(arr: T[], index: number, ...items: T[]): T[] {
-    const copy = [...arr]
-
-    copy.splice(index, 0, ...Object.values<T>(items))
-
-    return copy
+  static insert<T>(arr: T[], index: number, ...items: T[]) {
+    arr.splice(index, 0, ...Object.values<T>(items))
   }
 
   /**
@@ -182,18 +178,15 @@ export abstract class Array extends ArrayConstructor {
    *
    * @example
    * ```ts
-   * let arr = [1, 4, 2, 3]
-   * arr = Array.move(arr, 1, 3)
+   * const arr = [1, 4, 2, 3]
+   * Array.move(arr, 1, 3)
    * console.log(arr) // [1, 2, 3, 4]
    * ```
    */
-  static move<T>(arr: T[], from: number, to: number): T[] {
-    const copy = [...arr]
-    const item = copy.splice(from, 1)[0]
+  static move<T>(arr: T[], from: number, to: number) {
+    const item = arr.splice(from, 1)[0]
 
-    copy.splice(to, 0, item)
-
-    return copy
+    arr.splice(to, 0, item)
   }
 
   /**
@@ -222,13 +215,13 @@ export abstract class Array extends ArrayConstructor {
    *
    * @example
    * ```ts
-   * let arr = [2, 3, 4]
-   * arr = Array.prepend(arr, 1)
+   * const arr = [2, 3, 4]
+   * Array.prepend(arr, 1)
    * console.log(arr) // [1, 2, 3, 4]
    * ```
    */
-  static prepend<T>(arr: T[], item: T): T[] {
-    return [item, ...arr]
+  static prepend<T>(arr: T[], item: T) {
+    arr.unshift(item)
   }
 
   /**
@@ -240,17 +233,13 @@ export abstract class Array extends ArrayConstructor {
    *
    * @example
    * ```ts
-   * let arr = [1, 2, 9, 3, 4]
-   * arr = Array.remove(arr, 2)
+   * const arr = [1, 2, 9, 3, 4]
+   * Array.remove(arr, 2)
    * console.log(arr) // [1, 2, 3, 4]
    * ```
    */
-  static remove<T>(arr: T[], index: number): T[] {
-    const copy = [...arr]
-
-    copy.splice(index, 1)
-
-    return copy
+  static remove<T>(arr: T[], index: number) {
+    arr.splice(index, 1)
   }
 
   /**
@@ -297,16 +286,12 @@ export abstract class Array extends ArrayConstructor {
    *
    * @example
    * ```ts
-   * let arr = [5, 2, 3, 4]
-   * arr = Array.update(arr, 0, 1)
+   * const arr = [5, 2, 3, 4]
+   * Array.update(arr, 0, 1)
    * console.log(arr) // [1, 2, 3, 4]
    * ```
    */
-  static update<T>(arr: T[], index: number, item: T): T[] {
-    const copy = [...arr]
-
-    copy[index] = item
-
-    return copy
+  static update<T>(arr: T[], index: number, item: T) {
+    arr[index] = item
   }
 }
