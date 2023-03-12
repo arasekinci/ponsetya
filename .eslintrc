@@ -10,7 +10,8 @@
     "plugin:prettier/recommended"
   ],
   "plugins": [
-    "@typescript-eslint"
+    "@typescript-eslint",
+    "tsdoc"
   ],
   "overrides": [
     {
@@ -24,5 +25,8 @@
         "**/*.test.ts"
       ]
     }
-  ]
+  ],
+  "rules": {
+    "tsdoc/syntax": "error"
+  }
 }
