@@ -3,6 +3,7 @@
   "name": "Ponsetya",
   "entryPoints": [
     "packages/browser/src/*",
+    "packages/node/src/*",
     "packages/vanilla/src/*"
   ],
   "out": "docs"
