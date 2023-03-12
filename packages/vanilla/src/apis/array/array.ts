@@ -13,7 +13,6 @@ export abstract class Array extends ArrayConstructor {
    *
    * @param arr - The array to append the item to.
    * @param item - The item to append.
-   * @returns A new array with the item appended.
    *
    * @example
    * ```ts
@@ -77,7 +76,6 @@ export abstract class Array extends ArrayConstructor {
    * @param arr - The array to insert the items into.
    * @param index - The index to insert the items at.
    * @param items - The items to insert.
-   * @returns A new array with the items inserted.
    *
    * @example
    * ```ts
@@ -106,7 +104,6 @@ export abstract class Array extends ArrayConstructor {
    * @param arr - The array to move the item in.
    * @param from - The index of the item to move.
    * @param to - The index to move the item to.
-   * @returns A new array with the item moved.
    *
    * @example
    * ```ts
@@ -126,7 +123,6 @@ export abstract class Array extends ArrayConstructor {
    *
    * @param arr - The array to prepend the item to.
    * @param item - The item to prepend.
-   * @returns A new array with the item prepended.
    *
    * @example
    * ```ts
@@ -144,7 +140,6 @@ export abstract class Array extends ArrayConstructor {
    *
    * @param arr - The array to remove the item from.
    * @param index - The index of the item to remove.
-   * @returns A new array with the item removed.
    *
    * @example
    * ```ts
@@ -180,7 +175,6 @@ export abstract class Array extends ArrayConstructor {
    * @param arr - The array to update the item in.
    * @param index - The index of the item to update.
    * @param item - The new item.
-   * @returns A new array with the item updated.
    *
    * @example
    * ```ts
