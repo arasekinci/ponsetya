@@ -9,12 +9,6 @@ describe('Array', () => {
     expect(arr).toEqual([1, 2, 3, 4])
   })
 
-  test('average should return the average of an array of numbers', () => {
-    const arr: number[] = [1, 2, 3, 4, 5]
-
-    expect(Array.average(arr)).toBe(3)
-  })
-
   test('compare should return true if two arrays are the same', () => {
     const arr = [1, 2, 3]
 
@@ -24,12 +18,6 @@ describe('Array', () => {
     expect(Array.compare([{ a: 1 }, { b: 2 }], [{ a: 1 }, { b: 2 }])).toBe(true)
     expect(Array.compare([1, 2, 3], [4, 5, 6])).toBe(false)
     expect(Array.compare([1, 2, 3], [1, 2])).toBe(false)
-  })
-
-  test('even should return an array of even numbers', () => {
-    const arr: number[] = [1, 2, 3, 4, 5]
-
-    expect(Array.even(arr)).toEqual([2, 4])
   })
 
   test('get should return the item at a given index', () => {
@@ -74,29 +62,11 @@ describe('Array', () => {
     })
   })
 
-  test('max should return the maximum value of an array', () => {
-    const arr: number[] = [1, 2, 3, 4, 5]
-
-    expect(Array.max(arr)).toBe(5)
-  })
-
-  test('min should return the minimum value of an array', () => {
-    const arr: number[] = [1, 2, 3, 4, 5]
-
-    expect(Array.min(arr)).toBe(1)
-  })
-
   test('move should move an item from one index to another', () => {
     const arr: number[] = [1, 2, 3, 4, 5]
     Array.move(arr, 0, 2)
 
     expect(arr).toEqual([2, 3, 1, 4, 5])
-  })
-
-  test('odd should return an array of odd numbers', () => {
-    const arr: number[] = [1, 2, 3, 4, 5]
-
-    expect(Array.odd(arr)).toEqual([1, 3, 5])
   })
 
   test('prepend should add an item to the beginning of an array', () => {
@@ -112,12 +82,6 @@ describe('Array', () => {
     Array.remove(arr, 1)
 
     expect(arr).toEqual([1, 3])
-  })
-
-  test('sum should return the sum of an array of numbers', () => {
-    const arr: number[] = [1, 2, 3, 4, 5]
-
-    expect(Array.sum(arr)).toBe(15)
   })
 
   test('unique should return an array with only unique values', () => {

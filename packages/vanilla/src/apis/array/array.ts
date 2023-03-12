@@ -27,23 +27,6 @@ export abstract class Array extends ArrayConstructor {
   }
 
   /**
-   * Calculates the average value of an array of numbers.
-   *
-   * @param arr - The array of numbers.
-   * @returns The average value.
-   *
-   * @example
-   * ```ts
-   * const arr = [1, 2, 3, 4, 5]
-   * const averaged = Array.average(arr)
-   * console.log(averaged) // 3
-   * ```
-   */
-  static average(arr: number[]): number {
-    return arr.reduce((previous, current) => previous + current, 0) / arr.length
-  }
-
-  /**
    * Compares two arrays and checks if they are the same.
    *
    * @param arr1 - The first array to compare.
@@ -68,23 +51,6 @@ export abstract class Array extends ArrayConstructor {
     }
 
     return false
-  }
-
-  /**
-   * Filters an array of numbers and returns only the even numbers.
-   *
-   * @param arr - The array of numbers.
-   * @returns An array of even numbers.
-   *
-   * @example
-   * ```ts
-   * const arr = [1, 2, 3, 4]
-   * const results = Array.even(arr)
-   * console.log(results) // [2, 4]
-   * ```
-   */
-  static even(arr: number[]): number[] {
-    return arr.filter((value) => value % 2 === 0)
   }
 
   /**
@@ -135,40 +101,6 @@ export abstract class Array extends ArrayConstructor {
   }
 
   /**
-   * Gets the maximum value of an array of numbers.
-   *
-   * @param arr - The array of numbers.
-   * @returns The maximum value.
-   *
-   * @example
-   * ```ts
-   * const arr = [1, 2, 3, 4]
-   * const item = Array.max(arr)
-   * console.log(item) // 4
-   * ```
-   */
-  static max(arr: number[]): number {
-    return Math.max(...arr)
-  }
-
-  /**
-   * Gets the minimum value of an array of numbers.
-   *
-   * @param arr - The array of numbers.
-   * @returns The minimum value.
-   *
-   * @example
-   * ```ts
-   * const arr = [1, 2, 3, 4]
-   * const item = Array.min(arr)
-   * console.log(item) // 1
-   * ```
-   */
-  static min(arr: number[]): number {
-    return Math.min(...arr)
-  }
-
-  /**
    * Moves an item from one index to another in an array.
    *
    * @param arr - The array to move the item in.
@@ -187,23 +119,6 @@ export abstract class Array extends ArrayConstructor {
     const item = arr.splice(from, 1)[0]
 
     arr.splice(to, 0, item)
-  }
-
-  /**
-   * Filters an array of numbers and returns only the odd numbers.
-   *
-   * @param arr - The array of numbers.
-   * @returns An array of odd numbers.
-   *
-   * @example
-   * ```ts
-   * const arr = [1, 2, 3, 4]
-   * const results = Array.odd(arr)
-   * console.log(results) // [1, 3]
-   * ```
-   */
-  static odd(arr: number[]): number[] {
-    return arr.filter((value) => value % 2 !== 0)
   }
 
   /**
@@ -240,23 +155,6 @@ export abstract class Array extends ArrayConstructor {
    */
   static remove<T>(arr: T[], index: number) {
     arr.splice(index, 1)
-  }
-
-  /**
-   * Calculates the sum of an array of numbers.
-   *
-   * @param arr - The array of numbers.
-   * @returns The sum of the numbers.
-   *
-   * @example
-   * ```ts
-   * const arr = [1, 2, 3, 4]
-   * const total = Array.sum(arr)
-   * console.log(total) // 10
-   * ```
-   */
-  static sum(arr: number[]): number {
-    return arr.reduce((previous, current) => previous + current, 0)
   }
 
   /**
