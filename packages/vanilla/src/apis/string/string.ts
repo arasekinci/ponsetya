@@ -18,6 +18,7 @@ export abstract class String extends StringConstructor {
    * ```ts
    * const encoded = 'SGVsbG8gd29ybGQh'
    * const decoded = String.decode(encoded)
+   *
    * console.log(decoded) // "Hello world!"
    * ```
    */
@@ -35,6 +36,7 @@ export abstract class String extends StringConstructor {
    * ```ts
    * const str = 'Hello world!'
    * const encoded = String.encode(str)
+   *
    * console.log(encoded) // "SGVsbG8gd29ybGQh"
    * ```
    */
@@ -63,6 +65,7 @@ export abstract class String extends StringConstructor {
    * ```ts
    * const str = "Hello, I'm {{name}} and I'm {{age}} years old."
    * const templated = String.template(str, 'John', 27)
+   *
    * console.log(templated) // "Hello, I'm John and I'm 27 years old."
    * ```
    */
@@ -94,6 +97,7 @@ export abstract class String extends StringConstructor {
    * ```ts
    * const str = 'Lorem ipsum dolor sit amet.'
    * const truncated = String.truncate(str, 11)
+   *
    * console.log(truncated) // Lorem ipsum...
    * ```
    */

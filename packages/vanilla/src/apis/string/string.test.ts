@@ -1,31 +1,19 @@
 import { String } from '.'
 
 describe('String', () => {
-  describe('truncate', () => {
-    const str = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-
-    test('should slice the string up', () => {
-      expect(String.truncate(str, 11)).toBe('Lorem ipsum...')
-      expect(String.truncate(str, 17)).toBe('Lorem ipsum dolor...')
-    })
-
-    test('should return itself when number is greater than text', () => {
-      expect(String.truncate('', 10)).toBe('')
-      expect(String.truncate(str, 200)).toBe(str)
+  describe('decode()', () => {
+    test('should return the decrypted value', () => {
+      expect(String.decode('SGVsbG8lMjB3b3JsZCE=')).toBe('Hello world!')
     })
   })
 
-  describe('crypto', () => {
-    const encoded = 'TG9yZW0lMjBpcHN1bQ=='
-    const decoded = 'Lorem ipsum'
-
-    test('should encrypt the text and return the encrypted text', () => {
-      expect(String.encode(decoded)).toBe(encoded)
-      expect(String.decode(encoded)).toBe(decoded)
+  describe('encode()', () => {
+    test('should return the encrypted value', () => {
+      expect(String.encode('Hello world!')).toBe('SGVsbG8lMjB3b3JsZCE=')
     })
   })
 
-  describe('is', () => {
+  describe('is()', () => {
     test('should return true for a boolean value', () => {
       expect(String.is('string value')).toBe(true)
     })
@@ -42,17 +30,30 @@ describe('String', () => {
     })
   })
 
-  describe('template', () => {
-    const hi = "Hello, I'm {{name}}, {{age}} years old."
-    const description = "I'm a {{job}} Developer, I've always enjoyed {{job}}."
-
+  describe('template()', () => {
     test('should replace the variables and return the sentence', () => {
-      expect(String.template(hi, 'Aras', 27)).toBe(
-        "Hello, I'm Aras, 27 years old."
+      const hi = "Hello, I'm {{name}} and I'm {{age}} years old."
+      const summary = "I'm a {{job}} Developer, I've always enjoyed {{job}}."
+
+      expect(String.template(hi, 'John', 27)).toBe(
+        "Hello, I'm John and I'm 27 years old."
       )
-      expect(String.template(description, 'Front-end')).toBe(
+      expect(String.template(summary, 'Front-end')).toBe(
         "I'm a Front-end Developer, I've always enjoyed Front-end."
       )
+    })
+  })
+
+  describe('truncate()', () => {
+    const str = 'Lorem ipsum dolor sit amet.'
+
+    test('should truncate the string from a full word', () => {
+      expect(String.truncate(str, 11)).toBe('Lorem ipsum...')
+      expect(String.truncate(str, 17)).toBe('Lorem ipsum dolor...')
+    })
+
+    test('should return the original string if the limit is larger than the length of the string', () => {
+      expect(String.truncate(str, 50)).toBe(str)
     })
   })
 })
