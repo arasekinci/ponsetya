@@ -3,10 +3,7 @@ import type { CookieOption } from './cookie.type'
 /**
  * The Cookie class provides an interface to the browser's cookie.
  *
- * @example
- * const cookie = new Cookie()
- * cookie.set('username', 'john')
- * const username = cookie.get('username')
+ * @see {@link https://arasekinci.github.io/ponsetya/classes/browser_src.Cookie-1.html | Cookie} for more information.
  */
 
 export class Cookie {
