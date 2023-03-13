@@ -64,22 +64,24 @@ export abstract class String extends StringConstructor {
    * @example
    * ```ts
    * const str = "Hello, I'm {{name}} and I'm {{age}} years old."
-   * const templated = String.template(str, 'John', 27)
+   * const templated = String.template(str, {
+   *  name: 'John',
+   *  age: 27
+   * }) // "Hello, I'm John and I'm 27 years old."
    *
    * console.log(templated) // "Hello, I'm John and I'm 27 years old."
    * ```
    */
-  static template(str: string, ...params: (string | number)[]): string {
-    const matchs = str.match(/\{{.+?\}}/g)
+  static template(
+    str: string,
+    params: Record<string, string | number>
+  ): string {
+    for (const key in params) {
+      if (Object.prototype.hasOwnProperty.call(params, key)) {
+        const value = params[key]
+        const regex = new RegExp(`{{${key}}}`, 'g')
 
-    if (matchs) {
-      const length = params.length
-
-      for (let i = 0; i < length; i++) {
-        const param = params[i]
-        const match = matchs[i]
-
-        str = str.replace(new RegExp(match, 'g'), param.toString())
+        str = str.replace(regex, value.toString())
       }
     }
 
