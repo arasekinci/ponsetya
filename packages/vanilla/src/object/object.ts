@@ -9,6 +9,43 @@ import { ObjectConstructor } from './object.constructor'
 
 abstract class _Object extends ObjectConstructor {
   /**
+   * Recursively merges two objects. The resulting object has all properties
+   * from both objects. If a property from both objects has the same name, then
+   * the value from the second object will be used.
+   *
+   * @param target - The target object to merge into.
+   * @param source - The source object to merge from.
+   * @returns A new object that has all properties from both `target` and `source`.
+   *
+   * @example
+   * ```ts
+   * const target = { a: 1, b: 2 }
+   * const source = { c: 3, d: 4 }
+   * const assigned = Object.assign(target, source)
+   *
+   * console.log(assigned) // { a: 1, b: 2, c: 3, d: 4 }
+   * ```
+   */
+  static assign<T, S>(target: T, source: S): T & S {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const obj = { ...target } as any
+
+    for (const key in source) {
+      if (Object.prototype.hasOwnProperty.call(source, key)) {
+        const value = source[key]
+
+        if (value instanceof Object) {
+          obj[key] = _Object.assign<T, typeof value>(obj[key], value)
+        } else {
+          obj[key] = value
+        }
+      }
+    }
+
+    return obj
+  }
+
+  /**
    * The is() method determines whether the passed value is an Object.
    *
    * @param value - The value to be checked.

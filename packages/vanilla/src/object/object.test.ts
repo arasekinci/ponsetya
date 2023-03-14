@@ -1,13 +1,35 @@
 import { Object } from '.'
 
 describe('Object', () => {
-  const obj = {
-    name: 'Aras',
-    surname: 'Ekinci',
-    job: 'Front-end Developer',
-  }
+  describe('assign()', () => {
+    test('should assign two objects', () => {
+      const target = { a: 1, b: 2 }
+      const source = { c: 3, d: 4 }
 
-  describe('is', () => {
+      expect(Object.assign(target, source)).toEqual({
+        a: 1,
+        b: 2,
+        c: 3,
+        d: 4,
+      })
+    })
+
+    test('should recursively write values over existing properties', () => {
+      const target = { a: { b: { c: 1 } }, d: 2 }
+      const source = { a: { b: { c: 3 } }, d: 4 }
+
+      expect(Object.assign(target, source)).toEqual({
+        a: {
+          b: {
+            c: 3,
+          },
+        },
+        d: 4,
+      })
+    })
+  })
+
+  describe('is()', () => {
     test('should return true for a boolean value', () => {
       expect(Object.is({})).toBe(true)
       expect(Object.is({ x: 'y' })).toBe(true)
@@ -25,17 +47,21 @@ describe('Object', () => {
     })
   })
 
-  describe('omit', () => {
-    test('should slice the string up', () => {
-      expect(Object.omit(obj, 'name')).toEqual({
-        surname: 'Ekinci',
-        job: 'Front-end Developer',
-      })
-    })
+  describe('omit()', () => {
+    test('should omit the specified keys from the object', () => {
+      const obj = {
+        name: 'John',
+        surname: 'Doe',
+        job: 'Software Developer',
+      }
 
-    test('should return itself when number is greater than text', () => {
+      expect(Object.omit(obj, 'name')).toEqual({
+        surname: 'Doe',
+        job: 'Software Developer',
+      })
+
       expect(Object.omit(obj, 'name', 'surname')).toEqual({
-        job: 'Front-end Developer',
+        job: 'Software Developer',
       })
     })
   })
