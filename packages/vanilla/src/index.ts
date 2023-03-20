@@ -1,6 +1,7 @@
 export * from './array'
 export * from './boolean'
 export * from './classnames'
+export * from './clone'
 export * from './function'
 export * from './getname'
 export * from './gettype'

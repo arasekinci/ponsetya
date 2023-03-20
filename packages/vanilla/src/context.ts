@@ -1,4 +1,5 @@
 export { classnames } from './classnames'
+export { clone } from './clone'
 export { getname } from './getname'
 export { gettype } from './gettype'
 export { uid } from './uid'
