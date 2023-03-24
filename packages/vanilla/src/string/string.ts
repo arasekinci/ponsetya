@@ -13,14 +13,6 @@ export abstract class String extends StringConstructor {
    *
    * @param str - A String representing the value you want to decrypt.
    * @returns Decrypted value.
-   *
-   * @example
-   * ```ts
-   * const encoded = 'SGVsbG8gd29ybGQh'
-   * const decoded = String.decode(encoded)
-   *
-   * console.log(decoded) // "Hello world!"
-   * ```
    */
   static decode(str: string): string {
     return decodeURIComponent(atob(str))
@@ -31,14 +23,6 @@ export abstract class String extends StringConstructor {
    *
    * @param str - A String representing the value you want to encrypt.
    * @returns Encrypted value.
-   *
-   * @example
-   * ```ts
-   * const str = 'Hello world!'
-   * const encoded = String.encode(str)
-   *
-   * console.log(encoded) // "SGVsbG8gd29ybGQh"
-   * ```
    */
   static encode(str: string): string {
     return btoa(encodeURIComponent(str))
@@ -60,17 +44,6 @@ export abstract class String extends StringConstructor {
    * @param str - A String that specifies the text you want to replace.
    * @param params - Values to insert into string instead of placeholder.
    * @returns A string replaced in variables.
-   *
-   * @example
-   * ```ts
-   * const str = "Hello, I'm {{name}} and I'm {{age}} years old."
-   * const templated = String.template(str, {
-   *  name: 'John',
-   *  age: 27
-   * }) // "Hello, I'm John and I'm 27 years old."
-   *
-   * console.log(templated) // "Hello, I'm John and I'm 27 years old."
-   * ```
    */
   static template(
     str: string,
@@ -94,14 +67,6 @@ export abstract class String extends StringConstructor {
    * @param str - A String that specifies the text you want to shorten.
    * @param limit - A Number to limit the text character size.
    * @returns A truncated or empty string.
-   *
-   * @example
-   * ```ts
-   * const str = 'Lorem ipsum dolor sit amet.'
-   * const truncated = String.truncate(str, 11)
-   *
-   * console.log(truncated) // Lorem ipsum...
-   * ```
    */
   static truncate(str: string, limit?: number): string {
     const end = str.indexOf(' ', limit)

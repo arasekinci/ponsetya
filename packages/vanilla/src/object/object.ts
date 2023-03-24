@@ -16,15 +16,6 @@ abstract class _Object extends ObjectConstructor {
    * @param target - The target object to merge into.
    * @param source - The source object to merge from.
    * @returns A new object that has all properties from both `target` and `source`.
-   *
-   * @example
-   * ```ts
-   * const target = { a: 1, b: 2 }
-   * const source = { c: 3, d: 4 }
-   * const assigned = Object.assign(target, source)
-   *
-   * console.log(assigned) // { a: 1, b: 2, c: 3, d: 4 }
-   * ```
    */
   static assign<T, S>(target: T, source: S): T & S {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -61,13 +52,6 @@ abstract class _Object extends ObjectConstructor {
    * @param obj - The object from which keys are to be omitted.
    * @param keys - The keys to be omitted.
    * @returns A new object with the same properties as the original object, except for the omitted keys.
-   *
-   * @example
-   * ```ts
-   * const obj = { a: 1, b: 2, c: 3 }
-   * const omited = Object.omit(obj, 'b', 'c')
-   * console.log(omited); // { a: 1, b: 2 }
-   * ```
    */
   static omit<T, K extends keyof T>(obj: T, ...keys: K[]): Omit<T, K> {
     const copy = { ...obj }

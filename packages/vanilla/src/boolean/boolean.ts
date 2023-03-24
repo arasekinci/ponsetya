@@ -14,12 +14,6 @@ export abstract class Boolean extends BooleanConstructor {
    * @param value - The string to convert.
    * @throws When the string cannot be converted to a boolean.
    * @returns The boolean representation of the string.
-   *
-   * @example
-   * ```ts
-   * const converted = Boolean.convert('true')
-   * console.log(converted) // true
-   * ```
    */
   static convert(value: string): boolean {
     if (value === 'true') {
