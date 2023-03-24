@@ -1,13 +1,13 @@
 import type { StorageValue } from './storage.type'
 
 /**
- * The Storage class provides an interface to the browser's local storage object.
+ * The storage object provides an interface to the browser's local storage object.
  * You can use it to set, get, and remove key/value pairs stored in the local storage object.
  *
  * @see {@link https://arasekinci.github.io/ponsetya/classes/browser_src.Storage-1.html | String} for more information.
  */
 
-export class Storage {
+export const storage = {
   /**
    * The key() method returns name of the key with the specified index.
    *
@@ -22,7 +22,7 @@ export class Storage {
     }
 
     return value
-  }
+  },
 
   /**
    * The size() method returns the number of items stored in
@@ -32,7 +32,7 @@ export class Storage {
    */
   size(): number {
     return localStorage.length
-  }
+  },
 
   /**
    * The get() method returns value of the specified Local Storage object item.
@@ -48,7 +48,7 @@ export class Storage {
     }
 
     return JSON.parse(value)
-  }
+  },
 
   /**
    * The set() method sets the value of the specified Local Storage object item.
@@ -58,7 +58,7 @@ export class Storage {
    */
   set(key: string, value: StorageValue): void {
     localStorage.setItem(key, JSON.stringify(value))
-  }
+  },
 
   /**
    * The remove() method removes the specified Local Storage object item.
@@ -67,12 +67,12 @@ export class Storage {
    */
   remove(key: string): void {
     localStorage.removeItem(key)
-  }
+  },
 
   /**
    * The clear() method removes all the Local Storage object item for this domain.
    */
   clear(): void {
     localStorage.clear()
-  }
+  },
 }

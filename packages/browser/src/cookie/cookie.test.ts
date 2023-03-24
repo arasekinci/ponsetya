@@ -1,8 +1,6 @@
-import { Cookie } from '.'
+import { cookie } from '.'
 
-describe('Cookie', () => {
-  const cookie = new Cookie()
-
+describe('cookie', () => {
   describe('get', () => {
     test('should return value of the specified cookie', () => {
       document.cookie = 'name=value'

@@ -1,8 +1,6 @@
-import { Storage } from '.'
+import { storage } from '.'
 
-describe('Storage', () => {
-  const storage = new Storage()
-
+describe('storage', () => {
   beforeEach(() => {
     storage.clear()
   })

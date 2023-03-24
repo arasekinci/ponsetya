@@ -1,12 +1,12 @@
 import type { CookieOption } from './cookie.type'
 
 /**
- * The Cookie class provides an interface to the browser's cookie.
+ * The Cookie object provides an interface to the browser's cookie.
  *
- * @see {@link https://arasekinci.github.io/ponsetya/classes/browser_src.Cookie-1.html | Cookie} for more information.
+ * @see {@link https://arasekinci.github.io/ponsetya/classes/browser_src.Cookie-1.html | cookie} for more information.
  */
 
-export class Cookie {
+export const cookie = {
   /**
    * The get() method returns value of the specified Cookie item.
    *
@@ -27,7 +27,7 @@ export class Cookie {
     }
 
     return ''
-  }
+  },
 
   /**
    * The remove() method removes the specified Cookie item.
@@ -36,7 +36,7 @@ export class Cookie {
    */
   remove(name: string): void {
     document.cookie = name + '=; path=/; expires=Thu, 01 Jan 1970 00:00:01 GMT;'
-  }
+  },
 
   /**
    * The set() method sets the value of the specified Cookie item.
@@ -78,5 +78,5 @@ export class Cookie {
     document.cookie = `${name}=${encodeURIComponent(
       value
     )};${maxAge}${path}${secure}${httpOnly}`
-  }
+  },
 }

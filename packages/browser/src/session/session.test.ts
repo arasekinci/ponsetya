@@ -1,8 +1,6 @@
-import { Session } from '.'
+import { session } from '.'
 
-describe('Session', () => {
-  const session = new Session()
-
+describe('session', () => {
   beforeEach(() => {
     session.clear()
   })

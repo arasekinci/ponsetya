@@ -1,13 +1,13 @@
 import type { SessionValue } from './session.type'
 
 /**
- * The Session class provides an interface to the browser's session storage object.
+ * The session object provides an interface to the browser's session storage object.
  * You can use it to set, get, and remove key/value pairs stored in the session storage object.
  *
- * @see {@link https://arasekinci.github.io/ponsetya/classes/browser_src.Session-1.html | Session} for more information.
+ * @see {@link https://arasekinci.github.io/ponsetya/classes/browser_src.Session-1.html | session} for more information.
  */
 
-export class Session {
+export const session = {
   /**
    * The key() method returns name of the key with the specified index.
    *
@@ -22,7 +22,7 @@ export class Session {
     }
 
     return value
-  }
+  },
 
   /**
    * The size() method returns the number of items stored in
@@ -32,7 +32,7 @@ export class Session {
    */
   size(): number {
     return sessionStorage.length
-  }
+  },
 
   /**
    * The get() method returns value of the specified Session Storage object item.
@@ -48,7 +48,7 @@ export class Session {
     }
 
     return JSON.parse(value)
-  }
+  },
 
   /**
    * The set() method sets the value of the specified Session Storage object item.
@@ -58,7 +58,7 @@ export class Session {
    */
   set(key: string, value: SessionValue): void {
     sessionStorage.setItem(key, JSON.stringify(value))
-  }
+  },
 
   /**
    * The remove() method removes the specified Session Storage object item.
@@ -67,12 +67,12 @@ export class Session {
    */
   remove(key: string): void {
     sessionStorage.removeItem(key)
-  }
+  },
 
   /**
    * The clear() method removes all the Session Storage object item for this domain.
    */
   clear(): void {
     sessionStorage.clear()
-  }
+  },
 }
