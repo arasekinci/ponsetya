@@ -12,5 +12,3 @@ export * from './object'
 export * from './string'
 export * from './uid'
 export * from './user-agent'
-
-export * as default from './context'
