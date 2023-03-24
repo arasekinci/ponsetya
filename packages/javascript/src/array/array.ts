@@ -4,7 +4,7 @@ import { ArrayConstructor } from './array.constructor'
 /**
  * Array utility class that provides various methods for arrays.
  *
- * @see {@link https://arasekinci.github.io/ponsetya/classes/vanilla_src.Array.html | Array} for more information.
+ * @see {@link https://arasekinci.github.io/ponsetya/classes/javascript_src.Array.html | Array} for more information.
  */
 
 export abstract class Array extends ArrayConstructor {

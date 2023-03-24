@@ -3,7 +3,7 @@ import { MathPrototype } from './math.prototype'
 /**
  * Math utility object that provides various methods for numbers.
  *
- * @see {@link https://arasekinci.github.io/ponsetya/variables/vanilla_src.Math.html | Math} for more information.
+ * @see {@link https://arasekinci.github.io/ponsetya/variables/javascript_src.Math.html | Math} for more information.
  */
 
 export const Math = {

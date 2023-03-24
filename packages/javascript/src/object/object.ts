@@ -4,7 +4,7 @@ import { ObjectConstructor } from './object.constructor'
 /**
  * Object utility class that provides various methods for objects.
  *
- * @see {@link https://arasekinci.github.io/ponsetya/classes/vanilla_src.Object.html | Object} for more information.
+ * @see {@link https://arasekinci.github.io/ponsetya/classes/javascript_src.Object.html | Object} for more information.
  */
 
 abstract class _Object extends ObjectConstructor {

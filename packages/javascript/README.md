@@ -1,4 +1,4 @@
-They are the most frequently used and needed lightweight utility tools in vanilla-based projects.
+They are the most frequently used and needed lightweight utility tools in javascript-based projects.
 
 You can use the media and library independently.
 
@@ -7,13 +7,13 @@ You can use the media and library independently.
 For using the yarn package manager.
 
 ```shell
-yarn add @ponsetya/vanilla
+yarn add @ponsetya/javascript
 ```
 
 For using the npm.
 
 ```shell
-npm install @ponsetya/vanilla
+npm install @ponsetya/javascript
 ```
 
 ## Import
@@ -21,13 +21,13 @@ npm install @ponsetya/vanilla
 By default you can include all api and functions.
 
 ```ts
-import vanilla from '@ponsetya/vanilla'
+import javascript from '@ponsetya/javascript'
 ```
 
 ### Use APIs
 
 ```ts
-import { Array } '@ponsetya/vanilla'
+import { Array } '@ponsetya/javascript'
 
 const arr = ['x', 'y', 'z']
 
@@ -37,7 +37,7 @@ Array.remove(arr, 1) // ['x', 'z']
 ### Use helpers
 
 ```ts
-import { classnames } '@ponsetya/vanilla'
+import { classnames } '@ponsetya/javascript'
 
 const className = classnames('foo', 'bar', {
   'foo-bar': false,
