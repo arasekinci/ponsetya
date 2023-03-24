@@ -2,10 +2,10 @@
  * Utility class for detecting the current environment where the code is running.
  * Can detect if the code is running in a browser, node.js, JSDOM or a web worker.
  *
- * @see {@link https://arasekinci.github.io/ponsetya/classes/node_src.Environment.html | Environment} for more information.
+ * @see {@link https://arasekinci.github.io/ponsetya/classes/node_src.Environment.html | env} for more information.
  */
 
-export class Environment {
+export const env = {
   /**
    * Indicates whether the code is running in a browser environment.
    *
@@ -15,7 +15,7 @@ export class Environment {
     return (
       typeof window !== 'undefined' && typeof window.document !== 'undefined'
     )
-  }
+  },
 
   /**
    * Indicates whether the code is running in a JSDOM environment.
@@ -29,7 +29,7 @@ export class Environment {
         (navigator.userAgent.includes('Node.js') ||
           navigator.userAgent.includes('jsdom')))
     )
-  }
+  },
 
   /**
    * Indicates whether the code is running in a Node.js environment.
@@ -42,7 +42,7 @@ export class Environment {
       process.versions != null &&
       process.versions.node != null
     )
-  }
+  },
 
   /**
    * Indicates whether the code is running in a worker environment.
@@ -55,5 +55,5 @@ export class Environment {
       self.constructor &&
       self.constructor.name === 'DedicatedWorkerGlobalScope'
     )
-  }
+  },
 }
