@@ -8,6 +8,7 @@ const nextConfig = {
   ...nextraConfig,
   reactStrictMode: true,
   images: { unoptimized: true },
+  basePath: '/ponsetya',
 }
 
 module.exports = nextConfig
