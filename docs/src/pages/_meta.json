@@ -1,0 +1,21 @@
+{
+  "index": {
+    "title": "Home",
+    "type": "page"
+  },
+  "javascript": {
+    "title": "JavaScript",
+    "type": "page"
+  },
+  "node": {
+    "title": "Node",
+    "type": "page"
+  },
+  "browser": {
+    "title": "Browser",
+    "type": "page"
+  },
+  "glossary": {
+    "display": "hidden"
+  }
+}

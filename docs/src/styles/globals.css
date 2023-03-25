@@ -1,0 +1,19 @@
+dl {
+  display: block;
+  padding-top: 8px;
+}
+
+dl dl {
+  margin-left: 16px;
+  padding-top: 0;
+}
+
+dl dt {
+  padding: 8px 0;
+  display: block;
+}
+
+dl dd {
+  color: var(--shiki-token-comment);
+  margin-left: 16px;
+}

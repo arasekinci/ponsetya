@@ -3,7 +3,6 @@
 # Don't check auto-generated stuff into git
 /**/dist
 /**/coverage
-/**/docs
 /**/node_modules
 
 # misc
