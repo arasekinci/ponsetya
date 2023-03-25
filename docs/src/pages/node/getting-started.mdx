@@ -1,0 +1,56 @@
+import { Tab, Tabs } from 'nextra-theme-docs'
+
+# Getting Started
+
+## Installation
+
+<Tabs items={['yarn', 'pnpm', 'npm']}>
+  <Tab>
+    For using the yarn package manager.
+
+    ```bash copy
+    yarn add @ponsetya/node
+    ```
+
+  </Tab>
+  <Tab>
+    For using the pnpm package manager.
+
+    ```bash copy
+    pnpm install @ponsetya/node
+    ```
+
+  </Tab>
+  <Tab>
+    For using the npm package manager.
+
+    ```bash copy
+    npm install @ponsetya/node
+    ```
+
+  </Tab>
+</Tabs>
+
+## Usage
+
+By default you can include all api and functions.
+
+```ts copy
+import node from '@ponsetya/node'
+
+node.env.node // true
+node.env.browser // false
+```
+
+If you want to use it as a module, you need to import the module.
+
+```ts copy
+import { env } '@ponsetya/node'
+
+env.node // true
+env.browser // false
+```
+
+## License
+
+Released under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
