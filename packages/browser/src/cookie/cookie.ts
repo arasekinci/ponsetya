@@ -1,14 +1,14 @@
 import type { CookieOption } from './cookie.type'
 
 /**
- * The Cookie object provides an interface to the browser's cookie.
+ * The cookie object provides an interface to the browser's cookie.
  *
- * @see {@link https://arasekinci.github.io/ponsetya/classes/browser_src.Cookie-1.html | cookie} for more information.
+ * @see {@link https://arasekinci.github.io/ponsetya/browser/references/cookie | cookie} for more information.
  */
 
 export const cookie = {
   /**
-   * The get() method returns value of the specified Cookie item.
+   * The get() method returns value of the specified cookie item.
    *
    * @param name - The name of the cookie to retrieve.
    * @returns The value of the cookie. If the cookie does not exist, an empty string is returned.
@@ -30,7 +30,7 @@ export const cookie = {
   },
 
   /**
-   * The remove() method removes the specified Cookie item.
+   * The remove() method removes the specified cookie item.
    *
    * @param name - The name of the cookie to remove.
    */
@@ -39,7 +39,7 @@ export const cookie = {
   },
 
   /**
-   * The set() method sets the value of the specified Cookie item.
+   * The set() method sets the value of the specified cookie item.
    *
    * @param name - The name of the cookie to set.
    * @param value - The value to store in the cookie.

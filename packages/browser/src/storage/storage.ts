@@ -2,9 +2,8 @@ import type { StorageValue } from './storage.type'
 
 /**
  * The storage object provides an interface to the browser's local storage object.
- * You can use it to set, get, and remove key/value pairs stored in the local storage object.
  *
- * @see {@link https://arasekinci.github.io/ponsetya/classes/browser_src.Storage-1.html | String} for more information.
+ * @see {@link https://arasekinci.github.io/ponsetya/browser/references/storage | storage} for more information.
  */
 
 export const storage = {

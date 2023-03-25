@@ -2,9 +2,8 @@ import type { SessionValue } from './session.type'
 
 /**
  * The session object provides an interface to the browser's session storage object.
- * You can use it to set, get, and remove key/value pairs stored in the session storage object.
  *
- * @see {@link https://arasekinci.github.io/ponsetya/classes/browser_src.Session-1.html | session} for more information.
+ * @see {@link https://arasekinci.github.io/ponsetya/browser/references/session | session} for more information.
  */
 
 export const session = {

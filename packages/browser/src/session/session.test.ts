@@ -27,7 +27,7 @@ describe('session', () => {
 
     expect(session.get<string>('name')).toBe('John')
     expect(session.get<string>('surname')).toBe('Doe')
-    expect(session.get<string>('age')).toBe(undefined)
+    expect(session.get<number>('age')).toBe(undefined)
   })
 
   test('set', () => {
