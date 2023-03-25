@@ -7,8 +7,10 @@ const nextraConfig = require('nextra')({
 const nextConfig = {
   ...nextraConfig,
   reactStrictMode: true,
-  images: { unoptimized: true },
-  basePath: '/ponsetya',
+  images: {
+    unoptimized: true,
+  },
+  basePath: process.env.BASE_PATH,
 }
 
 module.exports = nextConfig
