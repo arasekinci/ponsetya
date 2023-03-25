@@ -1,7 +1,13 @@
-const withNextra = require('nextra')({
-  reactStrictMode: true,
+/** @type {import('next').NextConfig} */
+const nextraConfig = require('nextra')({
   theme: 'nextra-theme-docs',
   themeConfig: './theme.config.tsx',
-})
+})()
 
-module.exports = withNextra()
+const nextConfig = {
+  ...nextraConfig,
+  reactStrictMode: true,
+  images: { unoptimized: true },
+}
+
+module.exports = nextConfig
