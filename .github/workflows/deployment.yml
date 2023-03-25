@@ -23,11 +23,13 @@ jobs:
       - name: Install dependencies
         run: yarn install
       - name: Build the docs
-        run: yarn docs:build
+        run: yarn workspace docs build
+      - name: Export the docs
+        run: yarn workspace docs export
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./docs
+          path: ./docs/out
   deploy:
     needs: build
     environment:
