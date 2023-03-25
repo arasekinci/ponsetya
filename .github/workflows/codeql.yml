@@ -1,9 +1,8 @@
 name: "CodeQL"
-run-name: "Scheduled CodeQL scan"
 
 on:
-  schedule:
-    - cron: '0 9 * * 1'
+  push:
+    branches: [ "main" ]
 
 jobs:
   analyze:
