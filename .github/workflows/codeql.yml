@@ -1,4 +1,5 @@
-name: "Scheduled CodeQL scan"
+name: "CodeQL"
+run-name: "Scheduled CodeQL scan"
 
 on:
   schedule:
