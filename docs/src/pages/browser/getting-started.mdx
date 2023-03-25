@@ -1,0 +1,58 @@
+import { Tab, Tabs } from 'nextra-theme-docs'
+
+# Getting Started
+
+## Installation
+
+<Tabs items={['yarn', 'pnpm', 'npm']}>
+  <Tab>
+    For using the yarn package manager.
+
+    ```bash copy
+    yarn add @ponsetya/browser
+    ```
+
+  </Tab>
+  <Tab>
+    For using the pnpm package manager.
+
+    ```bash copy
+    pnpm install @ponsetya/javascript
+    ```
+
+  </Tab>
+  <Tab>
+    For using the npm package manager.
+
+    ```bash copy
+    npm install @ponsetya/javascript
+    ```
+
+  </Tab>
+</Tabs>
+
+## Usage
+
+By default you can include all api and functions.
+
+```ts copy
+import browser from '@ponsetya/browser'
+
+browser.cookie.set('name', 'John Doe')
+
+console.log(browser.cookie.get('name')) // John Doe
+```
+
+If you want to use it as a module, you need to import the module.
+
+```ts copy
+import { cookie } from '@ponsetya/browser'
+
+cookie.set('name', 'John Doe')
+
+console.log(cookie.get('name')) // John Doe
+```
+
+## License
+
+Released under the [MIT License](http://www.opensource.org/licenses/mit-license.php).

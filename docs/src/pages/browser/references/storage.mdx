@@ -1,0 +1,160 @@
+import Badge from '@/components/badge'
+
+# <Badge const /> storage
+
+The storage object provides an interface to the browser's storage storage object.
+You can use it to set, get, and remove key/value pairs stored in the storage storage object.
+
+## Usage
+
+To use this module, you first need to import the storage:
+
+```ts copy
+import { storage } from '@ponsetya/browser'
+```
+
+## Methods
+
+### storage.key()
+
+The key() method returns name of the key with the specified index.
+
+```ts
+storage.key(index: number): string | undefined
+```
+
+#### Parameters
+
+<dl>
+  <dt>**index:** `number`</dt>
+  <dd>
+    A Number representing the index of the key you want to get the name of.
+  </dd>
+  <dt>**Returns:** `string | undefined`</dt>
+  <dd>A String representing the name of the specified key.</dd>
+</dl>
+
+#### Examples
+
+```ts copy
+storage.set('name', 'John')
+storage.set('surname', 'Doe')
+
+console.log(storage.key(0)) // 'name'
+console.log(storage.key(1)) // 'surname'
+```
+
+### storage.size()
+
+The size() method returns the number of items stored in the browsers Storage Object, for this particular domain.
+
+```ts
+storage.get(name: string): string
+```
+
+#### Parameters
+
+<dl>
+  <dt>**Returns:** `number`</dt>
+  <dd>A Integer, representing the number of stored items.</dd>
+</dl>
+
+#### Examples
+
+```ts copy
+console.log(storage.size()) // number
+```
+
+### storage.get()
+
+The get() method returns value of the specified Storage Storage object item.
+
+```ts
+storage.get<T = string>(key: string): T | undefined
+```
+
+#### Parameters
+
+<dl>
+  <dt>**key:** `string`</dt>
+  <dd>A String specifying the name of the key you want to get the value of.</dd>
+  <dt>**Returns:** `T | undefined`</dt>
+  <dd>A String, representing the value of the specified key.</dd>
+</dl>
+
+#### Examples
+
+```ts copy
+storage.set('name', 'John')
+storage.set('surname', 'Doe')
+
+console.log(storage.get<string>('name')) // 'John'
+console.log(storage.get<string>('surname')) // 'Doe'
+console.log(storage.get<number>('age')) // undefined
+```
+
+### storage.remove()
+
+The remove() method removes the specified Storage Storage object item.
+
+```ts
+storage.remove(name: string): void
+```
+
+#### Parameters
+
+<dl>
+  <dt>**key:** `string`</dt>
+  <dd>A String specifying the name of the item you want to remove</dd>
+</dl>
+
+#### Examples
+
+```ts copy
+storage.set('name', 'John')
+
+console.log(storage.get('name')) // 'John'
+
+storage.remove('name')
+
+console.log(storage.get('name')) // ''
+```
+
+### storage.set()
+
+The set() method sets the value of the specified Storage Storage object item.
+
+```ts
+storage.set(key: string, value: StorageValue): void
+```
+
+#### Parameters
+
+<dl>
+  <dt>**key:** `string`</dt>
+  <dd>A String specifying the name of the key you want to set the value of.</dd>
+  <dt>**value:** `StorageValue`</dt>
+  <dd>
+    A String specifying the value of the key you want to set the value of.
+  </dd>
+</dl>
+
+#### Examples
+
+```ts copy
+storage.set('name', 'John')
+storage.set('surname', 'Doe')
+
+console.log(storage.get<string>('name')) // 'John'
+console.log(storage.get<string>('surname')) // 'Doe'
+```
+
+## Type Aliases
+
+### StorageValue
+
+The StorageValue type represents the possible values that can be stored in a web storage (e.g. localStorage).
+
+```ts
+type StorageValue = string | number | boolean | object | null
+```

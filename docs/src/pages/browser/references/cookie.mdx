@@ -1,0 +1,124 @@
+import Badge from '@/components/badge'
+
+# <Badge const /> cookie
+
+The cookie object provides an interface to the browser's cookie.
+
+## Usage
+
+To use this module, you first need to import the cookie:
+
+```ts copy
+import { cookie } from '@ponsetya/browser'
+```
+
+## Methods
+
+### cookie.get()
+
+The get() method returns value of the specified cookie item.
+
+```ts
+cookie.get(name: string): string
+```
+
+#### Parameters
+
+<dl>
+  <dt>**name:** `string`</dt>
+  <dd>The name of the cookie to retrieve.</dd>
+  <dt>**Returns:** `string`</dt>
+  <dd>
+    The value of the cookie. If the cookie does not exist, an empty string is
+    returned.
+  </dd>
+</dl>
+
+#### Examples
+
+```ts copy
+document.cookie = 'name=John'
+
+console.log(cookie.get('name')) // 'John'
+```
+
+### cookie.remove()
+
+The remove() method removes the specified cookie item.
+
+```ts
+cookie.remove(name: string): void
+```
+
+#### Parameters
+
+<dl>
+  <dt>**name:** `string`</dt>
+  <dd>The name of the cookie to remove.</dd>
+</dl>
+
+#### Examples
+
+```ts copy
+document.cookie = 'name=John'
+
+console.log(cookie.get('name')) // 'John'
+
+cookie.remove('name')
+
+console.log(cookie.get('name')) // ''
+```
+
+### cookie.set()
+
+The set() method sets the value of the specified cookie item.
+
+```ts
+cookie.set(name: string, value: string, options: CookieOption = {}): void
+```
+
+#### Parameters
+
+<dl>
+  <dt>**name:** `string`</dt>
+  <dd>The name of the cookie to set.</dd>
+  <dt>**value:** `string`</dt>
+  <dd>The value to store in the cookie.</dd>
+  <dt>**options:** `CookieOption`</dt>
+  <dd>Additional options to configure the cookie.</dd>
+</dl>
+
+#### Examples
+
+```ts copy
+console.log(cookie.get('name')) // ''
+
+cookie.set('name', 'John', {
+  exdays: 1,
+})
+
+console.log(cookie.get('name')) // 'John'
+```
+
+## Type Aliases
+
+### CookieOption
+
+An object that can be used to specify options when setting a cookie.
+
+```ts
+type CookieOption = {
+  // The number of days for which the cookie should be valid.
+  exdays?: number
+  // The number of hours for which the cookie should be valid.
+  exhours?: number
+  // The number of minutes for which the cookie should be valid.
+  exminutes?: number
+  // A boolean value that indicates whether the cookie should be accessible only over HTTP.
+  httpOnly?: boolean
+  // A string that specifies the path for which the cookie should be valid.
+  path?: string
+  // A boolean value that indicates whether the cookie should be sent over a secure (HTTPS) connection.
+  secure?: boolean
+}
+```
