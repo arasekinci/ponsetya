@@ -1,5 +1,6 @@
 {
   "name": "ponsetya",
+  "version": "1.0.0",
   "scripts": {
     "docs:dev": "yarn workspace docs dev",
     "docs:build": "yarn workspace docs build",
