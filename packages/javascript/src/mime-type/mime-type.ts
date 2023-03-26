@@ -22,17 +22,17 @@ const mimetypes: MimeTypeEntry[] = Object.keys(mimedb).map((type) => {
  */
 
 export class MimeType {
-  // The MIME type string.
+  /** The MIME type string. */
   readonly type: string | undefined
-  // The character set of the MIME type.
+  /** The character set of the MIME type. */
   readonly charset: string | undefined
-  // The source of the MIME type.
+  /** The source of the MIME type. */
   readonly source: MimeTypeSource | undefined
-  // A boolean value indicating whether the MIME type is compressible.
+  /** A boolean value indicating whether the MIME type is compressible. */
   readonly compressible: boolean | undefined
-  // The default extension associated with the MIME type.
+  /** The default extension associated with the MIME type. */
   readonly extension: string | undefined
-  // An array of all extensions associated with the MIME type.
+  /** An array of all extensions associated with the MIME type. */
   readonly extensions: string[] | undefined
 
   /**
@@ -50,34 +50,6 @@ export class MimeType {
       this.compressible = mimetype.compressible
       this.extension = mimetype.extension
       this.extensions = mimetype.extensions
-    }
-  }
-
-  /**
-   * The extension() method returns the default extension associated with a MIME type.
-   *
-   * @param type - The MIME type string.
-   * @returns The default extension associated with the MIME type, or undefined if none is found.
-   */
-  static extension(type: string): string | undefined {
-    const mimetype = mimetypes.find((mimetype) => mimetype.type === type)
-
-    if (mimetype && mimetype.extensions) {
-      return mimetype.extensions[0]
-    }
-  }
-
-  /**
-   * Returns an array of all extensions associated with a MIME type.
-   *
-   * @param type - The MIME type string.
-   * @returns An array of all extensions associated with the MIME type, or undefined if none are found.
-   */
-  static extensions(type: string): string[] | undefined {
-    const mimetype = mimetypes.find((mimetype) => mimetype.type === type)
-
-    if (mimetype && mimetype.extensions) {
-      return mimetype.extensions
     }
   }
 

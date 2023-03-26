@@ -25,34 +25,6 @@ describe('MimeType', () => {
     })
   })
 
-  describe('extension', () => {
-    test('should return the extension when a valid type is provided', () => {
-      const extension = MimeType.extension('application/json')
-
-      expect(extension).toBe('json')
-    })
-
-    test('should return undefined when an invalid type is provided', () => {
-      const extension = MimeType.extension('invalid/type')
-
-      expect(extension).toBeUndefined()
-    })
-  })
-
-  describe('extensions', () => {
-    test('should return the extensions when a valid type is provided', () => {
-      const extensions = MimeType.extensions('application/json')
-
-      expect(extensions).toEqual(['json', 'map'])
-    })
-
-    test('should return undefined when an invalid type is provided', () => {
-      const extensions = MimeType.extensions('invalid/type')
-
-      expect(extensions).toBeUndefined()
-    })
-  })
-
   describe('find', () => {
     test('should return the first MimeTypeEntry that matches the predicate', () => {
       const result = MimeType.find(
