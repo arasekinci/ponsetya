@@ -4,11 +4,12 @@
   "description": "Next-generation browser-based helpers.",
   "keywords": [
     "javascript",
+    "typescript",
     "browser",
     "helpers"
   ],
-  "homepage": "https://arasekinci.github.io/ponsetya/modules/browser_src.html",
-  "bugs": "https://github.com/arasekinci/pisagor/issues",
+  "homepage": "https://arasekinci.github.io/ponsetya/browser/getting-started",
+  "bugs": "https://github.com/arasekinci/ponsetya/issues",
   "license": "MIT",
   "author": "Aras Ekinci",
   "maintainers": [
@@ -22,7 +23,7 @@
   "module": "dist/esm/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arasekinci/pisagor.git",
+    "url": "https://github.com/arasekinci/ponsetya.git",
     "directory": "packages/browser"
   },
   "scripts": {

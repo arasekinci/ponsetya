@@ -4,10 +4,10 @@
   "description": "Next-generation JavaScript helpers.",
   "keywords": [
     "javascript",
-    "javascript",
+    "typescript",
     "helpers"
   ],
-  "homepage": "https://arasekinci.github.io/ponsetya/modules/javascript_src.html",
+  "homepage": "https://arasekinci.github.io/ponsetya/javascript/getting-started",
   "bugs": "https://github.com/arasekinci/ponsetya/issues",
   "license": "MIT",
   "author": "Aras Ekinci",
@@ -22,7 +22,7 @@
   "module": "dist/esm/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arasekinci/pisagor.git",
+    "url": "https://github.com/arasekinci/ponsetya.git",
     "directory": "packages/javascript"
   },
   "scripts": {
