@@ -16,12 +16,11 @@ const mimetypes: MimeTypeEntry[] = Object.keys(mimedb).map((type) => {
 })
 
 /**
- * The MimeType interface provides contains information about a MIME type associated with a particular plugin.
+ * Represents a MIME type associated with a particular plugin.
+ *
+ * @see {@link https://arasekinci.github.io/ponsetya/javascript/references/mime-type | MimeType} for more information.
  */
 
-/**
- * Represents a MIME type associated with a particular plugin.
- */
 export class MimeType {
   // The MIME type string.
   readonly type: string | undefined
@@ -55,7 +54,7 @@ export class MimeType {
   }
 
   /**
-   * Returns the default extension associated with a MIME type.
+   * The extension() method returns the default extension associated with a MIME type.
    *
    * @param type - The MIME type string.
    * @returns The default extension associated with the MIME type, or undefined if none is found.

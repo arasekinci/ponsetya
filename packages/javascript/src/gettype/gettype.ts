@@ -3,8 +3,10 @@ import type { Type } from './gettype.type'
 /**
  * The gettype() method returns the type of variables.
  *
- * @param value - The value whose type is to be determined
- * @returns A string representing the type of the value
+ * @param value - The value whose type is to be determined.
+ * @returns A string representing the type of the value.
+ *
+ * @see {@link https://arasekinci.github.io/ponsetya/javascript/references/gettype | gettype} for more information.
  */
 
 export function gettype(value: unknown): Type {

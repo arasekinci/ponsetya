@@ -1,15 +1,13 @@
-import { MathPrototype } from './math.prototype'
-
 /**
  * Math utility object that provides various methods for numbers.
  *
- * @see {@link https://arasekinci.github.io/ponsetya/variables/javascript_src.Math.html | Math} for more information.
+ * @see {@link https://arasekinci.github.io/ponsetya/javascript/references/math | math} for more information.
  */
 
-export const Math = {
-  ...MathPrototype,
+export const math = {
+  ...Math,
   /**
-   * Calculates the average of the given numbers.
+   * The average() method calculates the average of the given numbers.
    *
    * @param values - The numbers to calculate the average of.
    * @returns The average of the given numbers.
@@ -22,7 +20,7 @@ export const Math = {
   },
 
   /**
-   * Filters the even numbers from the given numbers.
+   * The even() method filters the even numbers from the given numbers.
    *
    * @param values - The numbers to filter even numbers from.
    * @returns An array of even numbers.
@@ -32,7 +30,7 @@ export const Math = {
   },
 
   /**
-   * Calculates the factorial of a positive integer.
+   * The factorial() method calculates the factorial of a positive integer.
    *
    * @param x - The positive integer to calculate the factorial of.
    * @throws An error if x is a negative number.
@@ -45,11 +43,11 @@ export const Math = {
       throw new Error('Cannot calculate factorial of a negative number.')
     }
 
-    return x * Math.factorial(x - 1)
+    return x * math.factorial(x - 1)
   },
 
   /**
-   * Filters the odd numbers from the given numbers.
+   * The odd() method filters the odd numbers from the given numbers.
    *
    * @param values - The numbers to filter odd numbers from.
    * @returns An array of odd numbers.
@@ -59,7 +57,7 @@ export const Math = {
   },
 
   /**
-   * Calculates the sum of the given numbers.
+   * The sum() method calculates the sum of the given numbers.
    *
    * @param values - The numbers to calculate the sum of.
    * @returns The sum of the given numbers.

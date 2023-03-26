@@ -3,8 +3,10 @@ import type { NameType } from './getname.type'
 /**
  * The getname() method returns the kind and type of variables.
  *
- * @param value - An expression representing the object whose kind is to be returned
- * @returns A String, specifying the specified data type
+ * @param value - An expression representing the object whose kind is to be returned.
+ * @returns A String, specifying the specified data type.
+ *
+ * @see {@link https://arasekinci.github.io/ponsetya/javascript/references/getname | getname} for more information.
  */
 
 export function getname(value: unknown): NameType {

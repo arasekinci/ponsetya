@@ -2,14 +2,11 @@
 /**
  * The clone() method clones the passed value and returns it with a new reference.
  *
- * @remarks
- * If the value is an array or an object, a deep clone is performed on its elements recursively.
- * If the value is a date, a new date object with the same time value is returned.
- *
  * @param value - The value to clone.
  * @param options - Optional options to control the cloning process.
- *
  * @returns The cloned value with a new reference.
+ *
+ * @see {@link https://arasekinci.github.io/ponsetya/javascript/references/clone | clone} for more information.
  */
 export function clone(
   value: any,

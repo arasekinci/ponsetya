@@ -4,6 +4,8 @@ import type { ClassNameArgument } from './classnames.type'
  * The classnames() method returns the class names conditionally joining.
  *
  * @returns A String representing the name of the generated class
+ *
+ * @see {@link https://arasekinci.github.io/ponsetya/javascript/references/classnames | classnames} for more information.
  */
 
 export function classnames(...args: ClassNameArgument[]): string {

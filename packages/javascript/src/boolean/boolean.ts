@@ -4,7 +4,7 @@ import { BooleanConstructor } from './boolean.constructor'
 /**
  * Boolean utility class that provides various methods for booles.
  *
- * @see {@link https://arasekinci.github.io/ponsetya/classes/javascript_src.Boolean.html | Boolean} for more information.
+ * @see {@link https://arasekinci.github.io/ponsetya/javascript/references/boolean | Boolean} for more information.
  */
 
 export abstract class Boolean extends BooleanConstructor {

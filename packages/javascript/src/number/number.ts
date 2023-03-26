@@ -4,7 +4,7 @@ import { NumberConstructor } from './number.constructor'
 /**
  * Number utility class that provides various methods for numbers.
  *
- * @see {@link https://arasekinci.github.io/ponsetya/classes/javascript_src.Number.html | Number} for more information.
+ * @see {@link https://arasekinci.github.io/ponsetya/javascript/references/number | Number} for more information.
  */
 
 export abstract class Number extends NumberConstructor {

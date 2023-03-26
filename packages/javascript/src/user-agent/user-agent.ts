@@ -9,6 +9,8 @@ import type {
  * Represents a user agent string and provides methods
  * for parsing it to determine the browser,
  * device, engine, and operating system.
+ *
+ * @see {@link https://arasekinci.github.io/ponsetya/javascript/references/user-agent | UserAgent} for more information.
  */
 
 export class UserAgent {

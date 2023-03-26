@@ -4,12 +4,12 @@ import { ArrayConstructor } from './array.constructor'
 /**
  * Array utility class that provides various methods for arrays.
  *
- * @see {@link https://arasekinci.github.io/ponsetya/classes/javascript_src.Array.html | Array} for more information.
+ * @see {@link https://arasekinci.github.io/ponsetya/javascript/references/array | Array} for more information.
  */
 
 export abstract class Array extends ArrayConstructor {
   /**
-   * Compares two arrays and checks if they are the same.
+   * The compare() method compares two arrays and checks if they are the same.
    *
    * @param arr1 - The first array to compare.
    * @param arr2 - The second array to compare.
@@ -28,7 +28,7 @@ export abstract class Array extends ArrayConstructor {
   }
 
   /**
-   * Inserts one or more items into an array at a specified index.
+   * The insert() method inserts one or more items into an array at a specified index.
    *
    * @param arr - The array to insert the items into.
    * @param index - The index to insert the items at.
@@ -49,7 +49,7 @@ export abstract class Array extends ArrayConstructor {
   }
 
   /**
-   * Moves an item from one index to another in an array.
+   * The move() method moves an item from one index to another in an array.
    *
    * @param arr - The array to move the item in.
    * @param from - The index of the item to move.
@@ -62,7 +62,7 @@ export abstract class Array extends ArrayConstructor {
   }
 
   /**
-   * Removes an item from an array by index.
+   * The remove() method removes an item from an array by index.
    *
    * @param arr - The array to remove the item from.
    * @param index - The index of the item to remove.
@@ -72,7 +72,7 @@ export abstract class Array extends ArrayConstructor {
   }
 
   /**
-   * Removes duplicate items from an array.
+   * The unique() method removes duplicate items from an array.
    *
    * @param arr - The array to remove duplicates from.
    * @returns A new array without duplicates.

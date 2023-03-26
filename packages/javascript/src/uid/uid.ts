@@ -1,7 +1,9 @@
 /**
  * The uid() method returns a random 25-character unique value.
  *
- * @returns A String, representing the unique value generated
+ * @returns A String, representing the unique value generated.
+ *
+ * @see {@link https://arasekinci.github.io/ponsetya/javascript/references/uid | uid} for more information.
  */
 
 export function uid(): string {

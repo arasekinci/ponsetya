@@ -4,14 +4,12 @@ import { ObjectConstructor } from './object.constructor'
 /**
  * Object utility class that provides various methods for objects.
  *
- * @see {@link https://arasekinci.github.io/ponsetya/classes/javascript_src.Object.html | Object} for more information.
+ * @see {@link https://arasekinci.github.io/ponsetya/javascript/references/object | Object} for more information.
  */
 
 abstract class _Object extends ObjectConstructor {
   /**
-   * Recursively merges two objects. The resulting object has all properties
-   * from both objects. If a property from both objects has the same name, then
-   * the value from the second object will be used.
+   * The assign() method recursively merge two objects. The resulting object has all properties from both objects.
    *
    * @param target - The target object to merge into.
    * @param source - The source object to merge from.

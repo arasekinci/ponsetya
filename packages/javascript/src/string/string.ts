@@ -4,14 +4,14 @@ import { StringConstructor } from './string.constructor'
 /**
  * String utility class that provides various methods for strings.
  *
- * @see {@link https://arasekinci.github.io/ponsetya/classes/javascript_src.String.html | String} for more information.
+ * @see {@link https://arasekinci.github.io/ponsetya/javascript/references/string | String} for more information.
  */
 
 export abstract class String extends StringConstructor {
   /**
    * The decode() method decrypts the given encrypted value and returns a text.
    *
-   * @param str - A String representing the value you want to decrypt.
+   * @param str - A string representing the value you want to decrypt.
    * @returns Decrypted value.
    */
   static decode(str: string): string {
@@ -41,7 +41,7 @@ export abstract class String extends StringConstructor {
   /**
    * The template() method lets you change variables in the text.
    *
-   * @param str - A String that specifies the text you want to replace.
+   * @param str - A string that specifies the text you want to replace.
    * @param params - Values to insert into string instead of placeholder.
    * @returns A string replaced in variables.
    */
@@ -64,7 +64,7 @@ export abstract class String extends StringConstructor {
   /**
    * The truncate() method truncates the text from a full word.
    *
-   * @param str - A String that specifies the text you want to shorten.
+   * @param str - A string that specifies the text you want to shorten.
    * @param limit - A Number to limit the text character size.
    * @returns A truncated or empty string.
    */
