@@ -1,0 +1,41 @@
+import Badge from '@/components/badge'
+
+# <Badge abstract /> Function
+
+Function utility class that provides various methods for functions.
+
+The Function class is extended from the built-in [Function](/glossary#function) object. You can continue to use whatever we normally use.
+
+## Usage
+
+To use this module, you first need to import the Function class:
+
+```ts
+import { Function } from '@ponsetya/javascript'
+```
+
+## Static Methods
+
+### Function.is()
+
+The is() method determines whether the passed value is an Function.
+
+```ts
+Function.is(value: unknown): boolean
+```
+
+#### Parameters
+
+<dl>
+  <dt>**value:** `unknown`</dt>
+  <dd>The value to be checked.</dd>
+  <dt>**Returns:** `boolean`</dt>
+  <dd>A boolean indicating whether the variable is a function.</dd>
+</dl>
+
+#### Examples
+
+```ts copy
+console.log(Function.is(() => null)) // true
+console.log(Function.is(Function.is)) // true
+```

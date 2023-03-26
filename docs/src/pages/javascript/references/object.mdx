@@ -1,0 +1,101 @@
+import Badge from '@/components/badge'
+
+# <Badge abstract /> Object
+
+Object utility class that provides various methods for objects.
+
+The Object class is extended from the built-in [Object](/glossary#object) object. You can continue to use whatever we normally use.
+
+## Usage
+
+To use this module, you first need to import the Object class:
+
+```ts copy
+import { Object } from '@ponsetya/javascript'
+```
+
+## Static Methods
+
+### Object.assign()
+
+The assign() method recursively merge two objects. The resulting object has all properties from both objects.
+
+If a property from both objects has the same name, then the value from the second object will be used.
+
+```ts
+Object.assign<T, S>(target: T, source: S): T & S
+```
+
+#### Parameters
+
+<dl>
+  <dt>**target:** `T`</dt>
+  <dd>The target object to merge into.</dd>
+  <dt>**source:** `S`</dt>
+  <dd>The source object to merge from.</dd>
+  <dt>**Returns:** `T & S`</dt>
+  <dd>A new object that has all properties from both `target` and `source`.</dd>
+</dl>
+
+#### Examples
+
+```ts copy
+const target = { a: 1, b: 2 }
+const source = { c: 3, d: 4 }
+
+console.log(Object.assign(target, source)) // { a: 1, b: 2, c: 3, d: 4 }
+```
+
+### Object.is()
+
+The is() method determines whether the passed value is an Object.
+
+```ts
+Object.is(value: unknown): boolean
+```
+
+#### Parameters
+
+<dl>
+  <dt>**value:** `unknown`</dt>
+  <dd>The target object to merge into.</dd>
+  <dt>**Returns:** `boolean`</dt>
+  <dd>A boolean indicating whether the variable is a object.</dd>
+</dl>
+
+#### Examples
+
+```ts copy
+console.log(Object.is({ x: true })) // true
+console.log(Object.is({})) // true
+
+console.log(Object.is([])) // false
+console.log(Object.is(null)) // false
+```
+
+### Object.omit()
+
+The omit() method strips the passed keys from the object.
+
+```ts
+Object.omit<T, K extends keyof T>(obj: T, ...keys: K[]): Omit<T, K>
+```
+
+#### Parameters
+
+<dl>
+  <dt>**obj:** `T`</dt>
+  <dd>The object from which keys are to be omitted.</dd>
+  <dt>**...keys:** `K[]`</dt>
+  <dd>The keys to be omitted.</dd>
+  <dt>**Returns:** `Omit<T, K>`</dt>
+  <dd>A new object with the same properties as the original object, except for the omitted keys.</dd>
+</dl>
+
+#### Examples
+
+```ts copy
+const obj = { x: 1, y: 2, z: 3 }
+
+console.log(Object.omit(obj, 'y', 'z')); // { x: 1 }
+```

@@ -1,0 +1,150 @@
+import Badge from '@/components/badge'
+
+# <Badge abstract /> String
+
+String utility class that provides various methods for strings.
+
+The String class is extended from the built-in [String](/glossary#string) object. You can continue to use whatever we normally use.
+
+## Usage
+
+To use this module, you first need to import the String class:
+
+```ts copy
+import { String } from '@ponsetya/javascript'
+```
+
+## Static Methods
+
+### String.decode()
+
+The decode() method decrypts the given encrypted value and returns a text.
+
+```ts
+String.decode(str: string): string
+```
+
+#### Parameters
+
+<dl>
+  <dt>**str:** `string`</dt>
+  <dd>A string representing the value you want to decrypt.</dd>
+  <dt>**Returns:** `string`</dt>
+  <dd>Decrypted value.</dd>
+</dl>
+
+#### Examples
+
+```ts copy
+const encoded = 'SGVsbG8gd29ybGQh'
+const decoded = String.decode(encoded)
+
+console.log(decoded) // "Hello world!"
+```
+
+### String.encode()
+
+The encode() method encrypts the given value and returns a string.
+
+```ts
+String.encode(str: string): string
+```
+
+#### Parameters
+
+<dl>
+  <dt>**str:** `string`</dt>
+  <dd>A String representing the value you want to encrypt.</dd>
+  <dt>**Returns:** `string`</dt>
+  <dd>Encrypted value.</dd>
+</dl>
+
+#### Examples
+
+```ts copy
+const str = 'Hello world!'
+const encoded = String.encode(str)
+
+console.log(encoded) // "SGVsbG8gd29ybGQh"
+```
+
+### String.is()
+
+The is() method determines whether the passed value is an String.
+
+```ts
+String.is(value: unknown): boolean
+```
+
+#### Parameters
+
+<dl>
+  <dt>**value:** `unknown`</dt>
+  <dd>The value to be checked.</dd>
+  <dt>**Returns:** `boolean`</dt>
+  <dd>A boolean indicating whether the variable is a string.</dd>
+</dl>
+
+#### Examples
+
+```ts copy
+console.log(Number.is('x')) // true
+```
+
+### String.template()
+
+The template() method lets you change variables in the text.
+
+```ts
+String.template(str: string, params: Record<string, string | number>): string
+```
+
+#### Parameters
+
+<dl>
+  <dt>**str:** `string`</dt>
+  <dd>A string that specifies the text you want to replace.</dd>
+  <dt>**params:** `Record<string, string | number>`</dt>
+  <dd>Values to insert into string instead of placeholder.</dd>
+  <dt>**Returns:** `string`</dt>
+  <dd>A string replaced in variables.</dd>
+</dl>
+
+#### Examples
+
+```ts copy
+const str = "Hello, I'm {{name}} and I'm {{age}} years old."
+const message = String.template(str, {
+ name: 'John',
+ age: 27
+})
+
+console.log(message) // "Hello, I'm John and I'm 27 years old."
+```
+
+### String.truncate()
+
+The truncate() method truncates the text from a full word.
+
+```ts
+String.truncate(str: string, limit?: number): string
+```
+
+#### Parameters
+
+<dl>
+  <dt>**str:** `string`</dt>
+  <dd>A String that specifies the text you want to shorten.</dd>
+  <dt>**limit?:** `number`</dt>
+  <dd>A Number to limit the text character size.</dd>
+  <dt>**Returns:** `string`</dt>
+  <dd>A truncated or empty string.</dd>
+</dl>
+
+#### Examples
+
+```ts copy
+const str = 'Lorem ipsum dolor sit amet.'
+
+console.log(String.truncate(str, 11)) // Lorem ipsum...
+```

@@ -1,0 +1,62 @@
+import Badge from '@/components/badge'
+
+# <Badge function /> clone()
+
+The clone() method clones the passed value and returns it with a new reference.
+
+- If the value is an array or an object, a deep clone is performed on its elements recursively.
+- If the value is a date, a new date object with the same time value is returned.
+
+## Usage
+
+```ts copy
+import { clone } from '@ponsetya/javascript'
+```
+
+## Syntax
+
+```ts
+clone(
+  value: any,
+  options?: {
+    transfer?: Transferable[]
+  }
+): any
+```
+
+## Parameters
+
+<dl>
+  <dt>**value:** `any`</dt>
+  <dd>The value to clone.</dd>
+  <dt>**value:** `object`</dt>
+  <dd>Optional options to control the cloning process.</dd>
+  <dl>
+    <dt>**transfer:** `Transferable[]`</dt>
+    <dd>
+      An optional list of Transferable objects that should be included in the
+      cloning process.
+    </dd>
+  </dl>
+  <dt>**Returns:** `any`</dt>
+  <dd>The cloned value with a new reference.</dd>
+</dl>
+
+## Examples
+
+```ts copy
+const obj1 = {
+  name: 'John',
+  age: 30,
+  address: {
+    street: '123 Main St',
+    city: 'Anytown',
+    state: 'CA',
+  },
+  hobbies: ['reading', 'gardening'],
+}
+
+const obj2 = clone(value)
+
+console.log(obj1 === obj2) // false
+```

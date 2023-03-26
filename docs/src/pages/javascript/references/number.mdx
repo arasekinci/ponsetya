@@ -1,0 +1,44 @@
+import Badge from '@/components/badge'
+
+# <Badge abstract /> Number
+
+Number utility class that provides various methods for numbers.
+
+The Number class is extended from the built-in [Number](/glossary#number) object. You can continue to use whatever we normally use.
+
+## Usage
+
+To use this module, you first need to import the Number class:
+
+```ts copy
+import { Number } from '@ponsetya/javascript'
+```
+
+## Static Methods
+
+### Number.is()
+
+The is() method determines whether the passed value is an Number.
+
+```ts
+Number.is(value: unknown): boolean
+```
+
+#### Parameters
+
+<dl>
+  <dt>**value:** `unknown`</dt>
+  <dd>The value to be checked.</dd>
+  <dt>**Returns:** `boolean`</dt>
+  <dd>A boolean indicating whether the variable is a number.</dd>
+</dl>
+
+#### Examples
+
+```ts copy
+console.log(Number.is(2)) // true
+console.log(Number.is(-2)) // true
+
+console.log(Number.is(2n)) // false
+console.log(Number.is('2')) // false
+```

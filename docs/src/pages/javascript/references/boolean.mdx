@@ -1,0 +1,70 @@
+import Badge from '@/components/badge'
+
+# <Badge abstract /> Boolean
+
+Boolean utility class that provides various methods for booles.
+
+The Boolean class is extended from the built-in [Boolean](/glossary#boolean) object. You can continue to use whatever we normally use.
+
+## Usage
+
+To use this module, you first need to import the Boolean class:
+
+```ts copy
+import { Boolean } from '@ponsetya/javascript'
+```
+
+## Static Methods
+
+### Boolean.convert()
+
+The convert() method convert a string to a boolean.
+
+```ts
+Boolean.convert(value: string): boolean
+```
+
+> **Throws**: When the string cannot be converted to a boolean.
+
+#### Parameters
+
+<dl>
+  <dt>**value:** `string`</dt>
+  <dd>The string to convert.</dd>
+  <dt>**Returns:** `boolean`</dt>
+  <dd>The boolean representation of the string.</dd>
+</dl>
+
+#### Examples
+
+```ts copy
+console.log(Boolean.convert('true')) // true
+console.log(Boolean.convert('false')) // false
+```
+
+### Boolean.is()
+
+The is() method determines whether the passed value is an Boolean.
+
+```ts
+Boolean.is(value: unknown): boolean
+```
+
+#### Parameters
+
+<dl>
+  <dt>**value:** `unkown`</dt>
+  <dd>The value to be checked.</dd>
+  <dt>**Returns:** `boolean`</dt>
+  <dd>A boolean indicating whether the variable is a boolean.</dd>
+</dl>
+
+#### Examples
+
+```ts copy
+console.log(Boolean.is(true)) // true
+console.log(Boolean.is(false)) // true
+
+console.log(Boolean.is(0)) // false
+console.log(Boolean.is(1)) // false
+```

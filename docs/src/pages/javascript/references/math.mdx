@@ -1,0 +1,140 @@
+import Badge from '@/components/badge'
+
+# <Badge const /> math
+
+Math utility object that provides various methods for numbers.
+
+The math object is extended from the built-in [Math](/glossary#math) object. You can continue to use whatever we normally use.
+
+## Usage
+
+To use this module, you first need to import the math object:
+
+```ts copy
+import { math } from '@ponsetya/javascript'
+```
+
+## Methods
+
+### math.average()
+
+The average() method calculates the average of the given numbers.
+
+```ts
+math.average(...values: number[]): number
+```
+
+#### Parameters
+
+<dl>
+  <dt>**...values:** `number[]`</dt>
+  <dd>The numbers to calculate the average of.</dd>
+  <dt>**Returns:** `number`</dt>
+  <dd>The average of the given numbers.</dd>
+</dl>
+
+#### Examples
+
+```ts copy
+console.log(math.average(1, 2, 3, 4, 5)) // 3
+console.log(math.average(-1, 0, 1)) // 0
+```
+
+### math.even()
+
+The even() method filters the even numbers from the given numbers.
+
+```ts
+math.even(...values: number[]): number[]
+```
+
+#### Parameters
+
+<dl>
+  <dt>**...values:** `number[]`</dt>
+  <dd>The numbers to filter even numbers from.</dd>
+  <dt>**Returns:** `number[]`</dt>
+  <dd>An array of even numbers.</dd>
+</dl>
+
+#### Examples
+
+```ts copy
+console.log(math.even(1, 2, 3, 4, 5, 6)) // [2, 4, 6]
+console.log(math.even(7, 9, 11)) // []
+```
+
+### math.factorial()
+
+The factorial() method calculates the factorial of a positive integer.
+
+```ts
+math.factorial(x: number): number
+```
+
+> **Throws**: An error if x is a negative number.
+
+#### Parameters
+
+<dl>
+  <dt>**x:** `number`</dt>
+  <dd>The positive integer to calculate the factorial of.</dd>
+  <dt>**Returns:** `boolean`</dt>
+  <dd>The factorial of x.</dd>
+</dl>
+
+#### Examples
+
+```ts copy
+console.log(math.factorial(0)) // 1
+console.log(math.factorial(1)) // 1
+console.log(math.factorial(5)) // 120
+```
+
+### math.odd()
+
+The odd() method filters the odd numbers from the given numbers.
+
+```ts
+math.odd(...values: number[]): number[]
+```
+
+#### Parameters
+
+<dl>
+  <dt>**...values:** `number[]`</dt>
+  <dd>The numbers to filter odd numbers from.</dd>
+  <dt>**Returns:** `number[]`</dt>
+  <dd>An array of odd numbers.</dd>
+</dl>
+
+#### Examples
+
+```ts copy
+console.log(math.odd(1, 2, 3, 4, 5, 6)) // [1, 3, 5]
+console.log(math.odd(8, 10, 12)) // []
+```
+
+### math.sum()
+
+The sum() method calculates the sum of the given numbers.
+
+```ts
+math.sum(...values: number[]): number
+```
+
+#### Parameters
+
+<dl>
+  <dt>**...values:** `number[]`</dt>
+  <dd>The numbers to calculate the sum of.</dd>
+  <dt>**Returns:** `number`</dt>
+  <dd>The sum of the given numbers.</dd>
+</dl>
+
+#### Examples
+
+```ts copy
+console.log(math.sum(1, 2, 3, 4, 5)) // 15
+console.log(math.sum(-1, 0, 1)) // 0
+```

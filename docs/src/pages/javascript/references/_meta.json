@@ -1,0 +1,15 @@
+{
+  "array": "Array",
+  "boolean": "Boolean",
+  "classnames": "classnames()",
+  "clone": "clone()",
+  "function": "Function",
+  "math": "math",
+  "mime-type": "MimeType",
+  "number": "Number",
+  "object": "Object",
+  "string": "String",
+  "typeof": "typeOf()",
+  "uid": "uid()",
+  "user-agent": "UserAgent"
+}

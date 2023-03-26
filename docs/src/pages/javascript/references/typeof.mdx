@@ -1,0 +1,68 @@
+import Badge from '@/components/badge'
+
+# <Badge function /> typeOf()
+
+The typeOf() method returns the type of variables.
+
+## Usage
+
+```ts copy
+import { typeOf } from '@ponsetya/javascript'
+```
+
+## Syntax
+
+```ts
+typeOf(value: unknown): Type
+```
+
+## Parameters
+
+## Parameters
+
+<dl>
+  <dt>**value:** `unknown`</dt>
+  <dd>The value whose type is to be determined.</dd>
+  <dt>**Returns:** `Type`</dt>
+  <dd>A string representing the type of the value.</dd>
+</dl>
+
+## Examples
+
+```ts copy
+console.log(typeOf('x')) // 'string'
+console.log(typeOf([])) // 'array'
+console.log(typeOf({})) // 'object'
+console.log(typeOf(/^[5x]+$/)) // 'regexp'
+console.log(typeOf(5)) // 'number'
+console.log(typeOf(NaN)) // 'NaN'
+console.log(typeOf(null)) // 'null'
+console.log(typeOf(undefined)) // 'undefined'
+```
+
+## Type Aliases
+
+### PrimitiveType
+
+```ts
+export type PrimitiveType =
+  | 'string'
+  | 'number'
+  | 'bigint'
+  | 'boolean'
+  | 'undefined'
+  | 'symbol'
+  | 'null'
+```
+
+### ObjectType
+
+```ts
+export type ObjectType = 'function' | 'object' | 'array' | 'regexp' | 'NaN'
+```
+
+### Type
+
+```ts
+export type Type = PrimitiveType | ObjectType
+```

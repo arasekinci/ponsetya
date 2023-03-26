@@ -1,0 +1,190 @@
+import Badge from '@/components/badge'
+
+# <Badge class /> UserAgent
+
+Represents a user agent string and provides methods
+for parsing it to determine the browser,
+device, engine, and operating system.
+
+## Usage
+
+To use this module, you first need to import the UserAgent class:
+
+```ts copy
+import { UserAgent } from '@ponsetya/javascript'
+```
+
+## Constructor
+
+Creates a new instance of the UserAgent class.
+
+```ts
+new UserAgent(userAgent?: string): UserAgent
+```
+
+> **Throws**: An error if the UserAgent class is instantiated on the server without a user agent string.
+
+### Parameters
+
+<dl>
+  <dt>**userAgent?:** `string`</dt>
+  <dd>
+    An optional user agent string. If not specified, the constructor will
+    attempt to use the user agent string from the window.navigator object.
+  </dd>
+</dl>
+
+### Examples
+
+```ts copy
+const ua = new UserAgent(
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+)
+
+console.log(ua.browser) // 'Chrome'
+```
+
+## Accessors
+
+### browser
+
+Gets the browser name based on the user agent string.
+
+```ts
+get browser(): UserAgentBrowser
+```
+
+#### Examples
+
+```ts copy
+const ua = new UserAgent(
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+)
+
+console.log(ua.browser) // 'Chrome'
+```
+
+### device
+
+Gets the device type based on the user agent string.
+
+```ts
+get device(): UserAgentDevice
+```
+
+#### Examples
+
+```ts copy
+const ua = new UserAgent(
+  'Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-G970U1) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/12.1 Chrome/79.0.3945.136 Mobile Safari/537.36'
+)
+
+console.log(ua.device) // 'Mobile'
+```
+
+### engine
+
+Gets the rendering engine name based on the user agent string.
+
+```ts
+get node(): UserAgentEngine
+```
+
+#### Examples
+
+```ts copy
+const ua = new UserAgent(
+  'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0'
+)
+
+console.log(ua.engine) // 'Gecko'
+```
+
+### os
+
+Gets the operating system name based on the user agent string.
+
+```ts
+get os(): UserAgentOperatingSystem
+```
+
+#### Examples
+
+```ts copy
+const ua = new UserAgent(
+  'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0'
+)
+
+console.log(ua.engine) // 'Gecko'
+```
+
+## Methods
+
+### toString
+
+Returns the user agent string.
+
+```ts
+toString(): string
+```
+
+#### Examples
+
+```ts copy
+const ua = new UserAgent(
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+)
+
+console.log(ua.toString()) // 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+```
+
+## Type Aliases
+
+### UserAgentBrowser
+
+```ts
+type UserAgentBrowser =
+  | 'Chrome'
+  | 'Dolphin'
+  | 'Edge'
+  | 'Firefox'
+  | 'IE'
+  | 'MI'
+  | 'Opera'
+  | 'OperaMini'
+  | 'Safari'
+  | 'WindowsPhone'
+  | 'Yandex'
+  | 'Unknown'
+```
+
+### UserAgentBrowser
+
+```ts
+type UserAgentBrowser =
+  | 'Gecko'
+  | 'WebKit'
+  | 'Presto'
+  | 'Trident'
+  | 'Blink'
+  | 'Unknown'
+```
+
+### UserAgentOperatingSystem
+
+```ts
+type UserAgentOperatingSystem =
+  | 'Android'
+  | 'iOS'
+  | 'Linux'
+  | 'MacOS'
+  | 'Pardus'
+  | 'Windows'
+  | 'Unknown'
+```
+
+### UserAgentDevice
+
+```ts
+type UserAgentDevice = 'Mobile' | 'Tablet' | 'Computer' | 'Unknown'
+```

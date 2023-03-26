@@ -1,0 +1,200 @@
+import Badge from '@/components/badge'
+
+# <Badge abstract /> Array
+
+Array utility class that provides various methods for arrays.
+
+The Array class is extended from the built-in [Array](/glossary#array) object. You can continue to use whatever we normally use.
+
+## Usage
+
+To use this module, you first need to import the Array class:
+
+```ts copy
+import { Array } from '@ponsetya/javascript'
+```
+
+## Static Methods
+
+### Array.compare()
+
+The compare() method compares two arrays and checks if they are the same.
+
+If two arrays are different in terms of their reference or number, they are compared using the built-in JSON object.
+If the given array contains non-primitive types like functions, they are converted to strings for comparison. To learn more about how this works in detail, please refer to the [JSON](/glossary#javascript-object-notation) object.
+
+```ts
+Array.compare<T>(arr1: T[], arr2: T[]): boolean
+```
+
+If you want to compare two different array types, the result is likely to be `false`.
+
+#### Parameters
+
+<dl>
+  <dt>**arr1:** `T[]`</dt>
+  <dd>The first array to compare.</dd>
+  <dt>**arr2:** `T[]`</dt>
+  <dd>The first second to compare.</dd>
+  <dt>**Returns:** `boolean`</dt>
+  <dd>A boolean indicating if the arrays are the same.</dd>
+</dl>
+
+#### Examples
+
+```ts copy
+const arr1 = [1, 2, 3, 4]
+const arr2 = [1, 2, 3, 4]
+
+console.log(Array.compare(arr1, arr2)) // true
+```
+
+For strings with different number of elements or the same references, the result is returned without comparison.
+
+```ts copy
+const arr1 = [1, 2, 3, 4]
+const arr2 = [1, 2]
+
+console.log(Array.compare(arr1, arr1)) // true
+console.log(Array.compare(arr1, arr2)) // false
+```
+
+### Array.insert()
+
+The insert() method inserts one or more items into an array at a specified index.
+
+```ts
+Array.insert<T>(arr: T[], index: number, ...items: T[]): void
+```
+
+#### Parameters
+
+<dl>
+  <dt>**arr:** `T[]`</dt>
+  <dd>The array to insert the items into.</dd>
+  <dt>**index:** `number`</dt>
+  <dd>The index to insert the items at.</dd>
+  <dt>**...items:** `T[]`</dt>
+  <dd>The items to insert.</dd>
+</dl>
+
+#### Examples
+
+```ts copy
+const arr = ['b', 'c', 'd']
+
+Array.insert(arr, 0, 'a')
+Array.insert(arr, 4, 'e', 'f')
+
+console.log(arr) // ['a', 'b', 'c', 'd', 'e', 'f']
+```
+
+### Array.is()
+
+The is() method determines whether the passed value is an Array.
+
+```ts
+Array.is(value: unknown): boolean
+```
+
+#### Parameters
+
+<dl>
+  <dt>**value:** `unkown`</dt>
+  <dd>The value to be checked.</dd>
+  <dt>**Returns:** `boolean`</dt>
+  <dd>A boolean indicating whether the variable is a Array.</dd>
+</dl>
+
+#### Examples
+
+```ts copy
+console.log(Array.is(['x', 'y'])) // true
+console.log(Array.is([])) // true
+
+console.log(Array.is({ x: true })) // false
+console.log(Array.is({})) // false
+```
+
+### Array.move()
+
+The move() method moves an item from one index to another in an array.
+
+```ts
+Array.move<T>(arr: T[], from: number, to: number): void
+```
+
+#### Parameters
+
+<dl>
+  <dt>**arr:** `T[]`</dt>
+  <dd>The array to move the item in.</dd>
+  <dt>**from:** `number`</dt>
+  <dd>The index of the item to move.</dd>
+  <dt>**to:** `number`</dt>
+  <dd>The index to move the item to.</dd>
+</dl>
+
+#### Examples
+
+```ts copy
+const arr = [1, 4, 2, 3]
+
+Array.move(arr, 1, 3)
+
+console.log(arr) // [1, 2, 3, 4]
+```
+
+### Array.remove()
+
+The remove() method removes an item from an array by index.
+
+```ts
+Array.remove<T>(arr: T[], index: number): void
+```
+
+#### Parameters
+
+<dl>
+  <dt>**arr:** `T[]`</dt>
+  <dd>The array to remove the item from.</dd>
+  <dt>**index:** `number`</dt>
+  <dd>The index of the item to remove.</dd>
+</dl>
+
+#### Examples
+
+```ts copy
+const arr = [1, 2, 9, 3, 4]
+
+Array.remove(arr, 2)
+
+console.log(arr) // [1, 2, 3, 4]
+```
+
+### Array.unique()
+
+The unique() method removes duplicate items from an array.
+
+This method is only valid for array if it consists of some [primitive](/glossary#primitive) type like string or number.
+
+```ts
+Array.unique<T>(arr: T[]): T[]
+```
+
+#### Parameters
+
+<dl>
+  <dt>**arr:** `T[]`</dt>
+  <dd>The array to remove duplicates from.</dd>
+  <dt>**Returns:** `T[]`</dt>
+  <dd>A new array without duplicates.</dd>
+</dl>
+
+#### Examples
+
+```ts copy
+const arr = [1, 1, 2, 3, 4, 4]
+
+console.log(Array.unique(arr)) // [1, 2, 3, 4]
+```

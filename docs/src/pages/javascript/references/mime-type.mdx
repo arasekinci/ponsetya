@@ -1,0 +1,149 @@
+import Badge from '@/components/badge'
+
+# <Badge class /> MimeType
+
+Represents a MIME type associated with a particular plugin.
+
+## Usage
+
+To use this module, you first need to import the MimeType class:
+
+```ts copy
+import { MimeType } from '@ponsetya/javascript'
+```
+
+## Constructor
+
+Constructs a new MimeType object.
+
+```ts
+new MimeType(type: string): MimeType
+```
+
+### Parameters
+
+<dl>
+  <dt>**type:** `string`</dt>
+  <dd>The MIME type string.</dd>
+</dl>
+
+### Examples
+
+```ts copy
+const mime = new MimeType('application/json')
+
+console.log(mime.extension) // json
+```
+
+## Properties
+
+<dl>
+  <dt>
+    <Badge readonly /> **type:** `string | undefined`
+  </dt>
+  <dd>The MIME type string.</dd>
+  <dt>
+    <Badge readonly /> **charset:** `string | undefined`
+  </dt>
+  <dd>The character set of the MIME type.</dd>
+  <dt>
+    <Badge readonly /> **source:** `MimeTypeSource | undefined`
+  </dt>
+  <dd>The source of the MIME type.</dd>
+  <dt>
+    <Badge readonly /> **compressible:** `boolean | undefined`
+  </dt>
+  <dd>The source of the MIME type.</dd>
+  <dt>
+    <Badge readonly /> **extension:** `string | undefined`
+  </dt>
+  <dd>The default extension associated with the MIME type.</dd>
+  <dt>
+    <Badge readonly /> **extensions:** `string[] | undefined`
+  </dt>
+  <dd>An array of all extensions associated with the MIME type.</dd>
+</dl>
+
+## Static Methods
+
+### MimeType.find()
+
+Finds the first MIME type entry in the mimetypes array that satisfies the provided testing function.
+
+```ts
+MimeType.find(
+  predicate: (value: MimeTypeEntry, index: number) => boolean | undefined
+): MimeTypeEntry | undefined
+```
+
+#### Parameters
+
+<dl>
+  <dt>**predicate:** `function`</dt>
+  <dd>
+    A function that accepts a MIME type entry and returns a boolean value
+    indicating whether the entry satisfies a certain condition.
+  </dd>
+  <dt>**Returns:** `MimeTypeEntry | undefined`</dt>
+  <dd>
+    The first MIME type entry that satisfies the testing function, or undefined
+    if none is found.
+  </dd>
+</dl>
+
+#### Examples
+
+```ts copy
+const result = MimeType.find((entry) => entry.type === 'application/json')
+
+console.log(result)
+// {
+//   type: 'application/json',
+//   charset: 'UTF-8',
+//   source: 'iana',
+//   compressible: true,
+//   extension: 'json',
+//   extensions: ['json', 'map'],
+// }
+```
+
+### MimeType.filter()
+
+Returns an array of all MIME type entries in the mimetypes array that satisfy the provided testing function.
+
+```ts
+MimeType.filter(
+  predicate: (value: MimeTypeEntry, index: number) => boolean | undefined
+): MimeTypeEntry[] | undefined
+```
+
+#### Parameters
+
+<dl>
+  <dt>**predicate:** `function`</dt>
+  <dd>
+    A function that accepts a MIME type entry and returns a boolean value
+    indicating whether the entry satisfies a certain condition.
+  </dd>
+  <dt>**Returns:** `MimeTypeEntry[] | undefined`</dt>
+  <dd>
+    The first MIME type entry that satisfies the testing function, or undefined
+    if none is found.
+  </dd>
+</dl>
+
+#### Examples
+
+```ts copy
+const results = MimeType.filter((entry) => entry.type === 'application/json')
+
+console.log(results)
+// [{
+//   type: 'application/json',
+//   charset: 'UTF-8',
+//   source: 'iana',
+//   compressible: true,
+//   extension: 'json',
+//   extensions: ['json', 'map'],
+// }]
+```
