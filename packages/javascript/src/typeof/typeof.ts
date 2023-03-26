@@ -1,15 +1,15 @@
-import type { Type } from './gettype.type'
+import type { Type } from './typeof.type'
 
 /**
- * The gettype() method returns the type of variables.
+ * The typeOf() method returns the type of variables.
  *
  * @param value - The value whose type is to be determined.
  * @returns A string representing the type of the value.
  *
- * @see {@link https://arasekinci.github.io/ponsetya/javascript/references/gettype | gettype} for more information.
+ * @see {@link https://arasekinci.github.io/ponsetya/javascript/references/typeof | typeOf} for more information.
  */
 
-export function gettype(value: unknown): Type {
+export function typeOf(value: unknown): Type {
   if (typeof value === 'number' && isNaN(value)) {
     return 'NaN'
   } else if (value === null) {

@@ -1,4 +1,4 @@
-import { gettype } from '../gettype'
+import { typeOf } from '../typeof'
 import { ObjectConstructor } from './object.constructor'
 
 /**
@@ -41,7 +41,7 @@ abstract class _Object extends ObjectConstructor {
    * @returns A boolean indicating whether the variable is a object.
    */
   static is(value: unknown): boolean {
-    return gettype(value) === 'object'
+    return typeOf(value) === 'object'
   }
 
   /**

@@ -1,4 +1,4 @@
-import { gettype } from '../gettype'
+import { typeOf } from '../typeof'
 import { StringConstructor } from './string.constructor'
 
 /**
@@ -35,7 +35,7 @@ export abstract class String extends StringConstructor {
    * @returns A boolean indicating whether the variable is a string.
    */
   static is(value: unknown): boolean {
-    return gettype(value) === 'string'
+    return typeOf(value) === 'string'
   }
 
   /**

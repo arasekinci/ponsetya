@@ -1,4 +1,4 @@
-import { gettype } from '../gettype'
+import { typeOf } from '../typeof'
 import { NumberConstructor } from './number.constructor'
 
 /**
@@ -15,6 +15,6 @@ export abstract class Number extends NumberConstructor {
    * @returns A boolean indicating whether the variable is a number.
    */
   static is(value: unknown): boolean {
-    return gettype(value) === 'number'
+    return typeOf(value) === 'number'
   }
 }

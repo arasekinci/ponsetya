@@ -1,4 +1,4 @@
-import { gettype } from '../gettype'
+import { typeOf } from '../typeof'
 import { BooleanConstructor } from './boolean.constructor'
 
 /**
@@ -32,6 +32,6 @@ export abstract class Boolean extends BooleanConstructor {
    * @returns A boolean indicating whether the variable is a boolean.
    */
   static is(value: unknown): boolean {
-    return gettype(value) === 'boolean'
+    return typeOf(value) === 'boolean'
   }
 }

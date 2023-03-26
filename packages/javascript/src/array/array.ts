@@ -1,4 +1,4 @@
-import { gettype } from '../gettype'
+import { typeOf } from '../typeof'
 import { ArrayConstructor } from './array.constructor'
 
 /**
@@ -45,7 +45,7 @@ export abstract class Array extends ArrayConstructor {
    * @returns A boolean indicating whether the variable is a Array.
    */
   static is(value: unknown): boolean {
-    return gettype(value) === 'array'
+    return typeOf(value) === 'array'
   }
 
   /**

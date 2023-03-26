@@ -1,4 +1,4 @@
-import { gettype } from '../gettype'
+import { typeOf } from '../typeof'
 import { FunctionConstructor } from './function.constructor'
 
 /**
@@ -15,6 +15,6 @@ export abstract class Function extends FunctionConstructor {
    * @returns A boolean indicating whether the variable is a function.
    */
   static is(value: unknown): boolean {
-    return gettype(value) === 'function'
+    return typeOf(value) === 'function'
   }
 }
