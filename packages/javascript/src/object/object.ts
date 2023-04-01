@@ -7,7 +7,18 @@ import { ObjectConstructor } from './object.constructor'
  * @see {@link https://arasekinci.github.io/ponsetya/javascript/references/object | Object} for more information.
  */
 
-abstract class _Object extends ObjectConstructor {
+class _Object extends ObjectConstructor {
+  /**
+   * Creates a new instance of built-in Object.
+   *
+   * @param thing - Anything to be converted to a object.
+   */
+  constructor(thing?: any) {
+    super(thing)
+
+    return ObjectConstructor(thing)
+  }
+
   /**
    * The assign() method recursively merge two objects. The resulting object has all properties from both objects.
    *
@@ -16,7 +27,6 @@ abstract class _Object extends ObjectConstructor {
    * @returns A new object that has all properties from both `target` and `source`.
    */
   static assign<T, S>(target: T, source: S): T & S {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const obj = { ...target } as any
 
     for (const key in source) {

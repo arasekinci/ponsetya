@@ -7,9 +7,22 @@ import { NumberConstructor } from './number.constructor'
  * @see {@link https://arasekinci.github.io/ponsetya/javascript/references/number | Number} for more information.
  */
 
-export abstract class Number extends NumberConstructor {
+export class Number extends NumberConstructor {
   /**
-   * The is() method determines whether the passed value is an Number.
+   * Creates a new instance of built-in Number.
+   *
+   * @param thing - Anything to be converted to a number.
+   */
+  constructor(thing?: any) {
+    if (thing) {
+      super(thing)
+    } else {
+      super()
+    }
+  }
+
+  /**
+   * The is() method determines whether the passe"d value is an Number.
    *
    * @param value - The value to be checked.
    * @returns A boolean indicating whether the variable is a number.

@@ -7,7 +7,20 @@ import { StringConstructor } from './string.constructor'
  * @see {@link https://arasekinci.github.io/ponsetya/javascript/references/string | String} for more information.
  */
 
-export abstract class String extends StringConstructor {
+export class String extends StringConstructor {
+  /**
+   * Creates a new instance of built-in String.
+   *
+   * @param thing - Anything to be converted to a string.
+   */
+  constructor(thing?: any) {
+    if (thing) {
+      super(thing)
+    } else {
+      super()
+    }
+  }
+
   /**
    * The decode() method decrypts the given encrypted value and returns a text.
    *

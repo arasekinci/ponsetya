@@ -7,7 +7,23 @@ import { ArrayConstructor } from './array.constructor'
  * @see {@link https://arasekinci.github.io/ponsetya/javascript/references/array | Array} for more information.
  */
 
-export abstract class Array extends ArrayConstructor {
+class _Array extends ArrayConstructor {
+  /**
+   * Creates a new instance of built-in Array.
+   *
+   * @param length - The length of the new array.
+   */
+  constructor(length: number)
+  /**
+   * Creates a new instance of built-in Array.
+   *
+   * @param items - The elements to include in the array.
+   */
+  constructor(...items: string[])
+  constructor(...args: [number] | string[]) {
+    super(...(args as any))
+  }
+
   /**
    * The compare() method compares two arrays and checks if they are the same.
    *
@@ -81,3 +97,5 @@ export abstract class Array extends ArrayConstructor {
     return [...new Set(arr)]
   }
 }
+
+export { _Array as Array }

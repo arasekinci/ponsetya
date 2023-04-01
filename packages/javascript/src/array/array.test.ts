@@ -1,6 +1,21 @@
+/* eslint-disable @typescript-eslint/no-array-constructor */
 import { Array } from '.'
 
 describe('Array', () => {
+  describe('constructor', () => {
+    test('should create empty array when no argument is passed', () => {
+      expect(new Array().length).toEqual(0)
+    })
+
+    test('should create array with specified length when number argument is passed', () => {
+      expect(new Array(3).length).toEqual(3)
+    })
+
+    test('should create and return a built-in array when multiple arguments are given', () => {
+      expect(new Array('x', 'y', 'z')).toEqual(['x', 'y', 'z'])
+    })
+  })
+
   test('compare should return true if two arrays are the same', () => {
     const arr = [1, 2, 3]
 

@@ -7,7 +7,16 @@ import { BooleanConstructor } from './boolean.constructor'
  * @see {@link https://arasekinci.github.io/ponsetya/javascript/references/boolean | Boolean} for more information.
  */
 
-export abstract class Boolean extends BooleanConstructor {
+export class Boolean extends BooleanConstructor {
+  /**
+   * Creates a new instance of built-in Boolean.
+   *
+   * @param thing - Anything to be converted to a boolean.
+   */
+  constructor(thing?: any) {
+    super(thing)
+  }
+
   /**
    * The convert() method convert a string to a boolean.
    *

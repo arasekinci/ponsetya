@@ -1,6 +1,19 @@
 import { String } from '.'
 
 describe('String', () => {
+  describe('constructor', () => {
+    test('should create an empty string object when called without any argument', () => {
+      expect(new String().toString()).toBe('')
+    })
+
+    test('should create a string object with the given string value when called with a any argument', () => {
+      expect(new String('hello').toString()).toBe('hello')
+      expect(new String(123).toString()).toBe('123')
+      expect(new String(true).toString()).toBe('true')
+      expect(new String({ foo: 'bar' }).toString()).toBe('[object Object]')
+    })
+  })
+
   describe('decode()', () => {
     test('should return the decrypted value', () => {
       expect(String.decode('SGVsbG8lMjB3b3JsZCE=')).toBe('Hello world!')

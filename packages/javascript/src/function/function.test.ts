@@ -1,6 +1,20 @@
 import { Function } from '.'
 
 describe('Function', () => {
+  describe('constructor', () => {
+    test('should create a function object', () => {
+      const sum = new Function('a', 'b', 'return a + b')
+
+      expect(sum(1, 2)).toEqual(3)
+    })
+
+    test('should throw an error if the code contains syntax errors', () => {
+      expect(() => {
+        new Function('a', 'b', 'return a +')
+      }).toThrow(SyntaxError)
+    })
+  })
+
   describe('is', () => {
     test('should return true for a boolean value', () => {
       expect(Function.is(() => null)).toBe(true)

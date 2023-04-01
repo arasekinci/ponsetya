@@ -1,6 +1,21 @@
 import { Boolean } from '.'
 
 describe('Boolean', () => {
+  describe('constructor', () => {
+    test('with true value', () => {
+      expect(new Boolean(true).valueOf()).toBe(true)
+      expect(new Boolean(1).valueOf()).toBe(true)
+      expect(new Boolean('Hello').valueOf()).toBe(true)
+    })
+
+    test('with false value', () => {
+      expect(new Boolean(false).valueOf()).toBe(false)
+      expect(new Boolean(0).valueOf()).toBe(false)
+      expect(new Boolean(undefined).valueOf()).toBe(false)
+      expect(new Boolean(null).valueOf()).toBe(false)
+    })
+  })
+
   describe('convert', () => {
     test('should convert "true" to true', () => {
       expect(Boolean.convert('true')).toBe(true)

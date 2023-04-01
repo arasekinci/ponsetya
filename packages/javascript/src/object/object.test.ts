@@ -1,6 +1,20 @@
 import { Object } from '.'
 
 describe('Object', () => {
+  describe('constructor', () => {
+    test('should create an empty object without parameter', () => {
+      expect(new Object()).toMatchObject({})
+      expect(new Object(null)).toMatchObject({})
+      expect(new Object(undefined)).toMatchObject({})
+    })
+
+    test('should create an object with properties from given parameter', () => {
+      const obj = { name: 'John', surname: 'Doe' }
+
+      expect(new Object(obj)).toMatchObject(obj)
+    })
+  })
+
   describe('assign()', () => {
     test('should assign two objects', () => {
       const target = { a: 1, b: 2 }

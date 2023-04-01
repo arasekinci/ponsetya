@@ -7,7 +7,16 @@ import { FunctionConstructor } from './function.constructor'
  * @see {@link https://arasekinci.github.io/ponsetya/javascript/references/function | function} for more information.
  */
 
-export abstract class Function extends FunctionConstructor {
+export class Function extends FunctionConstructor {
+  /**
+   * Creates a new instance of built-in Function.
+   *
+   * @param args -  A list of arguments the function accepts.
+   */
+  constructor(...args: string[]) {
+    super(...args)
+  }
+
   /**
    * The is() method determines whether the passed value is an Function.
    *
