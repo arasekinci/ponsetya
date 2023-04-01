@@ -27,6 +27,7 @@
     }
   ],
   "rules": {
-    "tsdoc/syntax": "error"
+    "tsdoc/syntax": "error",
+    "@typescript-eslint/no-explicit-any": "off"
   }
 }
