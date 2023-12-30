@@ -7,7 +7,7 @@ The classnames() method returns the class names conditionally joining.
 ## Usage
 
 ```ts copy
-import { classnames } from '@ponsetya/javascript'
+import { classnames } from '@ponsetya/core'
 ```
 
 ## Syntax
@@ -36,19 +36,19 @@ console.log(classnames({ foo: 'baz' }, { bar: true })) // 'foo-baz bar'
 
 ## Type Aliases
 
-### ClassNameValue
+### Class Name Value
 
 ```ts
 type ClassNameValue = string | number | boolean | undefined | null
 ```
 
-### ClassNameValueObject
+### Class Name Value Object
 
 ```ts
 type ClassNameValueObject = Record<string, ClassNameValue>
 ```
 
-### ClassNameArgument
+### Class Name Argument
 
 ```ts
 type ClassNameArgument = ClassNameValue | ClassNameValueObject

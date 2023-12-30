@@ -9,7 +9,7 @@ import { Tab, Tabs } from 'nextra-theme-docs'
     For using the pnpm package manager.
 
     ```bash copy
-    pnpm install @ponsetya/javascript
+    pnpm install @ponsetya/core
     ```
 
   </Tab>
@@ -17,7 +17,7 @@ import { Tab, Tabs } from 'nextra-theme-docs'
     For using the npm package manager.
 
     ```bash copy
-    npm install @ponsetya/javascript
+    npm install @ponsetya/core
     ```
 
   </Tab>
@@ -25,7 +25,7 @@ import { Tab, Tabs } from 'nextra-theme-docs'
     For using the yarn package manager.
 
     ```bash copy
-    yarn add @ponsetya/javascript
+    yarn add @ponsetya/core
     ```
 
   </Tab>
@@ -36,15 +36,15 @@ import { Tab, Tabs } from 'nextra-theme-docs'
 By default you can include all api and functions.
 
 ```ts copy
-import javascript from '@ponsetya/javascript'
+import ponsetya from '@ponsetya/core'
 
-console.log(javascript.uid()) // 25-character unique string
+console.log(ponsetya.uid()) // 25-character unique string
 ```
 
 If you want to use it as a module, you need to import the module.
 
 ```ts copy
-import { uid } from '@ponsetya/javascript'
+import { uid } from '@ponsetya/core'
 
 console.log(uid()) // 25-character unique string
 ```

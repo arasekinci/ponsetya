@@ -7,7 +7,7 @@ The typeOf() method returns the type of variables.
 ## Usage
 
 ```ts copy
-import { typeOf } from '@ponsetya/javascript'
+import { typeOf } from '@ponsetya/core'
 ```
 
 ## Syntax
@@ -42,7 +42,7 @@ console.log(typeOf(undefined)) // 'undefined'
 
 ## Type Aliases
 
-### PrimitiveType
+### Primitive Type
 
 ```ts
 export type PrimitiveType =
@@ -55,7 +55,7 @@ export type PrimitiveType =
   | 'null'
 ```
 
-### ObjectType
+### Object Type
 
 ```ts
 export type ObjectType = 'function' | 'object' | 'array' | 'regexp' | 'NaN'

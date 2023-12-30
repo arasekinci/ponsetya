@@ -11,7 +11,7 @@ device, engine, and operating system.
 To use this module, you first need to import the UserAgent class:
 
 ```ts copy
-import { UserAgent } from '@ponsetya/javascript'
+import { UserAgent } from '@ponsetya/core'
 ```
 
 ## Constructor
@@ -140,7 +140,7 @@ console.log(ua.toString()) // 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWe
 
 ## Type Aliases
 
-### UserAgentBrowser
+### User Agent Browser
 
 ```ts
 type UserAgentBrowser =
@@ -158,7 +158,7 @@ type UserAgentBrowser =
   | 'Unknown'
 ```
 
-### UserAgentBrowser
+### User Agent Browser
 
 ```ts
 type UserAgentBrowser =
@@ -170,7 +170,7 @@ type UserAgentBrowser =
   | 'Unknown'
 ```
 
-### UserAgentOperatingSystem
+### User Agent Operating System
 
 ```ts
 type UserAgentOperatingSystem =
@@ -183,7 +183,7 @@ type UserAgentOperatingSystem =
   | 'Unknown'
 ```
 
-### UserAgentDevice
+### User Agent Device
 
 ```ts
 type UserAgentDevice = 'Mobile' | 'Tablet' | 'Computer' | 'Unknown'

@@ -3,7 +3,7 @@
     "title": "Home",
     "type": "page"
   },
-  "javascript": {
+  "core": {
     "title": "JavaScript",
     "type": "page"
   },
