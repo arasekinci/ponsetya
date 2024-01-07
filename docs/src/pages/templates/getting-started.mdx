@@ -1,0 +1,43 @@
+import { Tab, Tabs } from 'nextra-theme-docs'
+
+# Getting started
+
+## Installation
+
+<Tabs items={['yarn', 'pnpm', 'npm']}>
+  <Tab>
+    For using the yarn package manager.
+
+    ```bash copy
+    yarn add @ponsetya/{package}
+    ```
+  </Tab>
+  <Tab>
+    For using the pnpm package manager.
+
+    ```bash copy
+    pnpm install @ponsetya/{package}
+    ```
+  </Tab>
+  <Tab>
+    For using the npm package manager.
+
+    ```bash copy
+    npm install @ponsetya/{package}
+    ```
+  </Tab>
+</Tabs>
+
+## Usage
+
+If you want to use it as a module, you need to import the module.
+
+```ts copy
+import { module } from '@ponsetya/<package>'
+
+module.method('John', 'Doe') // John Doe
+```
+
+## License
+
+Released under the [MIT License](http://www.opensource.org/licenses/mit-license.php).

@@ -1,0 +1,32 @@
+{
+  "--- constructor": {
+    "title": "Constructor",
+    "type": "separator"
+  },
+  "constructor": "Class() constructor",
+  "--- static-properties": {
+    "title": "Static properties",
+    "type": "separator"
+  },
+  "version": "Class.version",
+  "--- static-methods": {
+    "title": "Static methods",
+    "type": "separator"
+  },
+  "create": "Class.create()",
+  "--- instance-properties": {
+    "title": "Instance properties",
+    "type": "separator"
+  },
+  "width": "width",
+  "--- instance-accessors": {
+    "title": "Instance accessors",
+    "type": "separator"
+  },
+  "depth": "depth",
+  "--- instance-methods": {
+    "title": "Instance methods",
+    "type": "separator"
+  },
+  "move": "move()"
+}

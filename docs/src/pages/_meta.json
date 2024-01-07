@@ -1,19 +1,14 @@
 {
-  "index": {
-    "title": "Home",
+  "*": {
     "type": "page"
   },
-  "core": {
-    "title": "JavaScript",
-    "type": "page"
-  },
-  "node": {
-    "title": "Node",
-    "type": "page"
-  },
-  "browser": {
-    "title": "Browser",
-    "type": "page"
+  "index": "Home",
+  "core": "JavaScript",
+  "node": "Node",
+  "browser": "Browser",
+  "templates": {
+    "title": "Templates",
+    "display": "hidden"
   },
   "glossary": {
     "display": "hidden"

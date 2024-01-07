@@ -1,0 +1,12 @@
+{
+  "--- properties": {
+    "title": "Properties",
+    "type": "separator"
+  },
+  "pi": "math.PI",
+  "--- methods": {
+    "title": "Methods",
+    "type": "separator"
+  },
+  "average": "math.average()"
+}

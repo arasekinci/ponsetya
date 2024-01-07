@@ -1,0 +1,23 @@
+import { MDXProvider } from '@mdx-js/react'
+
+import '@/styles/globals.css'
+import { DefinitionList, Definition } from '@/components/definitions'
+import { ParameterList, Parameter } from '@/components/parameters'
+import { PropertyList, Property } from '@/components/properties'
+
+export default function App({ Component, pageProps }) {
+  return (
+    <MDXProvider
+      components={{
+        Definition,
+        DefinitionList,
+        Parameter,
+        ParameterList,
+        Property,
+        PropertyList,
+      }}
+    >
+      <Component {...pageProps} />
+    </MDXProvider>
+  )
+}

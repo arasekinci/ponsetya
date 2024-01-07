@@ -1,0 +1,12 @@
+{
+  "getting-started": "Getting started",
+  "--- references": {
+    "title": "References",
+    "type": "separator"
+  },
+  "class": "Class",
+  "function": "Function",
+  "constant": "Constant",
+  "interface": "Interface",
+  "enumeration": "Enumeration"
+}

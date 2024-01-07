@@ -1,0 +1,189 @@
+---
+title: account()
+description: Culpa minim sunt officia sit labore nisi esse irure ipsum.
+---
+
+# account()
+
+Dolore eu do exercitation sunt adipisicing irure. Id sint proident labore nostrud qui cupidatat excepteur tempor et exercitation. Commodo elit do officia qui officia voluptate amet velit reprehenderit. Aliqua quis nulla id exercitation aliquip reprehenderit anim Lorem. Magna ex exercitation excepteur dolore nulla non. Exercitation laboris ut reprehenderit aliquip cillum tempor aliqua incididunt.
+
+## Usage
+
+This module needs to be imported first, and you can achieve this by using the `account()` function:
+
+```ts copy
+import { account } from '@ponsetya/<package>'
+```
+
+## Syntax
+
+```ts
+account(name, age)
+account(name, age, data)
+account(name, age, data, settings)
+```
+
+### Type Parameters
+
+<ParameterList>
+  <Parameter name="T" description="A generic type representing account settings." />
+</ParameterList>
+
+### Parameters
+
+<ParameterList>
+  <Parameter name="name" description="A string representing name." type="string" />
+  <Parameter name="age" description="A number representing age." type="number" />
+  <Parameter name="data" description="An array representing additional data about the account." type="[AccountData](#accountdata)" optional />
+  <Parameter name="settings" description="An object representing settings related to the account." type="T" optional />
+</ParameterList>
+
+### Return value
+
+An [Account](#account) object with the provided information.
+
+## Description
+
+Enim nostrud duis Lorem nostrud id ea. Incididunt enim id minim mollit ullamco nostrud. Aliquip deserunt sit cupidatat enim. Occaecat voluptate et quis eu non laboris nisi. Voluptate quis ipsum laboris consectetur minim ipsum culpa aliquip quis.
+
+Ea in ipsum elit et consequat proident irure qui irure amet. Pariatur amet ad in adipisicing sint fugiat fugiat et pariatur tempor fugiat. Enim ullamco nulla commodo dolore tempor nostrud. Consequat ipsum minim culpa cupidatat irure eiusmod in. In elit veniam irure voluptate consectetur consectetur irure dolor consequat incididunt velit nulla eu sit.
+
+Commodo velit velit cupidatat sit nostrud dolor nisi. Consequat nostrud aute id veniam non. Veniam pariatur tempor minim officia qui nulla voluptate. Labore nisi tempor nisi nisi culpa. Aute ex non labore commodo ea laborum in quis.
+
+## Examples
+
+### Create with only reqired values
+
+Et aliquip fugiat sint incididunt amet amet tempor aute exercitation non ad sunt.
+
+```ts copy
+const john = account('John', 28)
+
+// Expected data
+// {
+//   name: 'John',
+//   age: 28,
+//   data: undefined,
+//   settingds: undefined,
+// }
+```
+
+### Create with all data
+
+Ullamco tempor nostrud minim qui do incididunt ex duis magna sunt enim nostrud incididunt labore.
+
+```ts copy
+type JohnSettings = {
+  foo: string
+  bar: boolean
+}
+
+const john = account<JohnSettings>('John', 28, {
+  hobbies: [
+    'Music',
+    'Movie',
+  ],
+  type: AccountType.Admin,
+  permits: {
+    read: true,
+    write: true,
+  },
+}).settings = {
+  foo: 'Placeholder',
+  bar: false,
+}
+
+// Expected data
+// {
+//   name: 'John',
+//   age: 28,
+//   data: {
+//     hobbies: [
+//       'Music',
+//       'Movie',
+//     ],
+//     type: 1,
+//     permits: {
+//       read: true,
+//       write: true,
+//     },
+//   },
+//   settingds: {
+//     foo: 'Placeholder',
+//     bar: false,
+//   },
+// }
+```
+
+## Types
+
+### Type aliases
+
+#### AccountData
+
+```ts
+/**
+ * AccountData is a TypeScript type representing additional data associated with an account.
+ */
+type AccountData = {
+  /** An array of strings representing the account holder's hobbies. */
+  hobbies: string[]
+
+  /** Enumeration representing the type of account. */
+  type: '[AccountType](#accounttype)'
+
+  /** An object representing reading and writing permissions. */
+  permits: {
+    /** A boolean indicating whether the account has reading permission. */
+    read: boolean
+
+    /** A boolean indicating whether the account has writing permission. */
+    write: boolean
+  } | null
+}
+```
+
+### Interfaces
+
+#### Account
+
+```ts
+/**
+ * Account is an interface representing the structure of an account.
+ *
+ * @template T - A parameter representing the dynamic T type.
+ */
+interface Account<T> {
+  /** A string representing name. */
+  name: string
+
+  /** A string representing age. */
+  age: string
+
+  /** An optional property representing additional data associated with the account. */
+  data?: '[AccountData](#accountdata)'
+
+  /** A generic property `T` representing user-specific settings associated with the account. */
+  settings?: T
+}
+```
+
+## Enumeration
+
+### AccountType
+
+```ts
+/**
+ * An enumeration representing the account type.
+ */
+enum AccountType {
+  /** A number representing a user. */
+  User,
+
+  /** A number representing a admin. */
+  Admin,
+
+  /** A number representing a super admin. */
+  SuperAdmin,
+}
+```
