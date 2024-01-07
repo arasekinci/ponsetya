@@ -24,7 +24,7 @@ describe('math', () => {
 
     test('throws an error for negative input', () => {
       expect(() => math.factorial(-1)).toThrow(
-        'Cannot calculate factorial of a negative number.'
+        'Cannot calculate factorial of a negative number.',
       )
     })
   })

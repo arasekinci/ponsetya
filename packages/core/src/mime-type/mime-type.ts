@@ -60,7 +60,7 @@ export class MimeType {
    * @returns The first MIME type entry that satisfies the testing function, or undefined if none is found.
    */
   static find(
-    predicate: (value: MimeTypeEntry, index: number) => boolean | undefined
+    predicate: (value: MimeTypeEntry, index: number) => boolean | undefined,
   ): MimeTypeEntry | undefined {
     return mimetypes.find(predicate)
   }
@@ -72,7 +72,7 @@ export class MimeType {
    * @returns An array of all MIME type entries that satisfy the testing function.
    */
   static filter(
-    predicate: (value: MimeTypeEntry, index: number) => boolean | undefined
+    predicate: (value: MimeTypeEntry, index: number) => boolean | undefined,
   ): MimeTypeEntry[] {
     return mimetypes.filter(predicate)
   }

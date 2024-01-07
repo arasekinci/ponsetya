@@ -21,7 +21,7 @@ export const cookie = {
 
       if (cookie.indexOf(name) === 0) {
         return decodeURIComponent(
-          cookie.substring(name.length + 1, cookie.length)
+          cookie.substring(name.length + 1, cookie.length),
         )
       }
     }
@@ -76,7 +76,7 @@ export const cookie = {
     const secure = options.secure ? 'secure;' : ''
 
     document.cookie = `${name}=${encodeURIComponent(
-      value
+      value,
     )};${maxAge}${path}${secure}${httpOnly}`
   },
 }

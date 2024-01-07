@@ -27,7 +27,7 @@ describe('Boolean', () => {
 
     test('should throw an error for non-boolean values', () => {
       expect(() => Boolean.convert('string value')).toThrow(
-        'Cannot convert to boolean'
+        'Cannot convert to boolean',
       )
     })
   })

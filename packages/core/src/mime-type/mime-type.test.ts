@@ -28,7 +28,7 @@ describe('MimeType', () => {
   describe('find', () => {
     test('should return the first MimeTypeEntry that matches the predicate', () => {
       const result = MimeType.find(
-        (mimetype) => mimetype.type === 'application/json'
+        (mimetype) => mimetype.type === 'application/json',
       )
 
       expect(result).toEqual({
@@ -43,7 +43,7 @@ describe('MimeType', () => {
 
     test('should return undefined when no matching MimeTypeEntry is found', () => {
       const result = MimeType.find(
-        (mimetype) => mimetype.type === 'invalid/type'
+        (mimetype) => mimetype.type === 'invalid/type',
       )
 
       expect(result).toBeUndefined()

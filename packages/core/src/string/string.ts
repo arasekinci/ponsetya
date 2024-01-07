@@ -60,7 +60,7 @@ export class String extends StringConstructor {
    */
   static template(
     str: string,
-    params: Record<string, string | number>
+    params: Record<string, string | number>,
   ): string {
     for (const key in params) {
       if (Object.prototype.hasOwnProperty.call(params, key)) {

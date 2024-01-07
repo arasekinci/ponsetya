@@ -42,7 +42,7 @@ export class UserAgent {
     }
 
     throw new Error(
-      'UserAgent must be given while detecting device on the server.'
+      'UserAgent must be given while detecting device on the server.',
     )
   }
 
@@ -96,7 +96,7 @@ export class UserAgent {
       return 'Mobile'
     } else if (
       this.ua.match(
-        /(ipad|tablet|(android(?!.*mobile))|(windows(?!.*phone)(.*touch))|kindle|playbook|silk|(puffin(?!.*(IP|AP|WP))))/i
+        /(ipad|tablet|(android(?!.*mobile))|(windows(?!.*phone)(.*touch))|kindle|playbook|silk|(puffin(?!.*(IP|AP|WP))))/i,
       )
     ) {
       return 'Tablet'

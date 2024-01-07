@@ -52,10 +52,10 @@ describe('String', () => {
         String.template(hi, {
           name: 'John',
           age: 27,
-        })
+        }),
       ).toBe("Hello, I'm John and I'm 27 years old.")
       expect(String.template(summary, { job: 'Front-end' })).toBe(
-        "I'm a Front-end Developer, I've always enjoyed Front-end."
+        "I'm a Front-end Developer, I've always enjoyed Front-end.",
       )
     })
   })

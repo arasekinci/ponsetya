@@ -13,7 +13,7 @@ export function clone(
   options?: {
     /** An optional list of Transferable objects that should be included in the cloning process. */
     transfer?: Transferable[]
-  }
+  },
 ): any {
   if (!value) {
     return value
