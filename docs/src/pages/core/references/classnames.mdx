@@ -1,6 +1,4 @@
-import Badge from '@/components/badge'
-
-# <Badge function /> classnames()
+# classnames()
 
 The classnames() method returns the class names conditionally joining.
 
@@ -16,7 +14,7 @@ import { classnames } from '@ponsetya/core'
 classnames(...args: ClassNameArgument[]): string
 ```
 
-## Parameters
+### Parameters
 
 <dl>
   <dt>**...args:** `ClassNameArgument[]`</dt>
@@ -27,11 +25,13 @@ classnames(...args: ClassNameArgument[]): string
 
 ## Examples
 
+
+
 ```ts copy
-console.log(classnames('foo', 'bar')) // 'foo bar'
-console.log(classnames({ foo: true, bar: false })) // 'foo'
-console.log(classnames({ foo: true, bar: true })) // 'foo bar'
-console.log(classnames({ foo: 'baz' }, { bar: true })) // 'foo-baz bar'
+classnames('foo', 'bar') // 'foo bar'
+classnames({ foo: true, bar: false }) // 'foo'
+classnames({ foo: true, bar: true }) // 'foo bar'
+classnames({ foo: 'baz' }, { bar: true }) // 'foo-baz bar'
 ```
 
 ## Type Aliases
