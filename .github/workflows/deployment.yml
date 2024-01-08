@@ -24,8 +24,6 @@ jobs:
         run: yarn install
       - name: Build the docs
         run: yarn workspace docs build
-      - name: Export the docs
-        run: yarn workspace docs export
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
