@@ -22,6 +22,11 @@ const config: ThemeConfig = {
   footer: {
     text: 'Copyright 2023',
   },
+  useNextSeoProps() {
+    return {
+      titleTemplate: '%s - Popnsetya',
+    }
+  },
 }
 
 export default config
