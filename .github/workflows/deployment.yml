@@ -21,9 +21,9 @@ jobs:
         with:
           node-version: "18"
       - name: Install dependencies
-        run: yarn install
+        run: pnpm install
       - name: Build the docs
-        run: yarn workspace docs build
+        run: pnpm --filter docs build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:

@@ -29,7 +29,7 @@
   "scripts": {
     "build:cjs": "tsc --build tsconfig.cjs.json",
     "build:esm": "tsc --build tsconfig.esm.json",
-    "build": "yarn build:cjs && yarn build:esm",
+    "build": "pnpm build:cjs && pnpm build:esm",
     "lint": "eslint src/**/*",
     "test": "jest test"
   }
