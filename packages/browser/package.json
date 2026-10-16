@@ -43,7 +43,7 @@
   ],
   "scripts": {
     "build": "bunup",
-    "lint": "eslint src/**/*",
+    "lint": "biome check .",
     "test": "bun test",
     "typecheck": "bun check"
   }
