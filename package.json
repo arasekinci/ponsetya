@@ -5,7 +5,7 @@
     "dev": "turbo run dev --filter=docs",
     "lint": "turbo run lint",
     "test": "turbo run test",
-    "typecheck": "turbo run typecheck",
+    "type-check": "turbo run type-check",
     "format": "biome format --write .",
     "check": "biome check .",
     "prepare": "lefthook install",

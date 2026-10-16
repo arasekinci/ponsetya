@@ -44,7 +44,7 @@
     "build": "bunup",
     "lint": "biome check .",
     "test": "bun test",
-    "typecheck": "bun check"
+    "type-check": "bun check"
   },
   "publishConfig": {
     "access": "public",

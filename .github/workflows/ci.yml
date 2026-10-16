@@ -21,5 +21,5 @@ jobs:
         with:
           node-version: 22
       - run: bun install --frozen-lockfile
-      - name: Lint, typecheck, test, build
-        run: bunx turbo run lint typecheck test build
+      - name: Lint, type-check, test, build
+        run: bunx turbo run lint type-check test build
