@@ -9,8 +9,6 @@
     "format": "biome format --write .",
     "check": "biome check .",
     "prepare": "lefthook install",
-    "changeset": "changeset",
-    "version": "changeset version",
     "release": "turbo run build --filter=./packages/* && changeset publish"
   },
   "devDependencies": {
