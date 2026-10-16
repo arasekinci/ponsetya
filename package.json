@@ -1,19 +1,18 @@
 {
   "name": "ponsetya",
   "scripts": {
-    "build:docs": "pnpm --filter docs build",
-    "build:packages": "pnpm -r run build",
-    "build": "pnpm build:packages && pnpm build:docs",
-    "dev:docs": "pnpm --filter docs dev",
-    "dev": "pnpm dev:docs",
-    "lint:docs": "pnpm --filter docs lint",
-    "lint:packages": "pnpm -r run lint",
-    "lint": "pnpm lint:packages && pnpm lint:docs",
-    "start:docs": "pnpm --filter docs start",
-    "start": "pnpm start:docs",
-    "test:packages": "pnpm -r run test",
-    "test": "pnpm test:packages",
-    "postinstall": "husky install"
+    "build:docs": "bun --filter docs run build",
+    "build:packages": "bun --filter \"./packages/*\" run build",
+    "build": "bun run build:packages && bun run build:docs",
+    "dev:docs": "bun --filter docs run dev",
+    "dev": "bun run dev:docs",
+    "lint:docs": "bun --filter docs run lint",
+    "lint:packages": "bun --filter \"./packages/*\" run lint",
+    "lint": "bun run lint:packages && bun run lint:docs",
+    "start:docs": "bun --filter docs run start",
+    "start": "bun run start:docs",
+    "test:packages": "bun --filter \"./packages/*\" run test",
+    "test": "bun run test:packages"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.23.7",
@@ -38,5 +37,9 @@
     "typescript": "^5.3.3"
   },
   "private": true,
-  "packageManager": "pnpm@9.10.0"
+  "packageManager": "bun@1.4.3",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
 }
