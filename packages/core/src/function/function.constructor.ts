@@ -1,1 +1,1 @@
-export const FunctionConstructor = Function
+export const FunctionConstructor: typeof Function = Function

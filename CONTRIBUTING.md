@@ -33,6 +33,17 @@ Thank you for considering contributing to this project! Below, you can find the 
 5. **Test Your Changes**
    - Test your code and make sure it complies with existing tests.
 
+     ```bash
+     bun install
+     bun run lint && bun run type-check && bun run test
+     ```
+
+   - If your change affects a published package, add a changeset:
+
+     ```bash
+     bunx changeset
+     ```
+
 6. **Commit and Push**
    - Commit your changes and push to your forked repository.
 

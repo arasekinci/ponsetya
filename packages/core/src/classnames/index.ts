@@ -1,2 +1,2 @@
-export * from './classnames.type'
 export * from './classnames'
+export * from './classnames.type'

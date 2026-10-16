@@ -17,7 +17,7 @@ export function Definition({
           term
         )}
       </dt>
-      {description && <dd dangerouslySetInnerHTML={{ __html: description }} />}
+      {description && <dd>{description}</dd>}
       {children && <dd>{children}</dd>}
     </>
   )

@@ -1,3 +1,4 @@
+import { describe, expect, test } from 'bun:test'
 import { getname } from '.'
 
 describe('getname', () => {

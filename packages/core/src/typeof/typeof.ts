@@ -10,7 +10,7 @@ import type { Type } from './typeof.type'
  */
 
 export function typeOf(value: unknown): Type {
-  if (typeof value === 'number' && isNaN(value)) {
+  if (typeof value === 'number' && Number.isNaN(value)) {
     return 'NaN'
   } else if (value === null) {
     return 'null'

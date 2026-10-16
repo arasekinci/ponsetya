@@ -1,3 +1,4 @@
+import { describe, expect, test } from 'bun:test'
 import { MimeType } from '.'
 
 describe('MimeType', () => {
@@ -57,6 +58,14 @@ describe('MimeType', () => {
       expect(results).toEqual([
         {
           type: 'application/javascript',
+          charset: 'UTF-8',
+          source: 'apache',
+          compressible: true,
+          extension: 'js',
+          extensions: ['js'],
+        },
+        {
+          type: 'text/javascript',
           charset: 'UTF-8',
           source: 'iana',
           compressible: true,

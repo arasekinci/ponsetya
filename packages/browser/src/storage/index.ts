@@ -1,2 +1,2 @@
-export * from './storage.type'
 export * from './storage'
+export * from './storage.type'

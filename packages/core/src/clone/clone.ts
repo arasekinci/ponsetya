@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 /**
  * The clone() method clones the passed value and returns it with a new reference.
  *
@@ -8,13 +7,13 @@
  *
  * @see {@link https://arasekinci.github.io/ponsetya/core/references/clone | clone} for more information.
  */
-export function clone(
-  value: any,
+export function clone<T>(
+  value: T,
   options?: {
     /** An optional list of Transferable objects that should be included in the cloning process. */
     transfer?: Transferable[]
   },
-): any {
+): T {
   if (!value) {
     return value
   }
@@ -23,30 +22,30 @@ export function clone(
     return structuredClone(value, options)
   }
 
-  if (value instanceof Array) {
-    const array = [...value]
+  if (Array.isArray(value)) {
+    const array: unknown[] = [...value]
 
     for (let i = 0; i < value.length; i++) {
       array[i] = clone(value[i])
     }
 
-    return array
+    return array as T
   }
 
   if (value instanceof Date) {
-    return new Date(value.getTime())
+    return new Date(value.getTime()) as T
   }
 
   if (value instanceof Object) {
-    const object = { ...value }
-
-    for (const key in object) {
-      if (Object.prototype.hasOwnProperty.call(object, key)) {
-        object[key] = clone(object[key])
-      }
+    const object: Record<string, unknown> = {
+      ...(value as Record<string, unknown>),
     }
 
-    return object
+    for (const key of Object.keys(object)) {
+      object[key] = clone(object[key])
+    }
+
+    return object as T
   }
 
   return value

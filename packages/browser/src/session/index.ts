@@ -1,2 +1,2 @@
-export * from './session.type'
 export * from './session'
+export * from './session.type'

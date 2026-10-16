@@ -1,1 +1,1 @@
-export const BooleanConstructor = Boolean
+export const BooleanConstructor: typeof Boolean = Boolean

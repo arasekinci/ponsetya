@@ -1,2 +1,2 @@
-export * from './definition-list'
 export * from './definition'
+export * from './definition-list'

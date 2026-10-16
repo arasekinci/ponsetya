@@ -7,13 +7,13 @@ import { StringConstructor } from './string.constructor'
  * @see {@link https://arasekinci.github.io/ponsetya/core/references/string | String} for more information.
  */
 
-export class String extends StringConstructor {
+class _String extends StringConstructor {
   /**
    * Creates a new instance of built-in String.
    *
    * @param thing - Anything to be converted to a string.
    */
-  constructor(thing?: any) {
+  constructor(thing?: unknown) {
     if (thing) {
       super(thing)
     } else {
@@ -62,13 +62,11 @@ export class String extends StringConstructor {
     str: string,
     params: Record<string, string | number>,
   ): string {
-    for (const key in params) {
-      if (Object.prototype.hasOwnProperty.call(params, key)) {
-        const value = params[key]
-        const regex = new RegExp(`{{${key}}}`, 'g')
+    for (const key of Object.keys(params)) {
+      const value = params[key]
+      const regex = new RegExp(`{{${key}}}`, 'g')
 
-        str = str.replace(regex, value.toString())
-      }
+      str = str.replace(regex, value.toString())
     }
 
     return str
@@ -85,9 +83,14 @@ export class String extends StringConstructor {
     const end = str.indexOf(' ', limit)
 
     if (end >= 0) {
-      return str.substring(0, end) + '...'
+      return `${str.substring(0, end)}...`
     }
 
     return str
   }
 }
+
+// Keep the public class name (`String`) visible at runtime, e.g. for getname()
+Object.defineProperty(_String, 'name', { value: 'String' })
+
+export { _String as String }

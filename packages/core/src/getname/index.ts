@@ -1,2 +1,2 @@
-export * from './getname.type'
 export * from './getname'
+export * from './getname.type'

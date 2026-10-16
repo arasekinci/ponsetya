@@ -1,1 +1,1 @@
-export const ArrayConstructor = Array
+export const ArrayConstructor: typeof Array = Array
