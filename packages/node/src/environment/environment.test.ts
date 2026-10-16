@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
+import { describe, test, expect } from 'bun:test'
 import { env } from '.'
 
 describe('Environment', () => {
@@ -15,15 +16,19 @@ describe('Environment', () => {
 
     // Mock the navigator object with a userAgent containing 'Node.js'
     ctx.window = undefined
-    ctx.navigator = { userAgent: 'Node.js' }
+    const original = Object.getOwnPropertyDescriptor(ctx, 'navigator')
+    const setNavigator = (value: unknown) =>
+      Object.defineProperty(ctx, 'navigator', { value, configurable: true })
+    setNavigator({ userAgent: 'Node.js' })
     expect(env.jsdom).toBe(true)
 
     // Mock the navigator object with a userAgent containing 'jsdom'
-    ctx.navigator = { userAgent: 'jsdom' }
+    setNavigator({ userAgent: 'jsdom' })
     expect(env.jsdom).toBe(true)
 
     // Clean up global variables
-    ctx.navigator = undefined
+    ctx.window = ctx
+    if (original) Object.defineProperty(ctx, 'navigator', original)
   })
 
   test('should detect Node.js environment', () => {
@@ -40,9 +45,9 @@ describe('Environment', () => {
       constructor: { name: 'DedicatedWorkerGlobalScope' },
     }
 
-    expect(env.worker).toBe(false)
+    expect(env.worker).toBe(true)
 
     // Clean up global variables
-    ctx.self = undefined
+    ctx.self = ctx
   })
 })

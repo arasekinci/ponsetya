@@ -44,7 +44,7 @@
   "scripts": {
     "build": "bunup",
     "lint": "eslint src/**/*",
-    "test": "jest test",
+    "test": "bun test",
     "typecheck": "bun check"
   }
 }

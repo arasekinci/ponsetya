@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/no-array-constructor */
+import { describe, test, expect } from 'bun:test'
 import { Array } from '.'
 
 describe('Array', () => {
@@ -31,7 +32,7 @@ describe('Array', () => {
     const arr1 = [1, 2, 3]
     const arr2 = [1, 2, 3]
     const arr3 = [1, 2, 3]
-    const arr4 = []
+    const arr4: number[] = []
 
     Array.insert(arr1, 1, 4, 5)
     Array.insert(arr2, 0, 4, 5)

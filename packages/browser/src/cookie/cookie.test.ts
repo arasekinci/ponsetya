@@ -1,6 +1,19 @@
+import { afterEach, describe, test, expect } from 'bun:test'
 import { cookie } from '.'
 
+const EXPIRED = 'expires=Thu, 01 Jan 1970 00:00:01 GMT'
+
 describe('cookie', () => {
+  // happy-dom keeps cookies for the whole file; clear them between tests
+  afterEach(() => {
+    for (const entry of document.cookie.split(';')) {
+      const name = entry.split('=')[0].trim()
+      if (!name) continue
+      document.cookie = `${name}=; ${EXPIRED}`
+      document.cookie = `${name}=; path=/; ${EXPIRED}`
+    }
+  })
+
   describe('get', () => {
     test('should return value of the specified cookie', () => {
       document.cookie = 'name=value'
@@ -23,17 +36,22 @@ describe('cookie', () => {
         exdays: 1,
         exhours: 1,
         exminutes: 27,
-        httpOnly: true,
         path: '/',
         secure: true,
       })
       expect(document.cookie).toBe('name=value')
     })
+
+    test('should not expose HttpOnly cookies to document.cookie', () => {
+      // Browsers ignore HttpOnly cookies written from JavaScript
+      cookie.set('name', 'value', { httpOnly: true })
+      expect(document.cookie).toBe('')
+    })
   })
 
   describe('remove', () => {
     test('should remove a cookie', () => {
-      document.cookie = 'name=value'
+      document.cookie = 'name=value; path=/'
       cookie.remove('name')
       expect(document.cookie).toBe('')
     })

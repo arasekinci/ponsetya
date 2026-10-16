@@ -1,3 +1,4 @@
+import { describe, test, expect } from 'bun:test'
 import { String } from '.'
 
 describe('String', () => {
