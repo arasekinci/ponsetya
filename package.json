@@ -8,7 +8,8 @@
     "test": "turbo run test",
     "typecheck": "turbo run typecheck",
     "format": "biome format --write .",
-    "check": "biome check ."
+    "check": "biome check .",
+    "prepare": "lefthook install"
   },
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.18.5",
@@ -19,7 +20,7 @@
     "@types/bun": "^1.4.3",
     "@types/node": "^20.10.6",
     "bunup": "^0.16.32",
-    "husky": "^8.0.3",
+    "lefthook": "^2.2.2",
     "publint": "^0.3.25",
     "turbo": "^2.11.8",
     "typescript": "^5.3.3"
