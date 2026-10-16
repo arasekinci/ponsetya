@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { describe, expect, test } from 'bun:test'
 import { env } from '.'
 
@@ -8,7 +7,7 @@ describe('Environment', () => {
   })
 
   test('should detect JSDOM environment', () => {
-    const ctx = global as any
+    const ctx = globalThis as unknown as Record<string, unknown>
 
     // Mock the window object with a name property set to 'nodejs'
     ctx.window = { name: 'nodejs' }
@@ -36,7 +35,7 @@ describe('Environment', () => {
   })
 
   test('should detect worker environment', () => {
-    const ctx = global as any
+    const ctx = globalThis as unknown as Record<string, unknown>
 
     expect(env.worker).toBe(false)
 

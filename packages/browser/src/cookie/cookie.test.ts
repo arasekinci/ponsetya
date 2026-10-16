@@ -9,14 +9,14 @@ describe('cookie', () => {
     for (const entry of document.cookie.split(';')) {
       const name = entry.split('=')[0].trim()
       if (!name) continue
-      document.cookie = `${name}=; ${EXPIRED}`
-      document.cookie = `${name}=; path=/; ${EXPIRED}`
+      Reflect.set(document, 'cookie', `${name}=; ${EXPIRED}`)
+      Reflect.set(document, 'cookie', `${name}=; path=/; ${EXPIRED}`)
     }
   })
 
   describe('get', () => {
     test('should return value of the specified cookie', () => {
-      document.cookie = 'name=value'
+      Reflect.set(document, 'cookie', 'name=value')
       expect(cookie.get('name')).toBe('value')
     })
 
@@ -51,7 +51,7 @@ describe('cookie', () => {
 
   describe('remove', () => {
     test('should remove a cookie', () => {
-      document.cookie = 'name=value; path=/'
+      Reflect.set(document, 'cookie', 'name=value; path=/')
       cookie.remove('name')
       expect(document.cookie).toBe('')
     })

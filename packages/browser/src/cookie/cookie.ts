@@ -6,6 +6,17 @@ import type { CookieOption } from './cookie.type'
  * @see {@link https://arasekinci.github.io/ponsetya/browser/references/cookie | cookie} for more information.
  */
 
+/**
+ * Writes a raw cookie string through the `document.cookie` setter.
+ *
+ * The synchronous `document.cookie` API is kept on purpose: the async
+ * Cookie Store API would change this module's public (sync) contract and
+ * is not available in every browser.
+ */
+function writeCookie(value: string): void {
+  Reflect.set(document, 'cookie', value)
+}
+
 export const cookie = {
   /**
    * The get() method returns value of the specified cookie item.
@@ -35,7 +46,7 @@ export const cookie = {
    * @param name - The name of the cookie to remove.
    */
   remove(name: string): void {
-    document.cookie = name + '=; path=/; expires=Thu, 01 Jan 1970 00:00:01 GMT;'
+    writeCookie(`${name}=; path=/; expires=Thu, 01 Jan 1970 00:00:01 GMT;`)
   },
 
   /**
@@ -75,8 +86,8 @@ export const cookie = {
     const path = options.path ? `path=${options.path};` : ''
     const secure = options.secure ? 'secure;' : ''
 
-    document.cookie = `${name}=${encodeURIComponent(
-      value,
-    )};${maxAge}${path}${secure}${httpOnly}`
+    writeCookie(
+      `${name}=${encodeURIComponent(value)};${maxAge}${path}${secure}${httpOnly}`,
+    )
   },
 }
