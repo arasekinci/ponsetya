@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-array-constructor */
-import { describe, test, expect } from 'bun:test'
+import { describe, expect, test } from 'bun:test'
 import { Array } from '.'
 
 describe('Array', () => {

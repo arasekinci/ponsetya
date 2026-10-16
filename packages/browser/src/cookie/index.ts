@@ -1,2 +1,2 @@
-export * from './cookie.type'
 export * from './cookie'
+export * from './cookie.type'

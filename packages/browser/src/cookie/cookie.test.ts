@@ -1,4 +1,4 @@
-import { afterEach, describe, test, expect } from 'bun:test'
+import { afterEach, describe, expect, test } from 'bun:test'
 import { cookie } from '.'
 
 const EXPIRED = 'expires=Thu, 01 Jan 1970 00:00:01 GMT'

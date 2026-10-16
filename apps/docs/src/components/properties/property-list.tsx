@@ -1,7 +1,6 @@
 import React from 'react'
-
-import type { PropertyListProps } from './property-list.type'
 import { Property } from './property'
+import type { PropertyListProps } from './property-list.type'
 
 export function PropertyList({ children, ...rest }: PropertyListProps) {
   return (

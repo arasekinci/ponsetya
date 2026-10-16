@@ -1,7 +1,6 @@
 import React from 'react'
-
-import type { ParameterListProps } from './parameter-list.type'
 import { Parameter } from './parameter'
+import type { ParameterListProps } from './parameter-list.type'
 
 export function ParameterList({ children, ...rest }: ParameterListProps) {
   return (

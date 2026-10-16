@@ -1,7 +1,6 @@
 import Link from 'next/link'
-
-import type { ModuleProps } from './module.type'
 import styles from './module.module.css'
+import type { ModuleProps } from './module.type'
 
 export default function Module({ type, items }: ModuleProps) {
   const colors = {

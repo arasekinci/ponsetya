@@ -18,7 +18,7 @@ export function Property({
 
   const types = type.split('|').map((type) => {
     type = type.trim()
-    type = type.replace(/\[([^\]]+)\]\(#([^\)]+)\)/g, '<a href="#$2">$1</a>')
+    type = type.replace(/\[([^\]]+)\]\(#([^)]+)\)/g, '<a href="#$2">$1</a>')
 
     return type
   })

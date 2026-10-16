@@ -1,5 +1,5 @@
-import type { FC } from 'react'
 import type { DocsThemeConfig } from 'nextra-theme-docs'
+import type { FC } from 'react'
 
 import { Code } from '@/components/mdx'
 
