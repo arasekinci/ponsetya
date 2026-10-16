@@ -1,18 +1,12 @@
 {
   "name": "ponsetya",
   "scripts": {
-    "build:docs": "bun --filter docs run build",
-    "build:packages": "bun --filter \"./packages/*\" run build",
-    "build": "bun run build:packages && bun run build:docs",
-    "dev:docs": "bun --filter docs run dev",
-    "dev": "bun run dev:docs",
-    "lint:docs": "bun --filter docs run lint",
-    "lint:packages": "bun --filter \"./packages/*\" run lint",
-    "lint": "bun run lint:packages && bun run lint:docs",
-    "start:docs": "bun --filter docs run start",
-    "start": "bun run start:docs",
-    "test:packages": "bun --filter \"./packages/*\" run test",
-    "test": "bun run test:packages"
+    "build": "turbo run build",
+    "dev": "turbo run dev --filter=docs",
+    "start": "turbo run start --filter=docs",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "typecheck": "turbo run typecheck"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.23.7",
@@ -34,6 +28,7 @@
     "prettier": "^3.1.1",
     "ts-jest": "^29.1.1",
     "ts-node": "^10.9.2",
+    "turbo": "^2.11.8",
     "typescript": "^5.3.3"
   },
   "private": true,
