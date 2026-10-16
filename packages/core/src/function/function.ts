@@ -7,7 +7,7 @@ import { FunctionConstructor } from './function.constructor'
  * @see {@link https://arasekinci.github.io/ponsetya/core/references/function | function} for more information.
  */
 
-export class Function extends FunctionConstructor {
+class _Function extends FunctionConstructor {
   /**
    * Creates a new instance of built-in Function.
    *
@@ -27,3 +27,8 @@ export class Function extends FunctionConstructor {
     return typeOf(value) === 'function'
   }
 }
+
+// Keep the public class name (`Function`) visible at runtime, e.g. for getname()
+Object.defineProperty(_Function, 'name', { value: 'Function' })
+
+export { _Function as Function }

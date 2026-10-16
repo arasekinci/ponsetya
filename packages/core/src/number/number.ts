@@ -7,13 +7,13 @@ import { NumberConstructor } from './number.constructor'
  * @see {@link https://arasekinci.github.io/ponsetya/core/references/number | Number} for more information.
  */
 
-export class Number extends NumberConstructor {
+class _Number extends NumberConstructor {
   /**
    * Creates a new instance of built-in Number.
    *
    * @param thing - Anything to be converted to a number.
    */
-  constructor(thing?: any) {
+  constructor(thing?: unknown) {
     if (thing) {
       super(thing)
     } else {
@@ -31,3 +31,8 @@ export class Number extends NumberConstructor {
     return typeOf(value) === 'number'
   }
 }
+
+// Keep the public class name (`Number`) visible at runtime, e.g. for getname()
+Object.defineProperty(_Number, 'name', { value: 'Number' })
+
+export { _Number as Number }

@@ -21,7 +21,12 @@ class _Array extends ArrayConstructor {
    */
   constructor(...items: string[])
   constructor(...args: [number] | string[]) {
-    super(...(args as any))
+    if (args.length === 1 && typeof args[0] === 'number') {
+      super(args[0])
+    } else {
+      super()
+      this.push(...(args as string[]))
+    }
   }
 
   /**

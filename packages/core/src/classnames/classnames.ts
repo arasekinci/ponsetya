@@ -18,10 +18,10 @@ export function classnames(...args: ClassNameArgument[]): string {
       if (typeof arg === 'string') {
         classNames.push(arg)
       } else if (typeof arg === 'object') {
-        for (const key in arg) {
+        for (const key of Object.keys(arg)) {
           const value = arg[key]
 
-          if (Object.prototype.hasOwnProperty.call(arg, key) && value) {
+          if (value) {
             if (typeof value === 'string') {
               classNames.push(`${key}-${value}`)
             } else {

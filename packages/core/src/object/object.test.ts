@@ -1,18 +1,18 @@
 import { describe, expect, test } from 'bun:test'
-import { Object } from '.'
+import { Object as PonsetyaObject } from '.'
 
 describe('Object', () => {
   describe('constructor', () => {
     test('should create an empty object without parameter', () => {
-      expect(new Object()).toMatchObject({})
-      expect(new Object(null)).toMatchObject({})
-      expect(new Object(undefined)).toMatchObject({})
+      expect(new PonsetyaObject()).toMatchObject({})
+      expect(new PonsetyaObject(null)).toMatchObject({})
+      expect(new PonsetyaObject(undefined)).toMatchObject({})
     })
 
     test('should create an object with properties from given parameter', () => {
       const obj = { name: 'John', surname: 'Doe' }
 
-      expect(new Object(obj)).toMatchObject(obj)
+      expect(new PonsetyaObject(obj)).toMatchObject(obj)
     })
   })
 
@@ -21,7 +21,7 @@ describe('Object', () => {
       const target = { a: 1, b: 2 }
       const source = { c: 3, d: 4 }
 
-      expect(Object.assign(target, source)).toEqual({
+      expect(PonsetyaObject.assign(target, source)).toEqual({
         a: 1,
         b: 2,
         c: 3,
@@ -33,7 +33,7 @@ describe('Object', () => {
       const target = { a: { b: { c: 1 } }, d: 2 }
       const source = { a: { b: { c: 3 } }, d: 4 }
 
-      expect(Object.assign(target, source)).toEqual({
+      expect(PonsetyaObject.assign(target, source)).toEqual({
         a: {
           b: {
             c: 3,
@@ -46,19 +46,19 @@ describe('Object', () => {
 
   describe('is()', () => {
     test('should return true for a boolean value', () => {
-      expect(Object.is({})).toBe(true)
-      expect(Object.is({ x: 'y' })).toBe(true)
+      expect(PonsetyaObject.is({})).toBe(true)
+      expect(PonsetyaObject.is({ x: 'y' })).toBe(true)
     })
 
     test('should return false for a non-boolean value', () => {
-      expect(Object.is([])).toBe(false)
-      expect(Object.is(true)).toBe(false)
-      expect(Object.is(() => null)).toBe(false)
-      expect(Object.is(27)).toBe(false)
-      expect(Object.is('string value')).toBe(false)
-      expect(Object.is(NaN)).toBe(false)
-      expect(Object.is(null)).toBe(false)
-      expect(Object.is(undefined)).toBe(false)
+      expect(PonsetyaObject.is([])).toBe(false)
+      expect(PonsetyaObject.is(true)).toBe(false)
+      expect(PonsetyaObject.is(() => null)).toBe(false)
+      expect(PonsetyaObject.is(27)).toBe(false)
+      expect(PonsetyaObject.is('string value')).toBe(false)
+      expect(PonsetyaObject.is(NaN)).toBe(false)
+      expect(PonsetyaObject.is(null)).toBe(false)
+      expect(PonsetyaObject.is(undefined)).toBe(false)
     })
   })
 
@@ -70,12 +70,12 @@ describe('Object', () => {
         job: 'Software Developer',
       }
 
-      expect(Object.omit(obj, 'name')).toEqual({
+      expect(PonsetyaObject.omit(obj, 'name')).toEqual({
         surname: 'Doe',
         job: 'Software Developer',
       })
 
-      expect(Object.omit(obj, 'name', 'surname')).toEqual({
+      expect(PonsetyaObject.omit(obj, 'name', 'surname')).toEqual({
         job: 'Software Developer',
       })
     })

@@ -7,13 +7,13 @@ import { BooleanConstructor } from './boolean.constructor'
  * @see {@link https://arasekinci.github.io/ponsetya/core/references/boolean | Boolean} for more information.
  */
 
-export class Boolean extends BooleanConstructor {
+class _Boolean extends BooleanConstructor {
   /**
    * Creates a new instance of built-in Boolean.
    *
    * @param thing - Anything to be converted to a boolean.
    */
-  constructor(thing?: any) {
+  constructor(thing?: unknown) {
     super(thing)
   }
 
@@ -44,3 +44,8 @@ export class Boolean extends BooleanConstructor {
     return typeOf(value) === 'boolean'
   }
 }
+
+// Keep the public class name (`Boolean`) visible at runtime, e.g. for getname()
+Object.defineProperty(_Boolean, 'name', { value: 'Boolean' })
+
+export { _Boolean as Boolean }

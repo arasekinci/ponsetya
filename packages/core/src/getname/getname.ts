@@ -11,7 +11,7 @@ import type { NameType } from './getname.type'
 
 export function getname(value: unknown): NameType {
   if (typeof value === 'number') {
-    if (isNaN(value)) {
+    if (Number.isNaN(value)) {
       return 'object NaN'
     }
 
