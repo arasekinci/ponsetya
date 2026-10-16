@@ -45,5 +45,9 @@
     "lint": "biome check .",
     "test": "bun test",
     "typecheck": "bun check"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
   }
 }
