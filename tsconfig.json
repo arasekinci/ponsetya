@@ -1,23 +1,21 @@
 {
-  // Visit https://aka.ms/tsconfig to read more about this file
   "compilerOptions": {
-    "target": "es6",
+    "target": "ES2020",
     "lib": [
-      "dom",
-      "es6"
+      "DOM",
+      "ES2022"
     ],
-    "module": "commonjs",
-    "moduleResolution": "node",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
-    "declaration": true,
-    "sourceMap": true,
+    "noEmit": true,
+    "isolatedModules": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "strict": true,
-    "skipLibCheck": true
-  },
-  "exclude": [
-    "/**/*.spec.ts",
-    "/**/*.test.ts"
-  ]
+    "skipLibCheck": true,
+    "types": [
+      "bun"
+    ]
+  }
 }
