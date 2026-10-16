@@ -30,17 +30,7 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true,
-      "suspicious": {
-        "noExplicitAny": "off",
-        "noShadowRestrictedNames": "off",
-        "noDocumentCookie": "off",
-        "noGlobalIsNan": "off",
-        "noPrototypeBuiltins": "off"
-      },
-      "correctness": {
-        "noConstructorReturn": "off"
-      }
+      "preset": "recommended"
     }
   },
   "assist": {
@@ -49,20 +39,5 @@
         "organizeImports": "on"
       }
     }
-  },
-  "overrides": [
-    {
-      "includes": ["apps/docs/**"],
-      "linter": {
-        "rules": {
-          "security": {
-            "noDangerouslySetInnerHtml": "off"
-          },
-          "complexity": {
-            "noImportantStyles": "off"
-          }
-        }
-      }
-    }
-  ]
+  }
 }
