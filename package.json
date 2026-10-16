@@ -3,7 +3,6 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --filter=docs",
-    "start": "turbo run start --filter=docs",
     "lint": "turbo run lint",
     "test": "turbo run test",
     "typecheck": "turbo run typecheck",
