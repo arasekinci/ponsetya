@@ -21,6 +21,7 @@
     "@changesets/cli": "^3.0.3",
     "@commitlint/cli": "^18.4.4",
     "@commitlint/config-conventional": "^18.4.4",
+    "@commitlint/types": "^18",
     "@happy-dom/global-registrator": "^21.0.3",
     "@types/bun": "^1.4.3",
     "@types/node": "^20.10.6",
