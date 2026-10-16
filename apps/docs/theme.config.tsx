@@ -3,11 +3,7 @@ import type { FC } from 'react'
 
 import { Code } from '@/components/mdx'
 
-interface ThemeConfig extends DocsThemeConfig {
-  components?: Record<string, FC<any>>
-}
-
-const config: ThemeConfig = {
+const config: DocsThemeConfig = {
   logo: <strong>PONSETYA</strong>,
   project: {
     link: 'https://github.com/arasekinci/ponsetya',
@@ -17,7 +13,8 @@ const config: ThemeConfig = {
     defaultMenuCollapseLevel: 1,
   },
   components: {
-    code: Code,
+    // Nextra types MDX components as prop-less; Code receives the code props at runtime
+    code: Code as FC,
   },
   footer: {
     text: 'Copyright 2023',

@@ -1,12 +1,13 @@
-dl {
+/* :root raises specificity above Nextra's `dl { margin: 0 }` reset without !important */
+:root dl {
   --space: 20px;
   font-size: 15px;
   font-weight: 500;
-  margin-top: var(--space) !important;
+  margin-top: var(--space);
 }
 
-dl dl {
-  margin-top: 8px !important;
+:root dl dl {
+  margin-top: 8px;
   padding-left: var(--space);
 }
 
@@ -40,6 +41,6 @@ code {
   text-decoration: underline;
 }
 
-.nextra-sidebar-container li.\[word-break\:break-word\] {
-  margin: 0.5rem 0 0 0 !important;
+:root .nextra-sidebar-container li.\[word-break\:break-word\] {
+  margin: 0.5rem 0 0 0;
 }

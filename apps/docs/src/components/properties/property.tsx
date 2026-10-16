@@ -1,3 +1,4 @@
+import { TypeText } from '../type-text'
 import type { PropertyProps } from './property.type'
 
 export function Property({
@@ -15,13 +16,6 @@ export function Property({
   if (!description) {
     description = `A ${type} representing the value of ${name}.`
   }
-
-  const types = type.split('|').map((type) => {
-    type = type.trim()
-    type = type.replace(/\[([^\]]+)\]\(#([^)]+)\)/g, '<a href="#$2">$1</a>')
-
-    return type
-  })
 
   const tokens = {
     text: 'var(--shiki-color-text)',
@@ -46,18 +40,13 @@ export function Property({
           <tbody>
             <tr>
               <td style={{ width: 110 }}>Description</td>
-              <td dangerouslySetInnerHTML={{ __html: description }} />
+              <td>{description}</td>
             </tr>
             <tr>
               <td>Type</td>
-              <td
-                style={{ color: tokens.constant }}
-                dangerouslySetInnerHTML={{
-                  __html: types.join(
-                    `<span style="color: ${tokens.keyword}"> | </span>`,
-                  ),
-                }}
-              />
+              <td style={{ color: tokens.constant }}>
+                <TypeText type={type} separatorColor={tokens.keyword} />
+              </td>
             </tr>
             {defaultValue !== undefined && (
               <tr>

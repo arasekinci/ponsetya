@@ -1,4 +1,5 @@
 import React from 'react'
+import type { DefinitionProps } from './definition.type'
 import type { DefinitionListProps } from './definition-list.type'
 
 export function DefinitionList({
@@ -8,12 +9,12 @@ export function DefinitionList({
 }: DefinitionListProps) {
   return (
     <dl>
-      {React.Children.map(children as any, (child) => {
-        if (React.isValidElement(child)) {
-          const props = { ...(child.props as any) }
+      {React.Children.map(children, (child) => {
+        if (React.isValidElement<DefinitionProps>(child)) {
+          const props: DefinitionProps = { ...child.props }
 
           if (!props.pathname && rest.pathname) {
-            props.pathname = rest.pathname + '/' + props.term.toLowerCase()
+            props.pathname = `${rest.pathname}/${props.term.toLowerCase()}`
           }
 
           if (typeof template === 'string') {
