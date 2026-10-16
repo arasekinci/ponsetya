@@ -1,1 +1,1 @@
-export const StringConstructor = String
+export const StringConstructor: typeof String = String

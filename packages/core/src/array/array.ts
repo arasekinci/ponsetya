@@ -50,7 +50,7 @@ class _Array extends ArrayConstructor {
    * @param index - The index to insert the items at.
    * @param items - The items to insert.
    */
-  static insert<T>(arr: T[], index: number, ...items: T[]) {
+  static insert<T>(arr: T[], index: number, ...items: T[]): void {
     arr.splice(index, 0, ...Object.values<T>(items))
   }
 
@@ -71,7 +71,7 @@ class _Array extends ArrayConstructor {
    * @param from - The index of the item to move.
    * @param to - The index to move the item to.
    */
-  static move<T>(arr: T[], from: number, to: number) {
+  static move<T>(arr: T[], from: number, to: number): void {
     const item = arr.splice(from, 1)[0]
 
     arr.splice(to, 0, item)
@@ -83,7 +83,7 @@ class _Array extends ArrayConstructor {
    * @param arr - The array to remove the item from.
    * @param index - The index of the item to remove.
    */
-  static remove<T>(arr: T[], index: number) {
+  static remove<T>(arr: T[], index: number): void {
     arr.splice(index, 1)
   }
 

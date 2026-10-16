@@ -4,7 +4,16 @@
  * @see {@link https://arasekinci.github.io/ponsetya/core/references/math | math} for more information.
  */
 
-export const math = {
+/** Extra helpers that `math` adds on top of the built-in `Math`. */
+export interface MathHelpers {
+  average(...values: number[]): number
+  even(...values: number[]): number[]
+  factorial(x: number): number
+  odd(...values: number[]): number[]
+  sum(...values: number[]): number
+}
+
+export const math: Math & MathHelpers = {
   ...Math,
   /**
    * The average() method calculates the average of the given numbers.

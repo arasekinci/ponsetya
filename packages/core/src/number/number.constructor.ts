@@ -1,1 +1,1 @@
-export const NumberConstructor = Number
+export const NumberConstructor: typeof Number = Number

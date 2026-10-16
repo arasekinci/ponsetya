@@ -1,1 +1,1 @@
-export const ObjectConstructor = Object
+export const ObjectConstructor: typeof Object = Object

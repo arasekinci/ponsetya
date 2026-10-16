@@ -144,7 +144,7 @@ export class UserAgent {
   /**
    * Returns the user agent string.
    */
-  toString() {
+  toString(): string {
     return this.ua
   }
 }
